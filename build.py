@@ -30,7 +30,7 @@ LANG_NAMES = {
     "sa": "Sanskrit", "pi": "Pali", "la": "Latin", "grc": "Ancient Greek", "he": "Hebrew",
     "arc": "Aramaic", "fa": "Persian", "ar": "Arabic", "non": "Old Norse", "egy": "Egyptian",
     "akk": "Akkadian", "sux": "Sumerian", "cop": "Coptic", "de": "German", "fr": "French",
-    "en": "English", "enm": "Middle English", "it": "Italian", "es": "Spanish",
+    "en": "English", "enm": "Middle English", "bo": "Tibetan", "ru": "Russian", "it": "Italian", "es": "Spanish",
 }
 RTL = {"he", "arc", "ar", "fa"}
 
@@ -537,6 +537,30 @@ def build():
 <p><a href="about.html">Read the full sources &amp; translation policy →</a></p>
 </div>"""
     (OUT / "index.html").write_text(page(site, title=site["name"], body=body, depth=0, body_class="home"), encoding="utf-8")
+
+    # ---- L/L Research channelling tracker (data from tools/track_llresearch.py)
+    trk = ROOT / "data" / "llresearch-index.json"
+    if trk.exists():
+        td = json.loads(trk.read_text("utf-8"))
+        rows = []
+        for e in td.get("entries", []):
+            links = [f'<a href="{esc(e["url"])}" rel="noopener">L/L Research page</a>']
+            if e.get("pdf"):
+                links.append(f'<a href="{esc(e["pdf"])}" rel="noopener">PDF</a>')
+            if e.get("wayback"):
+                links.append(f'<a href="{esc(e["wayback"])}" rel="noopener">Wayback Machine copy</a>')
+            desc = f'<p class="w-note">{esc(e["description"])}</p>' if e.get("description") else ""
+            rows.append(f'<li class="work"><a href="{esc(e["url"])}" rel="noopener">{esc(e.get("title", "Transcript"))}</a>'
+                        f'<span class="w-meta">{esc(e.get("date") or "")} · added to this index {esc(e.get("first_seen", ""))}</span>'
+                        f'<span class="w-tr">{" · ".join(links)}</span>{desc}</li>')
+        body = f"""<p class="kicker">Esoteric · Channelled literature</p>
+<h1>L/L Research channelling tracker</h1>
+<p class="lede">New conscious-channelling transcripts published by L/L Research, the group behind the Ra Material, recorded automatically once a week.</p>
+<div class="note"><p><strong>Links, not copies.</strong> The transcripts are copyright L/L Research, which asks for permission before its material is reproduced. This index keeps only the date, title, L/L Research's own one-line description and links to the official page and PDF. Where available it also links a snapshot in the Internet Archive's Wayback Machine. Read the <a href="texts/ra-material-law-of-one.html">Ra Material case file</a> for background.</p></div>
+<p class="muted">{len(rows)} sessions indexed · last checked {esc(td.get("updated", ""))} · source: <a href="{esc(td.get("source", ""))}" rel="noopener">L/L Research, Latest Channeling</a></p>
+<ul class="works">{"".join(rows)}</ul>"""
+        (OUT / "channelling-tracker.html").write_text(
+            page(site, title="L/L Research channelling tracker", body=body, depth=0), encoding="utf-8")
 
     nf = '<h1>Page not found</h1><p>Try the <a href="search.html">search</a> or go back to the <a href="index.html">home page</a>.</p>'
     (OUT / "404.html").write_text(page(site, title="Not found", body=nf, depth=0), encoding="utf-8")

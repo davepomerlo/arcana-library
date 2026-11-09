@@ -1,4 +1,6 @@
 # Builds the site and publishes it to GitHub Pages on every push to main.
+# Once a week (and on manual runs) it first checks L/L Research for new channelling
+# transcripts, records them in data/llresearch-index.json (links only) and commits that file.
 # One-time setup: repository Settings → Pages → Source: "GitHub Actions".
 name: Build and publish site
 
@@ -6,9 +8,11 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * 1"   # Mondays 03:17 UTC (12:17 in Japan)
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -25,6 +29,18 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
+      - name: Check L/L Research for new transcripts
+        if: github.event_name != 'push'
+        continue-on-error: true
+        run: |
+          python tools/track_llresearch.py --wayback
+          if ! git diff --quiet -- data/; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+            git add data/
+            git commit -m "Update L/L Research channelling index"
+            git push
+          fi
       - run: python tools/check_texts.py
       - run: python build.py
       - uses: actions/upload-pages-artifact@v3

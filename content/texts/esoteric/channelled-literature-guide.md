@@ -71,4 +71,4 @@ In this archive, *channelled* covers any text whose producers said it came from 
 3. **What did the medium already know?** Check the content against the books and ideas the medium and sitters had read.
 4. **Is anything checkable?** Statements about history, science or the future can be tested. Most of these texts make few such claims, and the claims they do make have rarely held up.
 
-For the archive's library of channelled works, see the [Esoteric section of the Library](../library.html).
+New L/L Research transcripts are listed weekly in the [channelling tracker](../channelling-tracker.html). For the archive's library of channelled works, see the [Esoteric section of the Library](../library.html).

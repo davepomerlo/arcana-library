@@ -169,3 +169,31 @@ libraries:
     url: https://jasper-hopkins.info/
     covers: [medieval philosophy, Latin, Christian mysticism]
     note: Free scholarly translations with the Latin texts used.
+  - name: Centre for the History of Hermetic Philosophy and Related Currents (HHP), University of Amsterdam
+    url: https://hermetica.uva.nl/about-hhp
+    covers: [Hermetic, Western esotericism, research]
+    note: The world's leading academic centre for the study of esotericism, founded in 1999 beside the Bibliotheca Philosophica Hermetica. Free downloads include its tenth-anniversary volume.
+  - name: Nag Hammadi Archive (Claremont)
+    url: https://ccdl.claremont.edu/digital/collection/nha
+    covers: [Gnostic, Coptic, archive]
+    note: Photographs of the codices and excavations from the Institute for Antiquity and Christianity.
+  - name: Bibliothek der Kirchenväter (University of Fribourg)
+    url: https://bkv.unifr.ch/
+    covers: [early Christian, Coptic, Greek, Latin, German, French]
+    note: Early Christian and apocryphal texts in the original languages with parallel German, French and English translations.
+  - name: Tibetan and Himalayan Library (University of Virginia)
+    url: https://thlib.org/
+    covers: [Tibetan, Himalayan, Buddhist, Bön]
+    note: Texts, dictionaries, images and audio-video on Tibet and the Himalaya, with a list of key reference resources for Tibetan studies.
+  - name: Lotsawa House
+    url: https://www.lotsawahouse.org/
+    covers: [Tibetan Buddhist, translation]
+    note: Thousands of short Tibetan Buddhist texts in Tibetan with free translations into English and other languages.
+  - name: Center for Hellenic Studies (Harvard University)
+    url: https://chs.harvard.edu/
+    covers: [Greek, mythology, Homer, Hesiod]
+    note: Free online books by Gregory Nagy and others, and an open sourcebook of Greek texts in translation.
+  - name: Journal of Yoga Studies
+    url: https://journalofyogastudies.org/
+    covers: [yoga, Sanskrit, research]
+    note: Open-access, peer-reviewed research on the history and practice of yoga.

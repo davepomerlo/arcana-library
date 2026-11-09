@@ -172,3 +172,6 @@ mark { background: color-mix(in srgb, var(--acc2) 35%, transparent); color: inhe
 /* prose pages */
 .prose { max-width: var(--read); }
 .prose h2 { margin-top: 1.4em; }
+/* Scripts that need extra room */
+.par-o[lang="bo"] { font-family: "Noto Serif Tibetan", "Jomolhari", "Microsoft Himalaya", "Kailasa", serif; font-size: 1.2em; line-height: 2.1; }
+.par-o[lang="cop"] { font-family: "Noto Sans Coptic", "Antinoou", "New Athena Unicode", serif; }

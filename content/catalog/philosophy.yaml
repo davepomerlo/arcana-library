@@ -144,6 +144,78 @@ works:
     translator: Jasper Hopkins
     url: https://jasper-hopkins.info/
     note: Free PDFs of Hopkins' translations, including On Learned Ignorance (De docta ignorantia), with the coincidence of opposites in God, and On the Vision of God.
+  - title: Meditation Programs for Psychological Stress and Well-being (meta-analysis)
+    author: Madhav Goyal et al., Johns Hopkins University
+    date: 2014
+    year: 2014
+    language: English
+    tradition: [Meditation, Contemplative science]
+    kind: study
+    url: https://scottbarrykaufman.com/wp-content/uploads/2019/08/goyal2014.pdf
+    note: 47 randomised trials with active controls. Moderate evidence that mindfulness programmes ease anxiety, depression and pain; no evidence that meditation beats other active treatments.
+  - title: "Mind the Hype: A Critical Evaluation and Prescriptive Agenda for Research on Mindfulness and Meditation"
+    author: Nicholas T. Van Dam et al., University of Melbourne
+    date: 2018
+    year: 2018
+    language: English
+    tradition: [Meditation, Contemplative science]
+    kind: study
+    url: https://www.psychologicalscience.org/journals/perspectives/1745691617709589/
+    note: Fifteen meditation researchers on the gap between public enthusiasm and evidence, with an agenda for better studies and attention to adverse effects.
+  - title: How Breath-Control Can Change Your Life (systematic review of slow breathing)
+    author: Andrea Zaccaro et al., University of Pisa
+    date: 2018
+    year: 2018
+    language: English
+    tradition: [Breathwork, Yoga, Contemplative science]
+    kind: study
+    url: https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2018.00353/text
+    note: Open-access review of 15 studies of breathing under ten breaths a minute, including prāṇāyāma. Slow breathing raised heart-rate variability and alpha EEG power and was linked with relaxation and lower anxiety.
+  - title: Voluntary activation of the sympathetic nervous system and attenuation of the innate immune response in humans
+    author: Matthijs Kox et al., Radboud University Medical Center
+    date: 2014
+    year: 2014
+    language: English
+    tradition: [Breathwork, Contemplative science]
+    kind: study
+    url: https://pmc.ncbi.nlm.nih.gov/articles/4034215
+    note: The Wim Hof study in PNAS. Volunteers trained in breathing, cold exposure and meditation released more adrenaline and had a weaker inflammatory response to endotoxin.
+  - title: Brief structured respiration practices enhance mood and reduce physiological arousal
+    author: Melis Yilmaz Balban et al., Stanford University
+    date: 2023
+    year: 2023
+    language: English
+    tradition: [Breathwork, Meditation, Contemplative science]
+    kind: study
+    url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9873947
+    note: One-month randomised trial. Five minutes a day of cyclic sighing improved mood and lowered breathing rate more than mindfulness meditation.
+  - title: Psilocybin can occasion mystical-type experiences having substantial and sustained personal meaning and spiritual significance
+    author: Roland R. Griffiths et al., Johns Hopkins University
+    date: 2006
+    year: 2006
+    language: English
+    tradition: [Contemplative science, Psychology of religion]
+    kind: study
+    url: https://maps.org/wp-content/uploads/2006/11/2006_griffiths_22780_1.pdf
+    note: The double-blind trial that revived research on psychedelics and mystical experience. Most volunteers rated the session among the most meaningful experiences of their lives two months later.
+  - title: Journal of Yoga Studies
+    author: Founded by Elizabeth De Michelis, Jason Birch, Matthew Clark, Jacqueline Hargreaves and Suzanne Newcombe
+    date: 2018–
+    year: 2018
+    language: English
+    tradition: [Yoga]
+    kind: collection
+    url: https://journalofyogastudies.org/
+    note: Peer-reviewed, open-access journal for the history, philology and anthropology of yoga, with critical editions and translations from the Haṭha Yoga Project circle.
+  - title: The Haṭha Yoga Project (SOAS, 2015–2020)
+    author: James Mallinson, Mark Singleton, Jason Birch, Daniela Bevilacqua
+    date: 2015–2020
+    year: 2015
+    language: English, Sanskrit
+    tradition: [Yoga, Haṭha yoga]
+    kind: collection
+    url: https://hyp.soas.ac.uk/team/
+    note: ERC-funded project that produced critical editions of ten Sanskrit haṭha texts and rewrote the history of physical yoga. Its successor, Light on Haṭha, produced the first critical edition of the Haṭhapradīpikā.
   - title: Stanford Encyclopedia of Philosophy
     author: Stanford University
     language: English

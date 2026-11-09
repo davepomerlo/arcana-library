@@ -177,6 +177,102 @@ works:
     kind: study
     url: https://www.esswe.org/
     note: The academic society for the field. Its bibliography and the journal Aries are where serious scholarship on these currents is published.
+  # --- Academic research: Hermetic, Gnostic, Masonic, sex magic, shamanism
+  - title: The Tradition of Hermes Trismegistus
+    author: Christian H. Bull (University of Oslo / Brill)
+    date: 2018
+    year: 2018
+    language: English
+    tradition: [Hermetic]
+    kind: study
+    url: https://doi.org/10.1163/9789004370845
+    note: Argues that the Hermetica record the spiritual exercises and rituals of small groups led by Hellenised Egyptian priests, as Egyptian temples declined. Includes a full study of the "Way of Hermes" and the Nag Hammadi Discourse on the Eighth and Ninth.
+  - title: La Révélation d'Hermès Trismégiste (4 vols.)
+    author: André-Jean Festugière
+    date: 1944–1954
+    year: 1950
+    language: French
+    tradition: [Hermetic]
+    kind: study
+    url: https://www.universalis.fr/encyclopedie/andre-jean-festugiere/
+    note: "In French. The classic study by the Dominican scholar who co-edited the Greek Corpus Hermeticum with A. D. Nock. Its four volumes cover astrology and the occult sciences, the cosmic God, the doctrines of the soul, and the unknown God and gnosis. Still the starting point for serious work. (Link: encyclopedia article on Festugière.)"
+  - title: Corpus Hermeticum I, selections with introduction
+    author: Matthew Andrews, Center for the Study of World Religions, Harvard Divinity School
+    date: 2026
+    year: 2026
+    language: English
+    tradition: [Hermetic]
+    kind: study
+    url: https://cswr.hds.harvard.edu/news/2026/02/13/corpus-hermeticum-i
+    note: New translations of the key passages of the Poimandres from the Nock–Festugière Greek, with a short introduction to the treatise and its Renaissance reception.
+  - title: Nag Hammadi Archive
+    author: Institute for Antiquity and Christianity, Claremont Graduate University
+    language: English, Coptic
+    tradition: [Gnostic, Nag Hammadi]
+    kind: archive
+    url: https://ccdl.claremont.edu/digital/collection/nha
+    note: Photographs of the Nag Hammadi codices, the discovery site and the 1970s excavations led by James M. Robinson, whose team produced the standard English translation.
+  - title: Bibliothek der Kirchenväter — Gospel of Thomas, Coptic with German and French
+    author: Gregor Emmenegger, Faculty of Theology, University of Fribourg
+    language: Coptic, German, French
+    tradition: [Gnostic, Early Christian, Nag Hammadi]
+    kind: edition
+    url: https://bkv.unifr.ch/works/nhc-22/versions/thomas-evangelium/divisions
+    note: "In German and French. The Coptic text of Thomas saying by saying, with parallel translations you can compare side by side. Part of a large library of early Christian texts in their original languages."
+  - title: The origins of freemasonry and the invention of tradition
+    author: Andrew Prescott and Susan Mitchell Sommers
+    date: 2019
+    year: 2019
+    language: English
+    tradition: [Freemasonry]
+    kind: study
+    url: https://eprints.gla.ac.uk/252534
+    note: Two leading academic historians of Freemasonry on how the craft's legendary history was constructed. Free PDF from the University of Glasgow repository.
+  - title: A History of British Freemasonry 1425–2000
+    author: Andrew Prescott, Centre for Research into Freemasonry, University of Sheffield
+    date: 2007
+    year: 2007
+    language: English
+    tradition: [Freemasonry]
+    kind: study
+    url: https://www.freemasons-freemasonry.com/prescott16.html
+    note: Prescott's farewell lecture as founding director of the first British university centre for the study of Freemasonry, arguing that "Freemasonry cannot be explained by Freemasonry".
+  - title: Researching British Freemasonry 1717–2017 (Sheffield Lectures III)
+    author: Andreas Önnerfors and Róbert Péter (eds.)
+    date: 2010
+    year: 2010
+    language: English
+    tradition: [Freemasonry]
+    kind: study
+    url: https://lup.lub.lu.se/record/1718610
+    note: Essays on Freemasonry as a social and cultural phenomenon, from the University of Sheffield centre, with methods such as membership-data analysis.
+  - title: "Magia Sexualis: Sex, Magic, and Liberation in Modern Western Esotericism"
+    author: Hugh B. Urban (Ohio State University)
+    date: 2006
+    year: 2006
+    language: English
+    tradition: [Western esotericism, Tantra]
+    kind: study
+    url: https://muse.jhu.edu/book/25803
+    note: The first scholarly history of Western sexual magic, from Randolph and Crowley to Evola, Gardner and LaVey, set against modern debates on sexuality. See the archive's guide to this scholarship.
+  - title: Paschal Beverly Randolph
+    author: John Patrick Deveney
+    date: 1997
+    year: 1997
+    language: English
+    tradition: [Western esotericism, Spiritualism]
+    kind: study
+    url: https://www.sunypress.edu/isbn/9780791431191
+    note: Biography of the African American spiritualist, novelist and Civil War educator who founded modern Western sex magic, with the text of his two main manuscripts on the subject. SUNY series in Western Esoteric Traditions.
+  - title: "Shamans: Siberian Spirituality and the Western Imagination"
+    author: Ronald Hutton (University of Bristol)
+    date: 2001
+    year: 2001
+    language: English
+    tradition: [Shamanism, Siberian religion]
+    kind: study
+    url: https://en.wikipedia.org/wiki/Shamans_(Hutton_book)
+    note: "A historian's re-examination of the Siberian evidence, showing how Russian, Soviet and Western observers shaped the idea of the shaman, and challenging Eliade's universal model. (Link: summary of the book and its reviews.)"
   # --- Channelled & mediumistic literature
   - title: The Law of One (The Ra Material), Books I–V, with transcripts and audio
     author: Carla L. Rueckert (trance), Don Elkins (questioner), Jim McCarty (scribe)

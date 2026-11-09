@@ -8,9 +8,10 @@ It is a static website: plain Markdown files go in, a fast, searchable site come
 
 | | |
 |---|---|
-| **30 texts** | Full or excerpted originals in 11 languages (Classical Chinese, Japanese, Sanskrit, Pali, Hebrew, Greek, Latin, Persian, Akkadian, Old Norse and French), each with a new line-by-line translation. Every page says which edition it was checked against: of all 36 pages, 18 are fully checked and 14 partly |
-| **8 case files and guides** | Research articles on the Utsuro-bune (1803), the Nuremberg 1561 sky battle, the SPR Census of Hallucinations, the Green Children of Woolpit, Shiranui and the Hessdalen lights, plus a case file on the Ra Material (Law of One) and a reader's guide to channelled literature |
-| **Library** | 97 reliable external editions, translations and archives, and 42 digital libraries, with a note on what each is good for |
+| **38 texts** | Full or excerpted originals in 14 languages (Classical Chinese, Japanese, Sanskrit, Pali, Tibetan, Coptic, Hebrew, Greek, Latin, Persian, Akkadian, Old Norse, Middle English and French), each with a new line-by-line translation. Every page says which edition it was checked against: of all 47 pages, 23 are fully checked and 20 partly |
+| **12 case files and guides** | Research articles on the Utsuro-bune (1803), the Nuremberg 1561 sky battle, the SPR Census of Hallucinations, the Green Children of Woolpit, Shiranui and the Hessdalen lights; the Ra Material (Law of One); and research guides to channelled literature, sex magic in history, shamanism, and breath and meditation science |
+| **Library** | 121 reliable editions, translations, archives and university studies, and 49 digital libraries, with a note on what each is good for |
+| **Channelling tracker** | A weekly GitHub Action records new L/L Research transcripts (links and Wayback Machine snapshots only, since the material is copyright) |
 | **Features** | Side-by-side, translation-only or original-only reading; romanization toggle; full-text search in every language; timeline; tradition pages; light and dark themes |
 
 ## Put it online (one time, about 10 minutes)

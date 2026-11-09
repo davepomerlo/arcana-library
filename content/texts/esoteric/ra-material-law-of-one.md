@@ -75,4 +75,6 @@ The material makes no testable predictions in the ordinary sense, and nothing in
 - **lawofone.info:** every session, searchable by keyword and concept, including a version corrected against the audio recordings.
 - **L/L Research:** the books *The Law of One* I–V, free PDFs, the audio recordings, and decades of other transcripts from the group.
 
+- **This archive's [L/L Research channelling tracker](../channelling-tracker.html):** a weekly, automatic list of new transcripts from the group's ongoing conscious channelling (Q'uo and others), with links and Wayback Machine copies.
+
 See also the archive's [overview of channelled and mediumistic literature](channelled-literature-guide.html).

@@ -146,6 +146,22 @@ works:
     kind: edition
     url: https://www.srigranth.org/
     note: The full scripture, searchable by page (ang) and line, with Sant Singh Khalsa's English translation and transliteration.
+  - title: The Hidden History of the Tibetan Book of the Dead
+    author: Bryan J. Cuevas (Florida State University)
+    date: 2003
+    year: 2003
+    language: English
+    tradition: [Tibetan Buddhist, Buddhist]
+    kind: study
+    url: https://academic.oup.com/book/50280
+    note: The first full history of the Bardo Thödol in Tibet, from ancient funeral rites to Karma Lingpa's treasure cycle, showing that its Western fame far exceeds its standing at home.
+  - title: Root Verses on the Six Bardos, Tibetan and English
+    author: Karma Lingpa; trans. Rigpa Translations
+    language: Tibetan, English and others
+    tradition: [Tibetan Buddhist, Nyingma]
+    kind: translation
+    url: https://www.lotsawahouse.org/tibetan-masters/karma-lingpa/root-verses-six-bardos
+    note: The six root verses with Tibetan script and phonetics, in Lotsawa House's large free library of Tibetan texts in translation (CC BY-NC).
   # --- China
   - title: The Book of Changes (Yijing)
     author: Anonymous; commentaries attributed to Confucius
@@ -203,6 +219,33 @@ works:
     kind: primary
     url: https://www.aozora.gr.jp/
     note: "Thirteen kamuy yukar, sung myths in which the gods tell their own stories, written down in romanised Ainu with facing Japanese by a nineteen-year-old Ainu woman who died the year she finished it. Public domain; search Aozora Bunko for 知里幸恵."
+  - title: The Ancient Greek Hero in 24 Hours
+    author: Gregory Nagy, Center for Hellenic Studies, Harvard University
+    date: 2013
+    year: 2013
+    language: English
+    tradition: [Greek, Mythology]
+    kind: study
+    url: https://www-current.chs.harvard.edu/chapter/introduction-10
+    note: Free online edition of Nagy's book based on his long-running Harvard course, with a sourcebook of Greek texts in translation. An approachable entry to Greek myth, hero cult and epic.
+  - title: La figure d'Éros dans la Théogonie d'Hésiode
+    author: Fabienne Blaise, Université de Lille
+    date: 1998
+    year: 1998
+    language: French
+    tradition: [Greek, Mythology]
+    kind: study
+    url: https://hal.univ-lille.fr/hal-01588871/document
+    note: "In French. Why Eros, one of Hesiod's four first principles, has no descendants and almost disappears from the poem. Summarised on the archive's Hesiod page."
+  - title: "Hesíodo y el Caos: la materia en la cosmogonía hesiódica"
+    author: Diego Fernando Barrios Andrade, Pontificia Universidad Javeriana
+    date: 2025
+    year: 2025
+    language: Spanish
+    tradition: [Greek, Mythology]
+    kind: study
+    url: https://revistas.javeriana.edu.co/index.php/vniphilosophica/article/view/39930/32700
+    note: "In Spanish. Argues that Hesiod's Chaos is a material gap between earth and sky, against readings that make it an abstraction."
   # --- Norse & Europe
   - title: The Poetic Edda
     author: Anonymous
