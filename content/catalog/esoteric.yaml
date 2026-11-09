@@ -177,3 +177,101 @@ works:
     kind: study
     url: https://www.esswe.org/
     note: The academic society for the field. Its bibliography and the journal Aries are where serious scholarship on these currents is published.
+  # --- Channelled & mediumistic literature
+  - title: The Law of One (The Ra Material), Books I–V, with transcripts and audio
+    author: Carla L. Rueckert (trance), Don Elkins (questioner), Jim McCarty (scribe)
+    date: 106 sessions, 1981–1984
+    year: 1981
+    language: English
+    tradition: [Channelled literature, New Age]
+    kind: primary
+    url: https://www.llresearch.org/
+    note: "The official archive. Free to read, but in copyright: L/L Research grants permission for quotation and reuse on request. See the archive's case file."
+  - title: lawofone.info — the Ra sessions, searchable
+    author: Tobey Wheelock, with L/L Research's permission
+    language: English
+    tradition: [Channelled literature, New Age]
+    kind: collection
+    url: https://www.lawofone.info/
+    note: Every session with a concept index and full-text search. The easiest way to trace a single idea through all 106 sessions.
+  - title: Le Livre des Esprits (The Spirits' Book), French and English, question by question
+    author: Allan Kardec
+    date: 1857; 2nd edition 1860
+    year: 1857
+    language: French and English
+    tradition: [Spiritism, Channelled literature]
+    kind: primary
+    url: https://kardecpedia.com/en/study-guide/2/the-spirits-book/13/book-onefirst-causes/chapter-igod
+    note: The founding text of Spiritism and the model for later question-and-answer channelling. Public domain. Kardecpedia also has his Book on Mediums and the Revue spirite.
+  - title: The Urantia Book
+    author: Anonymous; published by the Urantia Foundation
+    date: 1955
+    year: 1955
+    language: English
+    tradition: [Channelled literature, New Age]
+    kind: primary
+    url: https://www.urantia.org/
+    note: 196 papers on cosmology, the history of the world and the life of Jesus. A US jury found in 2001 that the copyright renewal was invalid, and the appeals court upheld the verdict in 2003, so the English text is public domain in the US.
+  - title: A Course in Miracles
+    author: Helen Schucman (scribe), with William Thetford
+    date: dictated 1965–1972; published 1976
+    year: 1976
+    language: English
+    tradition: [Channelled literature, New Age]
+    kind: primary
+    url: https://acim.org/
+    note: "A three-part course in forgiveness, presented as dictated by Jesus. A federal court held its US copyright invalid in 2003 (Penguin Books v. New Christian Church of Full Endeavor)."
+  - title: Jane Roberts Papers (the Seth Material), MS 1090
+    author: Jane Roberts and Robert F. Butts
+    date: sessions 1963–1984
+    year: 1963
+    language: English
+    tradition: [Channelled literature, New Age]
+    kind: archive
+    url: https://archives.yale.edu/
+    note: Session transcripts, Butts' notes, journals and recordings, 495 boxes in Manuscripts and Archives, Yale University Library. Search the finding aids for MS 1090. Mary Dillman's research papers on Roberts are MS 2119.
+  - title: Edgar Cayce readings
+    author: Edgar Cayce
+    date: 1901–1944
+    year: 1923
+    language: English
+    tradition: [Channelled literature, New Age]
+    kind: archive
+    url: https://www.edgarcayce.org/
+    note: About 14,000 trance "readings" on health, reincarnation and Atlantis, kept with their stenographic records by the Association for Research and Enlightenment in Virginia Beach.
+  - title: Spirit Teachings
+    author: William Stainton Moses ("M.A. Oxon")
+    date: 1883
+    year: 1883
+    language: English
+    tradition: [Spiritualism, Channelled literature]
+    kind: primary
+    url: https://archive.org/search?query=%22Spirit+Teachings%22+Stainton+Moses
+    note: Automatic writing by an Anglican clergyman and schoolmaster who was a founder of the Society for Psychical Research. A key text of British Spiritualism. Public domain; scans on the Internet Archive.
+  - title: The Principles of Nature, Her Divine Revelations, and a Voice to Mankind
+    author: Andrew Jackson Davis
+    date: 1847
+    year: 1847
+    language: English
+    tradition: [Spiritualism, Channelled literature]
+    kind: primary
+    url: https://archive.org/search?query=%22Principles+of+Nature%22+Andrew+Jackson+Davis
+    note: Dictated in "magnetic" trance by the "Poughkeepsie Seer" a year before the Fox sisters, and a direct forerunner of American Spiritualism. Public domain.
+  - title: "The Case of Patience Worth"
+    author: Walter Franklin Prince
+    date: 1927
+    year: 1927
+    language: English
+    tradition: [Spiritualism, Channelled literature]
+    kind: study
+    url: https://archive.org/search?query=%22Case+of+Patience+Worth%22
+    note: The Boston Society for Psychic Research's study of Pearl Curran, who produced novels and thousands of poems on a Ouija board in the voice of a seventeenth-century Englishwoman. Prince tested her vocabulary and speed of composition.
+  - title: A Vision (1925 edition)
+    author: W. B. Yeats, from the automatic writing of George Yeats
+    date: 1925; revised 1937
+    year: 1925
+    language: English
+    tradition: [Channelled literature, Western esotericism]
+    kind: primary
+    url: https://archive.org/search?query=%22A+Vision%22+Yeats+1925
+    note: Yeats' system of history and the soul, built from the "communicators" who spoke through his wife from 1917. The 1925 edition is public domain in the US.

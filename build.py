@@ -488,7 +488,7 @@ def build():
     for t in texts:
         index.append({"t": t["title"], "o": t.get("original_title", ""), "u": f"texts/{t['slug']}.html",
                       "s": t.get("summary", ""), "x": secs[t["section"]]["title"], "k": "archive",
-                      "g": " ".join(t["traditions"] + t["tags"] + [t.get("author") or "", t.get("date") or ""]),
+                      "g": " ".join(str(x) for x in t["traditions"] + t["tags"] + [t.get("author") or "", t.get("date") or ""]),
                       "b": strip_tags(t["body_html"])[:6000]})
     for w in works:
         index.append({"t": w["title"], "o": "", "u": w["url"], "s": w.get("note", ""),

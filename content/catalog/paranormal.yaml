@@ -117,6 +117,24 @@ works:
     kind: primary
     url: https://sacred-texts.com/fort/index.htm
     note: Fort's catalogue of “damned” (excluded) data, such as falls of frogs, red rains and lights in the sky, gathered from scientific journals and newspapers. The origin of “Fortean” research.
+  - title: Leonora Piper (Psi Encyclopedia)
+    author: Society for Psychical Research
+    date: Piper studied 1885–1911
+    year: 1898
+    language: English
+    tradition: [Psychical research, Spiritualism]
+    kind: study
+    url: https://psi-encyclopedia.spr.ac.uk/articles/leonora-piper
+    note: "The Boston trance medium studied by William James and Richard Hodgson, whose long 1898 report in the SPR Proceedings (vol. 13) is the most detailed investigation of a medium ever published. A summary with references."
+  - title: Tōno monogatari 遠野物語 (Japanese text)
+    author: Yanagita Kunio, from tales told by Sasaki Kizen
+    date: 1910
+    year: 1910
+    language: Japanese
+    tradition: [Japanese folk religion, Yōkai]
+    kind: primary
+    url: https://www.aozora.gr.jp/
+    note: The 119 tales of zashiki-warashi, kappa and mountain people that founded Japanese folklore studies. Public domain; search Aozora Bunko for 柳田国男. See the archive's page on the preface.
   # --- UAP: official and scientific
   - title: Project Blue Book records (U.S. National Archives)
     author: United States Air Force

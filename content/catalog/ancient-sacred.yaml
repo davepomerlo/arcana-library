@@ -127,6 +127,25 @@ works:
     translator: Edwin Arnold (1885)
     url: https://www.gutenberg.org/ebooks/2388
     note: A verse translation that influenced Gandhi. For the Sanskrit, see GRETIL.
+  - title: Jaina Sūtras (Sacred Books of the East vols. 22 and 45)
+    author: Jain canon; trans. Hermann Jacobi
+    date: Canon redacted c. 5th century CE; translation 1884 and 1895
+    year: 450
+    language: Ardhamāgadhī Prakrit, in translation
+    tradition: [Jain]
+    kind: translation
+    translator: Hermann Jacobi (1884, 1895)
+    url: https://sacred-texts.com/jai/index.htm
+    note: The Ācārāṅga, Kalpa, Uttarādhyayana and Sūtrakṛtāṅga sūtras, including the life of Mahāvīra. Still the standard public-domain translation.
+  - title: Sri Guru Granth Sahib, Gurmukhi with English and transliteration
+    author: Guru Nanak and later Gurus, with bhagats including Kabir and Namdev
+    date: compiled 1604; final form 1706
+    year: 1604
+    language: Punjabi and related languages (Gurmukhi script)
+    tradition: [Sikh]
+    kind: edition
+    url: https://www.srigranth.org/
+    note: The full scripture, searchable by page (ang) and line, with Sant Singh Khalsa's English translation and transliteration.
   # --- China
   - title: The Book of Changes (Yijing)
     author: Anonymous; commentaries attributed to Confucius
@@ -175,6 +194,15 @@ works:
     translator: Donald L. Philippi (1959), via Kokugakuin
     url: https://eos.kokugakuin.ac.jp/
     note: The oldest surviving Shinto liturgies, including the Great Purification prayer (Ōharae no kotoba 大祓詞). Search the Encyclopedia of Shinto for 'norito'.
+  - title: Ainu shin'yōshū アイヌ神謡集 (Ainu Songs of the Gods)
+    author: Chiri Yukie 知里幸恵
+    date: 1923
+    year: 1923
+    language: Ainu, with Japanese translation
+    tradition: [Ainu]
+    kind: primary
+    url: https://www.aozora.gr.jp/
+    note: "Thirteen kamuy yukar, sung myths in which the gods tell their own stories, written down in romanised Ainu with facing Japanese by a nineteen-year-old Ainu woman who died the year she finished it. Public domain; search Aozora Bunko for 知里幸恵."
   # --- Norse & Europe
   - title: The Poetic Edda
     author: Anonymous

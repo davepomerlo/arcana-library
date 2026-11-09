@@ -114,6 +114,36 @@ works:
     kind: translation
     url: https://www.sotozen.com/
     note: The Sōtō Zen Buddhism International Center publishes authorised translations of the sutras and texts chanted in Sōtō temples, among them Dōgen's Fukanzazengi and Genjōkōan.
+  - title: The Yoga Sūtras of Patañjali
+    author: Patañjali; trans. Charles Johnston
+    date: c. 4th–5th century CE; translation 1912
+    year: 400
+    language: Sanskrit, in translation
+    tradition: [Yoga, Hindu]
+    kind: translation
+    translator: Charles Johnston (1912)
+    url: https://sacred-texts.com/hin/yogasutr.htm
+    note: The 195 aphorisms that define classical yoga as the stilling of the movements of the mind. Johnston's version is Theosophically coloured; compare a modern translation such as Edwin Bryant's.
+  - title: On the Mysteries (De mysteriis)
+    author: Iamblichus; trans. Thomas Taylor
+    date: c. 300 CE; translation 1821
+    year: 300
+    language: Greek, in translation
+    tradition: [Neoplatonist, Theurgy]
+    kind: translation
+    translator: Thomas Taylor (1821)
+    url: https://sacred-texts.com/eso/myst/index.htm
+    note: The great defence of theurgy, the ritual ascent of the soul, written as the reply of an Egyptian priest to Porphyry. Taylor's English is old but complete.
+  - title: Nicholas of Cusa — complete philosophical works in translation
+    author: Nicholas of Cusa; trans. Jasper Hopkins
+    date: 1440–1464
+    year: 1440
+    language: Latin, in translation
+    tradition: [Christian mysticism, Neoplatonist]
+    kind: translation
+    translator: Jasper Hopkins
+    url: https://jasper-hopkins.info/
+    note: Free PDFs of Hopkins' translations, including On Learned Ignorance (De docta ignorantia), with the coincidence of opposites in God, and On the Vision of God.
   - title: Stanford Encyclopedia of Philosophy
     author: Stanford University
     language: English

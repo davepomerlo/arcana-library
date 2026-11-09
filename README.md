@@ -8,9 +8,9 @@ It is a static website: plain Markdown files go in, a fast, searchable site come
 
 | | |
 |---|---|
-| **22 texts** | Full or excerpted originals in 10 languages (Classical Chinese, Japanese, Sanskrit, Pali, Hebrew, Greek, Latin, Persian, Akkadian and Old Norse), each with a new line-by-line translation |
-| **6 paranormal case files** | Research articles on the Utsuro-bune (1803), the Nuremberg 1561 sky battle, the SPR Census of Hallucinations, the Green Children of Woolpit, Shiranui and the Hessdalen lights |
-| **Library** | 78 reliable external editions and translations, and 36 digital libraries, with a note on what each is good for |
+| **30 texts** | Full or excerpted originals in 11 languages (Classical Chinese, Japanese, Sanskrit, Pali, Hebrew, Greek, Latin, Persian, Akkadian, Old Norse and French), each with a new line-by-line translation. Every page says which edition it was checked against: of all 36 pages, 18 are fully checked and 14 partly |
+| **8 case files and guides** | Research articles on the Utsuro-bune (1803), the Nuremberg 1561 sky battle, the SPR Census of Hallucinations, the Green Children of Woolpit, Shiranui and the Hessdalen lights, plus a case file on the Ra Material (Law of One) and a reader's guide to channelled literature |
+| **Library** | 97 reliable external editions, translations and archives, and 42 digital libraries, with a note on what each is good for |
 | **Features** | Side-by-side, translation-only or original-only reading; romanization toggle; full-text search in every language; timeline; tradition pages; light and dark themes |
 
 ## Put it online (one time, about 10 minutes)

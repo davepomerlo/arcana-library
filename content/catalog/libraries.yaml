@@ -145,3 +145,27 @@ libraries:
     url: https://plato.stanford.edu/
     covers: [philosophy, all traditions]
     note: Authoritative, peer-reviewed reference entries.
+  - name: L/L Research
+    url: https://www.llresearch.org/
+    covers: [channelled literature, Law of One]
+    note: Transcripts and audio of the Ra sessions and of decades of other channelling by the same group. Free to read; in copyright.
+  - name: Kardecpedia
+    url: https://kardecpedia.com/
+    covers: [Spiritism, French, English, Portuguese]
+    note: Allan Kardec's complete works in parallel languages, divided question by question.
+  - name: Archives at Yale
+    url: https://archives.yale.edu/
+    covers: [archives, Seth Material, psychical research]
+    note: Finding aids for Yale's manuscript collections, including the Jane Roberts Papers (MS 1090) and the P. D. Ouspensky Memorial Collection (MS 840).
+  - name: IAPSOP
+    url: http://iapsop.com/
+    covers: [Spiritualism, occult periodicals, 19th–20th century]
+    note: Scans of hundreds of Spiritualist, Theosophical and occult periodicals, the raw record of the séance era.
+  - name: SriGranth.org
+    url: https://www.srigranth.org/
+    covers: [Sikh, Gurmukhi]
+    note: The Guru Granth Sahib and other Sikh scriptures, searchable, with translation and transliteration.
+  - name: Jasper Hopkins' translations of Nicholas of Cusa and Anselm
+    url: https://jasper-hopkins.info/
+    covers: [medieval philosophy, Latin, Christian mysticism]
+    note: Free scholarly translations with the Latin texts used.
