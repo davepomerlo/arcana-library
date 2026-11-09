@@ -24,11 +24,7 @@ original_source:
   url: https://ctext.org/dao-de-jing
 status: partly-checked
 check_note: >
-  Chapters 1–9 and 16–20 have been compared with two online copies of the received text.
-  The rest is not yet checked. Copies of the received text differ in a few places. For example,
-  ch. 17 reads 下知有之 in some copies and 下不知有之 in others, and ch. 10 has several variant
-  lines. The much older Mawangdui and Guodian manuscripts differ more widely and put the De
-  half first.
+  Chapters 1–10, 15–20, 22–26, 29–32 and 38 were compared with online copies of the received text (the Chinese Text Project, Project Gutenberg #7337 and others). Chapter 10 has been corrected to the Chinese Text Project reading (愛國治民，能無為乎 … 明白四達，能無知乎). Copies of the received text differ in many small ways: ch. 10 能嬰兒乎 for 能如嬰兒乎; ch. 15 儼兮其若容 (Chinese Text Project) for 若客; ch. 17 下不知有之 for 下知有之; ch. 25 獨立不改 and 人亦大 for 獨立而不改 and 王亦大. The much older Mawangdui and Guodian manuscripts differ more widely and put the De half first.
 compare:
   - label: James Legge (1891), public domain, with Chinese text (Chinese Text Project)
     url: https://ctext.org/dao-de-jing
@@ -185,18 +181,18 @@ When the work is done, step back: this is the Way of Heaven.
 載營魄抱一，能無離乎？
 專氣致柔，能如嬰兒乎？
 滌除玄覽，能無疵乎？
-愛民治國，能無知乎？
+愛國治民，能無為乎？
 天門開闔，能為雌乎？
-明白四達，能無為乎？
+明白四達，能無知乎？
 生之、畜之，生而不有，
 為而不恃，長而不宰，是謂玄德。
 ---
 Carrying body and soul and embracing the One, can you keep them from parting?
 Concentrating the breath until it is supple, can you be like an infant?
 Washing clean the dark mirror, can you leave it without a spot?
-Loving the people and ordering the state, can you do it without cleverness?
+Loving the state and ordering the people, can you do it without action?
 As the gates of Heaven open and close, can you play the female part?
-Seeing clearly in all four directions, can you remain without action?
+Seeing clearly in all four directions, can you remain without knowledge?
 Giving birth and rearing, giving birth without possessing,
 acting without relying on it, leading without ruling: this is called mysterious virtue.
 :::

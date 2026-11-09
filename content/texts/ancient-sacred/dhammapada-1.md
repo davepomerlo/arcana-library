@@ -20,7 +20,9 @@ translation:
 original_source:
   edition: Pali text of the Mahāsaṅgīti edition (as on SuttaCentral)
   url: https://suttacentral.net/dhp1-20
-status: unchecked
+status: checked
+check_note: >
+  All twenty verses were compared with the Chaṭṭha Saṅgāyana (CSCD) text as given by the Online Dhamma parallel reader, and they match. CSCD notes variants in verse 19 (sahitaṃ for saṃhita) and verse 20 (hotī for hoti). The PTS edition reads Ye taṃ (without ca) in verses 3–4.
 compare:
   - label: Pali with several English translations, including Bhikkhu Sujato's (SuttaCentral)
     url: https://suttacentral.net/dhp1-20

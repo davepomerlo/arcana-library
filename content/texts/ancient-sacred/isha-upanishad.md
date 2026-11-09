@@ -20,7 +20,9 @@ translation:
 original_source:
   edition: Kāṇva recension text as printed in standard editions (e.g. Olivelle, The Early Upaniṣads, 1998)
   url: https://sanskritdocuments.org/
-status: unchecked
+status: checked
+check_note: >
+  The invocation and verse 1 were compared with shlokam.org, and verses 2–18 with a second online copy of the Kāṇva text. They match apart from word division (for example ईशा वास्यम् / ईशावास्यम्).
 compare:
   - label: Max Müller (1879), Sacred Books of the East vol. 1, public domain (sacred-texts)
     url: https://sacred-texts.com/hin/sbe01/index.htm

@@ -21,7 +21,9 @@ translation:
 original_source:
   edition: Standard text as printed with Gauḍapāda's Kārikā (Ānandāśrama ed.)
   url: https://sanskritdocuments.org/
-status: unchecked
+status: checked
+check_note: >
+  Verses 1–9 were compared with sanskritdocuments.org, and all twelve with a second online copy. Differences are only of sandhi spelling (for example सर्वेश्वरः एष / सर्वेश्वर एष). Many recitations repeat the last words, य एवं वेद, at the end of verse 12.
 compare:
   - label: GRETIL Sanskrit e-texts (Göttingen)
     url: http://gretil.sub.uni-goettingen.de/

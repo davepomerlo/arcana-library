@@ -20,8 +20,9 @@ translation:
 original_source:
   edition: Codex Regius text in normalised Old Norse spelling (as in Neckel–Kuhn, Edda, 5th ed.)
   url: https://www.heimskringla.no/
-status: unchecked
-check_note: Spelling follows a standard normalisation. The Hauksbók manuscript has a different stanza order and some variant lines.
+status: checked
+check_note: >
+  Stanzas 1 and 3–5 were compared with two normalised online texts (voluspa.org and a Guðni Jónsson–based text), and stanzas 2 and 6 with the Open Book Publishers edition. Stanza 5 has been corrected so that the moon comes before the stars, as in those editions. Spelling follows the common normalisation; some editions read um for of, and the Hauksbók manuscript differs in stanza order and wording (for example þar er Ymir bygði in stanza 3).
 compare:
   - label: Henry Adams Bellows, The Poetic Edda (1923), public domain (sacred-texts)
     url: https://sacred-texts.com/neu/poe/index.htm
@@ -72,7 +73,7 @@ beneath the earth.
 ::: parallel 3
 Ár var alda,
 þat er ekki var,
-vara sandr né sær
+var-a sandr né sær
 né svalar unnir;
 jörð fannsk æva
 né upphiminn,
@@ -116,10 +117,10 @@ hendi inni hægri
 um himinjöður;
 sól þat né vissi
 hvar hon sali átti,
-stjörnur þat né vissu
-hvar þær staði áttu,
 máni þat né vissi
-hvat hann megins átti.
+hvat hann megins átti,
+stjörnur þat né vissu
+hvar þær staði áttu.
 ---
 The sun, companion of the moon,
 cast from the south
@@ -127,10 +128,10 @@ her right hand
 over the rim of heaven.
 The sun did not know
 where she had her halls;
-the stars did not know
-where they had their places;
 the moon did not know
-what power he had.
+what power he had;
+the stars did not know
+where they had their places.
 :::
 
 ::: parallel 6

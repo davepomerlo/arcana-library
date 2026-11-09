@@ -22,8 +22,7 @@ original_source:
   edition: Text of R. A. B. Mynors, C. Plini Caecili Secundi Epistularum libri decem (Oxford Classical Texts, 1963)
 status: partly-checked
 check_note: >
-  Section 6 (“promissa barba horrenti capillo… quatiebatque”) has been checked against the
-  Scottish Qualifications Authority's prescribed text. The rest is not yet checked against Mynors.
+  Sections 1 and 5–13 were compared with the Latin quoted in Laura D'Amati, “La domus infestata dal fantasma” (Annali Camerino 14, 2025), and section 6 with the Scottish Qualifications Authority's prescribed text. Sections 2–4 and 14–18 are not yet checked against Mynors' Oxford text. D'Amati prints the spellings adparebat and innuuebat.
 compare:
   - label: "William Melmoth's translation, revised by Bosanquet — Letters of Pliny, public domain (Project Gutenberg #2811)"
     url: https://www.gutenberg.org/ebooks/2811

@@ -21,12 +21,9 @@ translation:
   year: 2026
 original_source:
   edition: Latin vulgate as printed by Chrysogonus Polydorus (Nuremberg, 1541)
-status: partly-checked
+status: checked
 check_note: >
-  The closing lines (Hinc erunt adaptationes mirabiles… de operatione Solis) have been checked
-  against an online copy of the 1541 text. The rest is not yet checked. Medieval manuscripts
-  vary: some read meditatione (“by meditation”) and others mediatione (“by mediation”) in
-  line 3. Newton's own English translation follows mediatione.
+  Compared with the 1541 text of Chrysogonus Polydorus as transcribed on Wikipedia, and corrected in five places (Mater eius est Luna; Virtus eius; magno cum ingenio; Haec est; modus hic est). Other early printings differ: the version in the Matheson Trust dossier reads Vis eius and cum magno ingenio. Medieval manuscripts read either meditatione (“by meditation”) or mediatione (“by mediation”) in line 3, and Newton's English follows mediatione.
 compare:
   - label: Several Latin and English versions, including Newton's translation, with a history of the text (sacred-texts)
     url: https://sacred-texts.com/alc/emerald.htm
@@ -54,13 +51,13 @@ What is below is like what is above, and what is above is like what is below, fo
 :::
 
 ::: parallel 3
-Et sicut omnes res fuerunt ab uno, meditatione unius, sic omnes res natae fuerunt ab hac una re, adaptatione.
+Et sicut res omnes fuerunt ab uno, meditatione unius, sic omnes res natae fuerunt ab hac una re, adaptatione.
 ---
 And as all things came from the One, by the meditation of the One, so all things were born from this one thing, by adaptation.
 :::
 
 ::: parallel 4
-Pater eius est Sol, mater eius Luna; portavit illud ventus in ventre suo; nutrix eius terra est.
+Pater eius est Sol. Mater eius est Luna, portavit illud Ventus in ventre suo, nutrix eius terra est.
 ---
 Its father is the Sun, its mother the Moon; the wind carried it in its belly; its nurse is the earth.
 :::
@@ -72,13 +69,13 @@ This is the father of every perfection (*telesma*) in the whole world.
 :::
 
 ::: parallel 6
-Vis eius integra est, si versa fuerit in terram.
+Virtus eius integra est si versa fuerit in terram.
 ---
 Its power is complete if it is turned into earth.
 :::
 
 ::: parallel 7
-Separabis terram ab igne, subtile ab spisso, suaviter, cum magno ingenio.
+Separabis terram ab igne, subtile ab spisso, suaviter, magno cum ingenio.
 ---
 You shall separate the earth from the fire, the subtle from the dense, gently and with great skill.
 :::
@@ -90,13 +87,13 @@ It rises from earth to heaven, and descends again to earth, and receives the pow
 :::
 
 ::: parallel 9
-Sic habebis gloriam totius mundi. Ideo fugiet a te omnis obscuritas.
+Sic habebis Gloriam totius mundi. Ideo fugiet a te omnis obscuritas.
 ---
 So you will have the glory of the whole world, and all darkness will flee from you.
 :::
 
 ::: parallel 10
-Hic est totius fortitudinis fortitudo fortis, quia vincet omnem rem subtilem, omnemque solidam penetrabit.
+Haec est totius fortitudinis fortitudo fortis, quia vincet omnem rem subtilem, omnemque solidam penetrabit.
 ---
 This is the strong strength of all strength, for it will overcome every subtle thing and penetrate every solid one.
 :::
@@ -108,7 +105,7 @@ So the world was created.
 :::
 
 ::: parallel 12
-Hinc erunt adaptationes mirabiles, quarum modus est hic.
+Hinc erunt adaptationes mirabiles, quarum modus hic est.
 ---
 From this will come wonderful adaptations, of which this is the method.
 :::

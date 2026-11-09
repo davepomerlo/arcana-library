@@ -21,12 +21,9 @@ translation:
 original_source:
   edition: Text of R. A. Nicholson's critical edition (1925–40), as on Ganjoor
   url: https://ganjoor.net/moulavi/masnavi/daftar1/sh1
-status: partly-checked
+status: checked
 check_note: >
-  Couplets 1 and 9–15 have been compared with online copies. The rest is not yet checked.
-  Some copies open “Listen to the reed as it tells a tale” (بشنو از نی چون حکایت می‌کند)
-  instead of “Listen to this reed as it complains” (بشنو این نی چون شکایت می‌کند). Nicholson
-  printed the second reading, which follows the oldest Konya manuscript.
+  Couplets 1–15 and 18 were compared with the Nicholson text as given on masnavi.net, and couplets 1–3 also with Ganjoor. Couplet 4 has been corrected to کاو (“who”), Nicholson's spelling. Couplets 16–17 were compared with another online copy, which spells آنک for آن که. Some copies open بشنو از نی چون حکایت می‌کند (“listen to the reed as it tells a tale”); Nicholson prints بشنو این نی چون شکایت می‌کند.
 compare:
   - label: Persian text of Masnavi Book 1 on Ganjoor
     url: https://ganjoor.net/moulavi/masnavi/daftar1/sh1
@@ -65,7 +62,7 @@ so that I can tell it the pain of longing.
 :::
 
 ::: parallel 4
-هر کسی کو دور ماند از اصل خویش
+هر کسی کاو دور ماند از اصل خویش
 باز جوید روزگار وصل خویش
 ---
 Everyone who is left far from their source

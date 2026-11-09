@@ -20,12 +20,9 @@ translation:
   year: 2026
 original_source:
   edition: Xuanzang's version (Taishō no. 251) in the form chanted in Japanese temples (with 一切 before 顛倒夢想, and 羯諦 for 揭諦)
-status: unchecked
+status: checked
 check_note: >
-  The Japanese temple text differs from Taishō 251 in two small places: it adds 一切 in
-  遠離一切顛倒夢想, and it writes the mantra with 羯諦 where the Taishō has 揭諦. The reading
-  layer gives the go-on/kan-on pronunciation used when chanting, which differs from
-  ordinary modern Japanese.
+  The characters and chanting readings were compared with a Japanese copy of the temple text with kana readings. The Chinese wording was compared with a copy of Taishō 251 (Kenyon College). The Japanese temple text differs from Taishō 251 in two small places: it adds 一切 in 遠離一切顛倒夢想, and it writes 羯諦 for 揭諦 in the mantra. Readings differ slightly between schools; 五蘊 is chanted go-un or go-on.
 compare:
   - label: Taishō 251 in the CBETA online reader (search T0251)
     url: https://cbetaonline.dila.edu.tw/
@@ -57,7 +54,7 @@ The Heart Sutra of the Great Perfection of Wisdom, spoken by the Buddha
 ---
 Kan-ji-zai bo-sa
 gyō jin han-nya ha-ra-mit-ta ji
-shō-ken go-on kai-kū
+shō-ken go-un kai-kū
 do is-sai ku-yaku
 ---
 The Bodhisattva Kanjizai 観自在 (Avalokiteshvara),

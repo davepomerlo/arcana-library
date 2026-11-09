@@ -21,7 +21,9 @@ translation:
 original_source:
   edition: Received text (Guo Xiang 郭象 recension, 33 chapters), as given by the Chinese Text Project
   url: https://ctext.org/zhuangzi
-status: unchecked
+status: partly-checked
+check_note: >
+  The Cook Ding passage was compared with the Chinese Notes text and with Chinese Wikisource. They differ in two places: Wikisource reads 所見無非全牛者 (“all I saw was the whole ox”) for 所見無非牛者, and 謋然以解 for 謋然已解. The other five passages are not yet checked.
 compare:
   - label: James Legge (1891), public domain, with Chinese text (Chinese Text Project)
     url: https://ctext.org/zhuangzi

@@ -20,8 +20,10 @@ translation:
   year: 2026
 original_source:
   edition: Rigveda 10.129, Śākala recension (van Nooten & Holland metrical text). Accents omitted.
-  url: https://sacred-texts.com/hin/rigveda/rv10129.htm
-status: unchecked
+  url: https://sanskritdocuments.org/doc_veda/naasadiiya.html
+status: checked
+check_note: >
+  All seven verses compared with the proofread text at sanskritdocuments.org (Avinash Sathaye), which follows the standard Śākala text. Accents are omitted here. The two figures ३ in verse 5 are the original pluta marks, showing a prolonged vowel in a question ("was there a below? was there an above?").
 compare:
   - label: Ralph T. H. Griffith (1896), public domain (sacred-texts)
     url: https://sacred-texts.com/hin/rigveda/rv10129.htm
@@ -76,10 +78,10 @@ Searching in their hearts with wisdom, the poets found the bond of being in non-
 :::
 
 ::: parallel 5
-तिरश्चीनो विततो रश्मिरेषामधः स्विदासीदुपरि स्विदासीत् ।
+तिरश्चीनो विततो रश्मिरेषामधः स्विदासी३दुपरि स्विदासी३त् ।
 रेतोधा आसन्महिमान आसन्स्वधा अवस्तात्प्रयतिः परस्तात् ॥
 ---
-tiraścīno vitato raśmir eṣām adhaḥ svid āsīd upari svid āsīt |
+tiraścīno vitato raśmir eṣām adhaḥ svid āsī3d upari svid āsī3t |
 retodhā āsan mahimāna āsan svadhā avastāt prayatiḥ parastāt ||
 ---
 Their cord was stretched across. Was there a below? Was there an above?

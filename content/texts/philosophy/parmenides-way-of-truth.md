@@ -19,8 +19,9 @@ translation:
   year: 2026
 original_source:
   edition: Diels–Kranz 28 B, as preserved by Proclus, Simplicius and Clement
-status: unchecked
-check_note: Fragment 3 is one half-line quoted by Clement and Plotinus. Its syntax is disputed, and “for thinking and being are the same” is only one of several possible readings.
+status: partly-checked
+check_note: >
+  Fragment 2 was compared with Diels's text (lexundria.com) and with the text Heidegger prints in GA 35, and it matches. Fragments 3, 6 and 8 are not yet checked. Fragment 3 is one half-line quoted by Clement and Plotinus. Its syntax is disputed, and “for thinking and being are the same” is only one of several possible readings.
 compare:
   - label: John Burnet's translation in Early Greek Philosophy (1920), public domain (Wikisource)
     url: https://en.wikisource.org/wiki/Early_Greek_Philosophy

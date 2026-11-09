@@ -2,7 +2,7 @@
 title: The Orphic Gold Tablet from Petelia
 original_title: Χρυσοῦν ἔλασμα Πετηλίας
 author: Anonymous initiate(s) of the Bacchic-Orphic mysteries
-date: c. 4th century BCE (the tablet); the formula is older
+date: 4th–3rd century BCE (the tablet); the formula is older
 year: -350
 lang: grc
 language: Ancient Greek (epic hexameter)
@@ -24,8 +24,8 @@ original_source:
 status: unchecked
 check_note: >
   The tablet is damaged at the bottom right. Square brackets [ ] mark letters restored by
-  editors. The tablet is in the British Museum, London, together with the gold amulet case it
-  was found in.
+  editors. The tablet is in the British Museum, London (reg. 1843,0724.3), together with the gold
+  amulet case it was found in, which is Roman and much later.
 compare:
   - label: Radcliffe G. Edmonds III (ed.), The “Orphic” Gold Tablets and Greek Religion (Cambridge University Press, 2011), Greek texts and translations of all the tablets
     url: https://www.cambridge.org/

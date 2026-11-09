@@ -12,7 +12,7 @@ tags: [kami, creation, Takamagahara, Izanagi, Izanami, kamiyo nanayo, Kojiki]
 featured: true
 summary: >
   The first lines of Japan's oldest surviving book. As Heaven and Earth first part, the kami
-  come into being on the High Plain of Heaven, 高天原 Takamagahara, one after another, down
+  come into being on the High Plain of Heaven, 高天原 Takaamanohara, one after another, down
   to the divine pair Izanagi 伊邪那岐 and Izanami 伊邪那美.
 translation:
   type: ai-assisted
@@ -22,10 +22,9 @@ translation:
 original_source:
   edition: Text of the Shinpukuji 真福寺 manuscript tradition, standard modern reading (e.g. Shinpen Nihon koten bungaku zenshū)
   url: https://ja.wikisource.org/wiki/古事記
-status: unchecked
+status: partly-checked
 check_note: >
-  The small notes in brackets 【】 are Yasumaro's own glosses. They tell the reader to read
-  certain characters for their sound (以音) or to give them a particular Japanese reading (訓).
+  Sections 1–3 were compared with Kokugakuin University's Kojiki viewer, and the readings follow its yomikudashi (ametsuchi hajimete okorishi toki ni; Takaamanohara; Kamumusuhi). The names in sections 4–5 were compared with a published yomikudashi (ICU repository). The bracketed gloss in section 6 has not yet been checked. The characters here are in traditional forms (發, 產, 國); Kokugakuin prints modern forms (発, 産, 国). Glosses in brackets 【】 are Yasumaro's own.
 compare:
   - label: Basil Hall Chamberlain, The Kojiki (1882), public domain (sacred-texts)
     url: https://sacred-texts.com/shi/kj/index.htm
@@ -42,9 +41,9 @@ The *Kojiki* 古事記 (“Record of Ancient Matters”) is written in Chinese c
 ::: parallel 1
 天地初發之時、於高天原成神名、天之御中主神【訓高下天云阿麻。下效此】、次高御產巢日神、次神產巢日神。此三柱神者、並獨神成坐而、隱身也。
 ---
-ame tsuchi hajimete arawareshi toki, Takama-no-hara ni nareru kami no na wa, Ame-no-Minakanushi-no-kami. tsugi ni Takamimusuhi-no-kami, tsugi ni Kamimusuhi-no-kami. kono mihashira no kami wa, mina hitorigami to narimashite, mi wo kakushitamaiki.
+ametsuchi hajimete okorishi toki ni, Takaamanohara ni nareru kami no na wa, Ame-no-Minakanushi-no-kami. tsugi ni Takamimusuhi-no-kami. tsugi ni Kamumusuhi-no-kami. kono mihashira no kami wa, mina hitorigami to narimashite, mi wo kakushitamaiki.
 ---
-At the time when Heaven and Earth first appeared, the kami who came into being on the High Plain of Heaven, 高天原 Takama-no-hara, were named Ame-no-Minakanushi-no-kami 天之御中主神, “Lord of the August Centre of Heaven”; next, Takamimusuhi-no-kami 高御產巢日神, “High August Generating Power”; next, Kamimusuhi-no-kami 神產巢日神, “Divine Generating Power”. These three kami all came into being as solitary kami, 獨神 hitorigami, without partners, and hid their bodies.
+When Heaven and Earth first became active, the kami who came into being on the High Plain of Heaven, 高天原 Takaamanohara, were named Ame-no-Minakanushi-no-kami 天之御中主神, “Lord of the August Centre of Heaven”; next, Takamimusuhi-no-kami 高御產巢日神, “High August Generating Power”; next, Kamumusuhi-no-kami 神產巢日神, “Divine Generating Power”. These three kami all came into being as solitary kami, 獨神 hitorigami, without partners, and hid their bodies.
 [Gloss: read 高 followed by 天 as *ama*; likewise below.]
 :::
 

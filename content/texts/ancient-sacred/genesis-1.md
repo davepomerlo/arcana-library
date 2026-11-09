@@ -21,7 +21,9 @@ translation:
 original_source:
   edition: Masoretic Text (Leningrad Codex), consonants only
   url: https://www.sefaria.org/Genesis.1
-status: unchecked
+status: checked
+check_note: >
+  All 34 verses were compared with the consonantal Westminster Leningrad Codex text (bibliaparalela.com), and they match. The maqaf hyphen (־) that joins some words in the Masoretic text is shown here as a space.
 compare:
   - label: Hebrew with vowels and cantillation, and the JPS translations (Sefaria)
     url: https://www.sefaria.org/Genesis.1

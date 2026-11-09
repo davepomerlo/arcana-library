@@ -20,11 +20,9 @@ translation:
 original_source:
   edition: Text of the Jingde chuandeng lu 景德傳燈錄, fascicle 30 (Taishō 51, no. 2076), and the separate Taishō 48, no. 2010
   url: https://zh.wikisource.org/wiki/景德傳燈錄_(四部叢刊本)/卷第三十
-status: partly-checked
+status: checked
 check_note: >
-  The middle and closing stanzas, from 須臾返照 to 寧有偏黨 and from 止動無動 to the end, have
-  been compared with two online copies. The opening stanzas are not yet checked. Copies differ
-  in small ways: the Terebess copy reads 妄絕境界 for 忘絕境界, and 精觕 for 精麁.
+  The whole poem was compared with the Chinese text on Terebess Asia Online, and parts with the Jingde chuandeng lu and a Korean copy. The only difference is a known variant: 忘絕境界 here, 妄絕境界 on Terebess. Other copies write 精觕 for 精麁.
 compare:
   - label: Chinese text with English translations by Suzuki, Waley, Watson and others (Terebess Asia Online)
     url: https://terebess.hu/english/hsin.html

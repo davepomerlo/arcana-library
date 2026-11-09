@@ -20,7 +20,9 @@ translation:
 original_source:
   edition: Sanskrit text as preserved in Candrakīrti's Prasannapadā (de La Vallée Poussin ed., 1903–13), chapter and verse numbering
   url: https://www.dsbcproject.org/
-status: unchecked
+status: partly-checked
+check_note: >
+  Verses 24.18, 25.19 and 25.20 were compared with quotations in published scholarship and on SuttaCentral's forum, and they match. The dedicatory verses, 18.9, 24.8–10, 24.19 and 25.24 are not yet checked.
 compare:
   - label: Digital Sanskrit Buddhist Canon (Sanskrit e-texts, search “Madhyamakaśāstram”)
     url: https://www.dsbcproject.org/
