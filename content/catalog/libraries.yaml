@@ -1,0 +1,147 @@
+# Digital libraries and reference sites the archive draws on.
+# Fields: name, url, covers, note
+libraries:
+  - name: Internet Sacred Text Archive (sacred-texts.com)
+    url: https://sacred-texts.com/
+    covers: [all traditions, public-domain translations]
+    note: The largest free collection of public-domain religious and esoteric texts. The translations are mostly 19th and early 20th century, so check them against modern scholarship. Excellent breadth.
+  - name: Chinese Text Project
+    url: https://ctext.org/
+    covers: [Classical Chinese, Daoist, Confucian, Buddhist]
+    note: Pre-modern Chinese texts with character dictionary links, parallel passages and many scanned editions. Run by Donald Sturgeon. Essential.
+  - name: Kanseki Repository
+    url: https://www.kanripo.org/
+    covers: [Classical Chinese, Daozang, Buddhist canon]
+    note: Christian Wittern's open repository of premodern Chinese texts, including the Daoist canon, in editable plain text.
+  - name: CBETA Online
+    url: https://cbetaonline.dila.edu.tw/
+    covers: [Chinese Buddhist canon]
+    note: The complete Taishō Chinese Buddhist canon and more, searchable, from Dharma Drum Institute.
+  - name: SuttaCentral
+    url: https://suttacentral.net/
+    covers: [Pali canon, early Buddhist texts]
+    note: Early Buddhist texts in Pali, Chinese, Sanskrit and Tibetan, with modern English translations released into the public domain.
+  - name: 84000 — Translating the Words of the Buddha
+    url: https://84000.co/
+    covers: [Tibetan Buddhist canon]
+    note: A scholarly project translating the Tibetan Kangyur and Tengyur into English, freely available.
+  - name: GRETIL
+    url: http://gretil.sub.uni-goettingen.de/
+    covers: [Sanskrit, Pali, Prakrit, Tamil]
+    note: The Göttingen Register of Electronic Texts in Indian Languages. A large, reliable collection of e-texts based on critical editions.
+  - name: Digital Sanskrit Buddhist Canon
+    url: https://www.dsbcproject.org/
+    covers: [Sanskrit Buddhist texts]
+    note: Sanskrit Mahāyāna texts, including the Prajñāpāramitā sutras and Nāgārjuna.
+  - name: Muktabodha Digital Library
+    url: https://www.muktabodha.org/
+    covers: [Tantra, Kashmir Shaivism]
+    note: E-texts and scans of Tantric manuscripts, hard to find elsewhere.
+  - name: Sefaria
+    url: https://www.sefaria.org/
+    covers: [Hebrew Bible, Talmud, Kabbalah]
+    note: An open library of Jewish texts with translations and links between texts.
+  - name: Perseus Digital Library
+    url: https://www.perseus.tufts.edu/
+    covers: [Greek, Latin]
+    note: Tufts University's classical library, with Greek and Latin texts, translations and morphological tools.
+  - name: The Latin Library
+    url: https://www.thelatinlibrary.com/
+    covers: [Latin]
+    note: A huge collection of Latin texts from antiquity to the Renaissance. Plain text, no apparatus.
+  - name: LacusCurtius (Bill Thayer)
+    url: https://penelope.uchicago.edu/Thayer/E/home.html
+    covers: [Greek, Latin, Roman history]
+    note: Carefully proofread Loeb translations and classical texts, with notes, hosted at the University of Chicago.
+  - name: ToposText
+    url: https://topostext.org/
+    covers: [Greek, Roman, mythology, places]
+    note: Ancient texts linked to a map of places mentioned in them. Excellent for sacred sites and oracles.
+  - name: Theoi Project
+    url: https://www.theoi.com/
+    covers: [Greek mythology]
+    note: Greek gods and spirits, with every ancient source quoted in translation.
+  - name: Electronic Text Corpus of Sumerian Literature
+    url: https://etcsl.orinst.ox.ac.uk/
+    covers: [Sumerian]
+    note: Oxford's corpus of about 400 Sumerian literary works with translations.
+  - name: electronic Babylonian Library (eBL)
+    url: https://www.ebl.lmu.de/
+    covers: [Akkadian, Babylonian literature]
+    note: LMU Munich's critical editions of Babylonian literature with all manuscripts.
+  - name: ORACC
+    url: https://oracc.museum.upenn.edu/
+    covers: [Sumerian, Akkadian]
+    note: An umbrella for many annotated cuneiform projects, including magic, divination and royal inscriptions.
+  - name: Thesaurus Linguae Aegyptiae
+    url: https://thesaurus-linguae-aegyptiae.de/
+    covers: [Egyptian]
+    note: The scholarly corpus of Egyptian texts with transliteration and translation.
+  - name: Esoteric Archives (Joseph H. Peterson)
+    url: http://www.esotericarchives.com/
+    covers: [grimoires, Renaissance magic, Agrippa, Dee]
+    note: Grimoires, Agrippa and John Dee, transcribed from manuscripts and early editions by a careful independent editor. Very reliable.
+  - name: The Alchemy Web Site (Adam McLean)
+    url: https://www.levity.com/alchemy/
+    covers: [alchemy, Rosicrucianism, emblems]
+    note: Thousands of alchemical texts and images, with careful sourcing.
+  - name: The Gnostic Society Library
+    url: http://gnosis.org/library.html
+    covers: [Gnostic, Nag Hammadi, Hermetic]
+    note: The Nag Hammadi Library and related texts. The translations are copyrighted but posted with permission.
+  - name: Internet Medieval Sourcebook (Fordham University)
+    url: https://sourcebooks.fordham.edu/sbook.asp
+    covers: [medieval Europe, chronicles]
+    note: Translated medieval texts, including chronicles with wonder stories.
+  - name: Christian Classics Ethereal Library
+    url: https://www.ccel.org/
+    covers: [Christian mysticism, Church Fathers]
+    note: Pseudo-Dionysius, the Cloud of Unknowing, Eckhart and the mystics, in public-domain translations.
+  - name: Ganjoor
+    url: https://ganjoor.net/
+    covers: [Persian poetry, Sufi]
+    note: The standard free library of classical Persian poetry, with Rumi, Hafez, Attar and Saadi.
+  - name: Avesta.org (Joseph H. Peterson)
+    url: https://www.avesta.org/
+    covers: [Zoroastrian]
+    note: Avestan and Pahlavi texts with many translations.
+  - name: Encyclopedia of Shinto (Kokugakuin University)
+    url: https://eos.kokugakuin.ac.jp/
+    covers: [Shinto, Japanese religion]
+    note: The authoritative English reference on Shinto.
+  - name: Nichibunken Kaii-Yōkai Denshō Database
+    url: https://www.nichibun.ac.jp/YoukaiDB/
+    covers: [Japanese folklore, yōkai, strange events]
+    note: More than 35,000 folklore records of the strange and the supernatural in Japan.
+  - name: National Diet Library Digital Collections
+    url: https://dl.ndl.go.jp/
+    covers: [Japanese books and manuscripts]
+    note: Japan's national library. Millions of scanned books, including Edo-period kaidan, yōkai encyclopedias and early printed texts.
+  - name: Aozora Bunko
+    url: https://www.aozora.gr.jp/
+    covers: [Japanese public-domain literature]
+    note: Volunteer-transcribed Japanese texts whose copyright has expired.
+  - name: Project Gutenberg
+    url: https://www.gutenberg.org/
+    covers: [public-domain books, all subjects]
+    note: More than 70,000 free e-books, including many classic translations and psychical research books.
+  - name: Internet Archive
+    url: https://archive.org/
+    covers: [scanned books, journals]
+    note: Scans of millions of books, including old journals such as the Proceedings of the SPR. Check copyright before copying.
+  - name: Wikisource
+    url: https://wikisource.org/
+    covers: [public-domain texts, many languages]
+    note: Proofread transcriptions in dozens of languages. The Chinese, Hebrew and Japanese Wikisources are especially useful for original texts.
+  - name: Society for Psychical Research
+    url: https://www.spr.ac.uk/
+    covers: [psychical research]
+    note: Founded in 1882, it is still the main learned society for the field, and publishes the Psi Encyclopedia.
+  - name: GEIPAN (CNES)
+    url: https://www.geipan.fr/
+    covers: [UAP, official investigations]
+    note: The French space agency's UAP unit, with a public case database.
+  - name: Stanford Encyclopedia of Philosophy
+    url: https://plato.stanford.edu/
+    covers: [philosophy, all traditions]
+    note: Authoritative, peer-reviewed reference entries.

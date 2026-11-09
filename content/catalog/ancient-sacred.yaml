@@ -1,0 +1,269 @@
+# Library: Ancient & Sacred Texts
+# Each work: title, author, date, year (negative = BCE), language, tradition, kind, translator, url, note
+# kind: primary | translation | edition | study | collection | archive | report
+section: ancient-sacred
+works:
+  # --- Egypt
+  - title: The Egyptian Book of the Dead (Papyrus of Ani)
+    author: Anonymous
+    date: c. 1250 BCE (papyrus)
+    year: -1250
+    language: Egyptian, in translation
+    tradition: [Egyptian]
+    kind: translation
+    translator: E. A. Wallis Budge (1895)
+    url: https://sacred-texts.com/egy/ebod/index.htm
+    note: Budge's translation is dated and often inaccurate by modern standards, but it is public domain and gives the hieroglyphic text. Use it alongside the Thesaurus Linguae Aegyptiae.
+  - title: Pyramid Texts
+    author: Anonymous
+    date: c. 2400–2300 BCE
+    year: -2350
+    language: Old Egyptian, in translation
+    tradition: [Egyptian]
+    kind: translation
+    translator: Samuel A. B. Mercer (1952)
+    url: https://sacred-texts.com/egy/pyt/index.htm
+    note: The oldest religious texts in Egypt, carved inside the pyramids of Unas and his successors. Spells for the king's ascent to the stars.
+  - title: Thesaurus Linguae Aegyptiae — Egyptian texts with translations
+    author: Berlin-Brandenburg Academy of Sciences
+    language: Egyptian (all periods)
+    tradition: [Egyptian]
+    kind: edition
+    url: https://thesaurus-linguae-aegyptiae.de/
+    note: The scholarly corpus of Egyptian texts, with transliteration and German translation. The place to check any Egyptian source.
+  # --- Mesopotamia
+  - title: Electronic Text Corpus of Sumerian Literature (ETCSL)
+    author: University of Oxford
+    date: texts c. 2100–1700 BCE
+    year: -1900
+    language: Sumerian
+    tradition: [Mesopotamian, Sumerian]
+    kind: collection
+    url: https://etcsl.orinst.ox.ac.uk/
+    note: About 400 Sumerian literary works, with transliterations and English translations. Includes Inana's descent to the underworld, the Gilgamesh poems and the hymns of Enheduana.
+  - title: The Epic of Gilgamesh — Standard Babylonian version (electronic Babylonian Library)
+    author: Attributed to Sîn-lēqi-unninni
+    date: c. 1200 BCE (Standard version)
+    year: -1200
+    language: Akkadian
+    tradition: [Mesopotamian, Babylonian]
+    kind: edition
+    url: https://www.ebl.lmu.de/
+    note: The eBL presents the Babylonian literary corpus with every known manuscript fragment, including new pieces identified in recent years by machine-assisted matching.
+  - title: The Seven Tablets of Creation (Enūma eliš)
+    author: Anonymous
+    date: late 2nd millennium BCE
+    year: -1100
+    language: Akkadian, in translation
+    tradition: [Mesopotamian, Babylonian]
+    kind: translation
+    translator: Leonard W. King (1902)
+    url: https://sacred-texts.com/ane/stc/index.htm
+    note: An early edition with cuneiform. See the archive's new translation of the opening lines.
+  - title: Open Richly Annotated Cuneiform Corpus (ORACC)
+    author: University of Pennsylvania and partners
+    language: Sumerian, Akkadian
+    tradition: [Mesopotamian]
+    kind: collection
+    url: https://oracc.museum.upenn.edu/
+    note: Dozens of sub-projects, including the State Archives of Assyria, royal inscriptions, Mesopotamian magic and medicine, and divination texts.
+  # --- Hebrew & Jewish
+  - title: Hebrew Bible with commentaries (Sefaria)
+    author: Various
+    date: c. 10th–2nd century BCE
+    year: -600
+    language: Hebrew, Aramaic
+    tradition: [Hebrew Bible, Jewish]
+    kind: collection
+    url: https://www.sefaria.org/texts
+    note: A free library of the whole Jewish textual tradition, with the Bible, Mishnah, Talmud, Midrash and Kabbalah, mostly with English and with links between texts.
+  - title: The Book of Enoch (1 Enoch)
+    author: Anonymous (Enochic tradition)
+    date: c. 3rd–1st century BCE
+    year: -200
+    language: Ge'ez, in translation
+    tradition: [Second Temple Judaism, Apocrypha]
+    kind: translation
+    translator: R. H. Charles (1917)
+    url: https://sacred-texts.com/bib/boe/index.htm
+    note: The Watchers, the fallen angels and the heavenly journeys. Fragments in Aramaic were found among the Dead Sea Scrolls.
+  - title: Dead Sea Scrolls Digital Library
+    author: Israel Antiquities Authority
+    date: c. 3rd century BCE – 1st century CE
+    year: -100
+    language: Hebrew, Aramaic, Greek
+    tradition: [Second Temple Judaism]
+    kind: archive
+    url: https://www.deadseascrolls.org.il/
+    note: High-resolution images of the Qumran scrolls and fragments, including infrared, with catalogue data.
+  # --- India
+  - title: The Rig Veda
+    author: Various seers (ṛṣis)
+    date: c. 1500–1000 BCE
+    year: -1300
+    language: Vedic Sanskrit, in translation
+    tradition: [Vedic, Hindu]
+    kind: translation
+    translator: Ralph T. H. Griffith (1896)
+    url: https://sacred-texts.com/hin/rigveda/index.htm
+    note: The complete hymns in a public-domain translation. For accuracy, check against Jamison & Brereton (2014).
+  - title: The Upanishads (Sacred Books of the East vols. 1 and 15)
+    author: Anonymous
+    date: c. 700–200 BCE
+    year: -600
+    language: Sanskrit, in translation
+    tradition: [Vedic, Hindu, Vedanta]
+    kind: translation
+    translator: F. Max Müller (1879, 1884)
+    url: https://sacred-texts.com/hin/sbe01/index.htm
+    note: Twelve major Upanishads. Victorian in style, but still useful and public domain.
+  - title: The Bhagavad Gita (Song Celestial)
+    author: Attributed to Vyāsa
+    date: c. 2nd century BCE
+    year: -150
+    language: Sanskrit, in translation
+    tradition: [Hindu]
+    kind: translation
+    translator: Edwin Arnold (1885)
+    url: https://www.gutenberg.org/ebooks/2388
+    note: A verse translation that influenced Gandhi. For the Sanskrit, see GRETIL.
+  # --- China
+  - title: The Book of Changes (Yijing)
+    author: Anonymous; commentaries attributed to Confucius
+    date: core c. 9th century BCE; commentaries c. 3rd century BCE
+    year: -800
+    language: Classical Chinese
+    tradition: [Chinese, Confucian, Daoist]
+    kind: translation
+    translator: James Legge (1882), with Chinese text
+    url: https://ctext.org/book-of-changes
+    note: The 64 hexagrams with the Ten Wings commentaries. The Chinese Text Project lets you look up each character.
+  - title: Daozang (Daoist Canon) texts on the Chinese Text Project
+    author: Various
+    date: compiled 1445
+    year: 1445
+    language: Classical Chinese
+    tradition: [Daoist]
+    kind: collection
+    url: https://ctext.org/daozang
+    note: Scans and transcriptions of the Ming Daoist Canon, with more than 1,400 scriptures, many never translated.
+  # --- Japan
+  - title: The Kojiki (Records of Ancient Matters)
+    author: Ō no Yasumaro
+    date: 712 CE
+    year: 712
+    language: Classical Chinese / Old Japanese, in translation
+    tradition: [Shinto, Japanese]
+    kind: translation
+    translator: Basil Hall Chamberlain (1882)
+    url: https://sacred-texts.com/shi/kj/index.htm
+    note: The first English translation. See the archive's new translation of the opening.
+  - title: Encyclopedia of Shinto (Kokugakuin University)
+    author: Kokugakuin University
+    language: English and Japanese
+    tradition: [Shinto, Japanese]
+    kind: study
+    url: https://eos.kokugakuin.ac.jp/
+    note: The best English reference on kami, shrines, rituals and Shinto texts, written by Japanese scholars.
+  - title: Engishiki norito (ritual prayers of 927 CE)
+    author: Compiled under Fujiwara no Tokihira and Tadahira
+    date: 927 CE
+    year: 927
+    language: Old Japanese, in translation
+    tradition: [Shinto, Japanese]
+    kind: translation
+    translator: Donald L. Philippi (1959), via Kokugakuin
+    url: https://eos.kokugakuin.ac.jp/
+    note: The oldest surviving Shinto liturgies, including the Great Purification prayer (Ōharae no kotoba 大祓詞). Search the Encyclopedia of Shinto for 'norito'.
+  # --- Norse & Europe
+  - title: The Poetic Edda
+    author: Anonymous
+    date: composed 9th–13th century; Codex Regius c. 1270
+    year: 1270
+    language: Old Norse, in translation
+    tradition: [Norse, Germanic]
+    kind: translation
+    translator: Henry Adams Bellows (1923)
+    url: https://sacred-texts.com/neu/poe/index.htm
+    note: Völuspá, Hávamál and the heroic lays. Old Norse texts are at heimskringla.no.
+  - title: The Prose Edda
+    author: Snorri Sturluson
+    date: c. 1220 CE
+    year: 1220
+    language: Old Norse, in translation
+    tradition: [Norse, Germanic]
+    kind: translation
+    translator: Arthur Gilchrist Brodeur (1916)
+    url: https://sacred-texts.com/neu/pre/index.htm
+    note: A medieval Icelandic handbook of myth. Much of what we know of Norse cosmology comes through Snorri, a Christian writing two centuries after the conversion.
+  - title: The Kalevala
+    author: Compiled by Elias Lönnrot from Finnish and Karelian oral poetry
+    date: 1835 / 1849
+    year: 1849
+    language: Finnish, in translation
+    tradition: [Finnic, Baltic-Finnic]
+    kind: translation
+    translator: John Martin Crawford (1888)
+    url: https://www.gutenberg.org/ebooks/5186
+    note: Väinämöinen, the Sampo, and the creation of the world from a teal's egg.
+  - title: The Mabinogion
+    author: Anonymous
+    date: 11th–13th century manuscripts
+    year: 1200
+    language: Middle Welsh, in translation
+    tradition: [Celtic, Welsh]
+    kind: translation
+    translator: Lady Charlotte Guest (1849)
+    url: https://sacred-texts.com/neu/celt/mab/index.htm
+    note: The Four Branches, full of Otherworld lore. Guest's translation is free but bowdlerised in places.
+  # --- Americas & Pacific
+  - title: Popol Vuh
+    author: Anonymous K'iche' Maya authors
+    date: written c. 1550s; copied by Francisco Ximénez c. 1701
+    year: 1554
+    language: K'iche', in translation
+    tradition: [Maya, Mesoamerican]
+    kind: translation
+    translator: Allen J. Christenson (2003), free edition from Mesoweb
+    url: https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf
+    note: A modern scholarly translation, made available free by the translator, of the K'iche' book of creation and the Hero Twins.
+  - title: Digital Florentine Codex
+    author: Bernardino de Sahagún and Nahua scholars
+    date: 1575–1577
+    year: 1577
+    language: Nahuatl and Spanish
+    tradition: [Aztec, Mesoamerican]
+    kind: edition
+    url: https://florentinecodex.getty.edu/
+    note: The Getty's online edition of the twelve-book encyclopedia of Nahua life. Book 3 covers the gods and the afterlife, and Book 5 omens and auguries.
+  - title: The Book of Chilam Balam of Chumayel
+    author: Anonymous Yucatec Maya scribes
+    date: compiled 18th century from older material
+    year: 1782
+    language: Yucatec Maya, in translation
+    tradition: [Maya, Mesoamerican]
+    kind: translation
+    translator: Ralph L. Roys (1933)
+    url: https://sacred-texts.com/nam/maya/cbc/index.htm
+    note: Prophecies, calendrical lore and the riddles of Zuyua.
+  - title: The Kumulipo — a Hawaiian creation chant
+    author: Anonymous; preserved by the Hawaiian royal family
+    date: 18th century or earlier
+    year: 1700
+    language: Hawaiian, in translation
+    tradition: [Hawaiian, Polynesian]
+    kind: translation
+    translator: Queen Liliʻuokalani (1897)
+    url: https://sacred-texts.com/pac/lku/index.htm
+    note: More than 2,000 lines tracing creation from the slime of the deep through every life form to the chiefly line. Translated by the last queen of Hawaiʻi while under house arrest.
+  # --- Zoroastrian, Manichaean
+  - title: The Zend-Avesta (Sacred Books of the East vols. 4, 23, 31)
+    author: Zarathustra (Gāthās) and later priests
+    date: Gāthās c. 1200–1000 BCE
+    year: -1100
+    language: Avestan, in translation
+    tradition: [Zoroastrian, Iranian]
+    kind: translation
+    translator: James Darmesteter and L. H. Mills (1880–87)
+    url: https://www.avesta.org/
+    note: Avesta.org, maintained by Joseph H. Peterson, collects the Avestan and Pahlavi texts in many translations.

@@ -1,0 +1,52 @@
+# Site settings. Change the name and tagline to whatever you like.
+name: Arcana Library
+tagline: Ancient texts, philosophy, esoterica and the anomalous, in the original and in translation
+description: >
+  An open archive of sacred and ancient texts from around the world, philosophy and
+  metaphysics, the esoteric traditions and historical accounts of the paranormal,
+  shown in the original language beside the translation, with clear sourcing.
+repo_url: https://github.com/davepomerlo/arcana-library
+
+# The four main sections. "slug" is used in URLs; keep it short and lowercase.
+sections:
+  - slug: ancient-sacred
+    title: Ancient & Sacred Texts
+    short: Sacred Texts
+    blurb: Scripture, myth and ritual texts from Egypt, Mesopotamia, India, China, Japan, the Hebrew world, the Norse and beyond.
+    glyph: "☉"
+  - slug: philosophy
+    title: Philosophy & Metaphysics
+    short: Philosophy
+    blurb: The questions of being, mind and the One, from the Pre-Socratics and Neoplatonists to the sages of the East.
+    glyph: "△"
+  - slug: esoteric
+    title: Esoteric & Occult
+    short: Esoteric
+    blurb: Hermeticism, alchemy, Kabbalah, Gnosticism, Rosicrucian and Western esoteric currents, and Daoist inner alchemy.
+    glyph: "☿"
+  - slug: paranormal
+    title: Paranormal & Anomalies
+    short: Paranormal
+    blurb: Ghosts, apparitions, strange lights in the sky and early psychical research, from the primary accounts.
+    glyph: "◉"
+
+# How each kind of translation is labelled on the site.
+translation_labels:
+  ai-assisted:
+    label: AI-assisted translation
+    note: A new translation made with AI assistance for this archive. Read it beside the original and the linked scholarly translations.
+  public-domain:
+    label: Public-domain translation
+    note: A published translation whose copyright has expired.
+  original-research:
+    label: Research article
+    note: Written for this archive from the cited primary sources. Not a translation.
+  open-licence:
+    label: Openly licensed translation
+    note: Used under the open licence named on the page.
+
+# How far the original-language text has been checked against a published edition.
+status_labels:
+  checked: Original checked against the cited edition
+  partly-checked: Original partly checked. See the notes on this page
+  unchecked: Original not yet checked against an edition. Help wanted

@@ -1,0 +1,165 @@
+section: paranormal
+works:
+  # --- Classical & medieval
+  - title: The Lover of Lies (Philopseudes)
+    author: Lucian of Samosata
+    date: c. 170 CE
+    year: 170
+    language: Greek, in translation
+    tradition: [Greek, Classical ghost lore]
+    kind: translation
+    translator: H. W. and F. G. Fowler (1905)
+    url: https://sacred-texts.com/cla/index.htm
+    note: A satire in which philosophers swap ghost stories, among them a haunted house at Corinth and the original sorcerer's apprentice. A sceptic's counterpart to Pliny.
+  - title: Dialogues (Book 4, on the soul after death)
+    author: Pope Gregory the Great
+    date: 593–594 CE
+    year: 594
+    language: Latin, in translation
+    tradition: [Christian, Medieval ghost lore]
+    kind: translation
+    url: https://www.tertullian.org/fathers/
+    note: The foundational medieval collection of visions and apparitions of the dead, from the Tertullian Project's library of Church Fathers.
+  - title: Historia rerum Anglicarum (wonders of Book 1 and Book 5)
+    author: William of Newburgh
+    date: 1195–1198
+    year: 1196
+    language: Latin, in translation
+    tradition: [English medieval chronicles]
+    kind: translation
+    url: https://sourcebooks.fordham.edu/sbook.asp
+    note: The green children, and the earliest English revenant (walking dead) stories. In Fordham University's Internet Medieval Sourcebook.
+  # --- Japan
+  - title: Kaii-Yōkai Denshō Database (怪異・妖怪伝承データベース)
+    author: International Research Center for Japanese Studies (Nichibunken)
+    language: Japanese
+    tradition: [Japanese, Folklore]
+    kind: archive
+    url: https://www.nichibun.ac.jp/YoukaiDB/
+    note: More than 35,000 records of yōkai and strange occurrences collected from folklore journals and local histories, searchable by place and type. A unique scholarly resource.
+  - title: Kwaidan — Stories and Studies of Strange Things
+    author: Lafcadio Hearn (Koizumi Yakumo 小泉八雲)
+    date: 1904
+    year: 1904
+    language: English
+    tradition: [Japanese, Folklore]
+    kind: primary
+    url: https://www.gutenberg.org/ebooks/1210
+    note: Mujina, Yuki-onna, Mimi-nashi Hōichi and others, retold from Japanese sources that Hearn's wife Setsu read to him.
+  - title: Ugetsu monogatari 雨月物語 (Japanese text)
+    author: Ueda Akinari 上田秋成
+    date: 1776
+    year: 1776
+    language: Japanese
+    tradition: [Japanese, Folklore]
+    kind: primary
+    url: https://www.aozora.gr.jp/
+    note: Nine tales of the supernatural, among them The Chrysanthemum Vow and The Kibitsu Cauldron. Aozora Bunko hosts the public-domain Japanese text; search for 雨月物語.
+  - title: Gazu Hyakki Yagyō and other yōkai picture books
+    author: Toriyama Sekien 鳥山石燕
+    date: 1776–1784
+    year: 1776
+    language: Japanese (illustrated)
+    tradition: [Japanese, Folklore]
+    kind: archive
+    url: https://dl.ndl.go.jp/
+    note: The Edo encyclopedias that fixed how most yōkai look. Scans are in the National Diet Library Digital Collections; search for 画図百鬼夜行.
+  # --- Psychical research
+  - title: Phantasms of the Living (2 vols.)
+    author: Edmund Gurney, F. W. H. Myers and Frank Podmore
+    date: 1886
+    year: 1886
+    language: English
+    tradition: [Psychical research, Society for Psychical Research]
+    kind: report
+    url: https://archive.org/download/phantasmsoflivin00gurn/phantasmsoflivin00gurn_bw.pdf
+    note: Some 700 documented cases of crisis apparitions, with letters and corroboration. The work the Census of Hallucinations set out to test.
+  - title: Human Personality and Its Survival of Bodily Death
+    author: F. W. H. Myers
+    date: 1903
+    year: 1903
+    language: English
+    tradition: [Psychical research]
+    kind: study
+    url: https://archive.org/
+    note: Myers' great posthumous synthesis, which introduced the 'subliminal self'. William James admired it. Search Internet Archive for scans.
+  - title: The Varieties of Religious Experience
+    author: William James
+    date: 1902
+    year: 1902
+    language: English
+    tradition: [Psychology of religion, Psychical research]
+    kind: study
+    url: https://www.gutenberg.org/ebooks/621
+    note: The Gifford Lectures on mysticism, conversion and saintliness. James was also president of the SPR (1894–95).
+  - title: Psi Encyclopedia
+    author: Society for Psychical Research
+    language: English
+    tradition: [Psychical research, Society for Psychical Research]
+    kind: study
+    url: https://psi-encyclopedia.spr.ac.uk/
+    note: Long, referenced articles on cases, researchers and experiments, written by specialists and reviewed by the SPR. Sympathetic to the field but careful.
+  - title: IAPSOP — International Association for the Preservation of Spiritualist and Occult Periodicals
+    author: IAPSOP
+    date: 1840s–1940s
+    year: 1880
+    language: English and others
+    tradition: [Spiritualism, Psychical research, Theosophy]
+    kind: archive
+    url: http://iapsop.com/
+    note: Full scans of thousands of issues of nineteenth- and early twentieth-century Spiritualist, Theosophical and occult journals. A rich, lesser-known primary archive.
+  - title: The Book of the Damned
+    author: Charles Fort
+    date: 1919
+    year: 1919
+    language: English
+    tradition: [Fortean, Anomalies]
+    kind: primary
+    url: https://sacred-texts.com/fort/index.htm
+    note: Fort's catalogue of “damned” (excluded) data, such as falls of frogs, red rains and lights in the sky, gathered from scientific journals and newspapers. The origin of “Fortean” research.
+  # --- UAP: official and scientific
+  - title: Project Blue Book records (U.S. National Archives)
+    author: United States Air Force
+    date: 1947–1969
+    year: 1952
+    language: English
+    tradition: [Unidentified aerial phenomena]
+    kind: archive
+    url: https://www.archives.gov/research/military/air-force/ufos
+    note: Guide to the Air Force's 12,618 case files on UFO reports, of which 701 remained “unidentified”.
+  - title: GEIPAN — French space agency unit for unidentified aerospace phenomena
+    author: CNES (Centre national d'études spatiales)
+    date: since 1977
+    year: 1977
+    language: French
+    tradition: [Unidentified aerial phenomena]
+    kind: archive
+    url: https://www.geipan.fr/
+    note: The world's longest-running official UAP study group. Its public database rates each case by information and strangeness, with conclusions.
+  - title: All-domain Anomaly Resolution Office (AARO)
+    author: U.S. Department of Defense
+    date: since 2022
+    year: 2022
+    language: English
+    tradition: [Unidentified aerial phenomena]
+    kind: report
+    url: https://www.aaro.mil/
+    note: Official reports, including the 2024 historical review of U.S. government UAP programmes.
+  - title: Project Hessdalen
+    author: Østfold University College and partners
+    date: since 1983
+    year: 1983
+    language: English and Norwegian
+    tradition: [Scandinavian, Anomalies, Unidentified aerial phenomena]
+    kind: report
+    url: http://www.hessdalen.org/
+    note: Data, photographs and reports from the instrumented study of the Hessdalen lights. See the archive's case file.
+  - title: Journal of Scientific Exploration
+    author: Society for Scientific Exploration
+    date: since 1987
+    year: 1987
+    language: English
+    tradition: [Anomalies, Psychical research]
+    kind: study
+    url: https://journalofscientificexploration.org/
+    note: A peer-reviewed, open-access journal of anomalies research. Quality varies, but it is one of the few places where such work is published with references and reviewed.

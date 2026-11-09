@@ -1,0 +1,130 @@
+section: philosophy
+works:
+  - title: Early Greek Philosophy
+    author: John Burnet
+    date: 1892; 3rd ed. 1920
+    language: English, with Greek
+    tradition: [Greek, Pre-Socratic]
+    kind: study
+    url: https://en.wikisource.org/wiki/Early_Greek_Philosophy
+    note: A classic account of the Pre-Socratics with translations of the fragments. Public domain.
+  - title: Plato — The Republic (including the Allegory of the Cave, 514a–520a)
+    author: Plato
+    date: c. 375 BCE
+    year: -375
+    language: Greek, in translation
+    tradition: [Greek, Platonic]
+    kind: translation
+    translator: Benjamin Jowett (1871)
+    url: https://www.gutenberg.org/ebooks/1497
+    note: Book VII contains the cave, and Book X the Myth of Er, a near-death journey to the other world.
+  - title: Plato — Greek texts and translations (Perseus Digital Library)
+    author: Plato
+    date: 4th century BCE
+    year: -380
+    language: Greek and English
+    tradition: [Greek, Platonic]
+    kind: edition
+    url: https://www.perseus.tufts.edu/hopper/
+    note: Burnet's Oxford Greek text with word-by-word dictionary links, alongside the Loeb translations.
+  - title: The Enneads
+    author: Plotinus, ed. Porphyry
+    date: c. 253–270 CE
+    year: 260
+    language: Greek, in translation
+    tradition: [Greek, Neoplatonic]
+    kind: translation
+    translator: Stephen MacKenna (1917–30)
+    url: https://sacred-texts.com/cla/plotenn/index.htm
+    note: The founding work of Neoplatonism, on the One, Intellect and Soul. MacKenna's translation is itself a classic of English prose.
+  - title: On the Nature of Things (De rerum natura)
+    author: Lucretius
+    date: c. 55 BCE
+    year: -55
+    language: Latin, in translation
+    tradition: [Roman, Epicurean]
+    kind: translation
+    translator: William Ellery Leonard (1916)
+    url: https://www.gutenberg.org/ebooks/785
+    note: The great materialist counterpoint, with atoms, the void and no fear of the gods. Included for balance.
+  - title: The Consolation of Philosophy
+    author: Boethius
+    date: c. 524 CE
+    year: 524
+    language: Latin, in translation
+    tradition: [Roman, Platonic, Christian]
+    kind: translation
+    translator: H. R. James (1897)
+    url: https://www.gutenberg.org/ebooks/14328
+    note: Written in prison while awaiting execution. Lady Philosophy on fortune, providence and eternity.
+  - title: The Mystical Theology and The Divine Names
+    author: Pseudo-Dionysius the Areopagite
+    date: c. 500 CE
+    year: 500
+    language: Greek, in translation
+    tradition: [Christian mysticism, Neoplatonic]
+    kind: translation
+    translator: C. E. Rolt (1920)
+    url: https://www.ccel.org/ccel/rolt/dionysius.html
+    note: The source of the Western “negative theology”, which speaks of God by saying what God is not.
+  - title: The Ethics
+    author: Baruch Spinoza
+    date: 1677
+    year: 1677
+    language: Latin, in translation
+    tradition: [Early modern, Rationalist]
+    kind: translation
+    translator: R. H. M. Elwes (1883)
+    url: https://www.gutenberg.org/ebooks/3800
+    note: "“God or Nature”: one substance with infinite attributes, set out in geometrical order."
+  - title: The Liezi
+    author: Attributed to Lie Yukou 列禦寇
+    date: compiled c. 4th century CE from older material
+    year: 300
+    language: Classical Chinese
+    tradition: [Daoist]
+    kind: translation
+    translator: Lionel Giles (partial, 1912), with Chinese text
+    url: https://ctext.org/liezi
+    note: The third great Daoist classic, full of dreams, magicians and men who ride the wind.
+  - title: The Huainanzi
+    author: Liu An 劉安 and scholars at his court
+    date: 139 BCE
+    year: -139
+    language: Classical Chinese
+    tradition: [Daoist, Chinese]
+    kind: primary
+    url: https://ctext.org/huainanzi
+    note: A Han-dynasty synthesis of cosmology, from the undifferentiated beginning to government.
+  - title: Mūlamadhyamakakārikā and other Madhyamaka texts (Sanskrit)
+    author: Nāgārjuna and others
+    date: c. 2nd century CE onward
+    year: 150
+    language: Sanskrit
+    tradition: [Buddhist, Madhyamaka]
+    kind: edition
+    url: https://www.dsbcproject.org/
+    note: The Digital Sanskrit Buddhist Canon from the University of the West. Searchable Sanskrit Buddhist texts.
+  - title: Sōtō Zen texts in translation (Dōgen and others)
+    author: Dōgen 道元 and the Sōtō tradition
+    date: 13th century onward
+    year: 1233
+    language: Japanese, in translation
+    tradition: [Buddhist, Chan / Zen, Japanese]
+    kind: translation
+    url: https://www.sotozen.com/
+    note: The Sōtō Zen Buddhism International Center publishes authorised translations of the sutras and texts chanted in Sōtō temples, among them Dōgen's Fukanzazengi and Genjōkōan.
+  - title: Stanford Encyclopedia of Philosophy
+    author: Stanford University
+    language: English
+    tradition: [Reference]
+    kind: study
+    url: https://plato.stanford.edu/
+    note: Peer-reviewed, regularly updated entries by specialists. Start here for any philosopher or concept, Eastern or Western.
+  - title: Internet Encyclopedia of Philosophy
+    author: Peer-reviewed volunteer editors
+    language: English
+    tradition: [Reference]
+    kind: study
+    url: https://iep.utm.edu/
+    note: A free, peer-reviewed companion to the SEP. Often more introductory.

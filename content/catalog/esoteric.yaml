@@ -1,0 +1,179 @@
+section: esoteric
+works:
+  # --- Hermetic & alchemy
+  - title: Thrice-Greatest Hermes, vol. 2 — the Corpus Hermeticum
+    author: Hermetic authors; trans. and commentary by G. R. S. Mead
+    date: Greek treatises c. 1st–3rd century CE; translation 1906
+    year: 200
+    language: Greek, in translation
+    tradition: [Hermetic]
+    kind: translation
+    translator: G. R. S. Mead (1906)
+    url: https://sacred-texts.com/gno/th2/index.htm
+    note: Includes the Poimandres. Mead was a Theosophist, but his translation is careful and his notes are still useful.
+  - title: The Alchemy Web Site (Adam McLean)
+    author: Adam McLean
+    language: English, Latin, German and others
+    tradition: [Alchemy]
+    kind: collection
+    url: https://www.levity.com/alchemy/
+    note: Running since 1995, this is the largest collection of alchemical texts and images online, transcribed from manuscripts and early printed books by a respected independent scholar.
+  - title: Fama Fraternitatis (1614), in Thomas Vaughan's English of 1652
+    author: Anonymous (Tübingen circle around Johann Valentin Andreae)
+    date: 1614
+    year: 1614
+    language: German, in translation
+    tradition: [Rosicrucian]
+    kind: translation
+    translator: Thomas Vaughan (as Eugenius Philalethes, 1652)
+    url: https://www.levity.com/alchemy/fama.html
+    note: The first Rosicrucian manifesto, telling of Christian Rosenkreutz and his secret tomb.
+  - title: Isaac Newton's alchemical manuscripts (The Chymistry of Isaac Newton)
+    author: Isaac Newton; ed. William R. Newman
+    date: c. 1669–1696
+    year: 1680
+    language: Latin and English
+    tradition: [Alchemy]
+    kind: edition
+    url: https://webapp1.dlib.indiana.edu/newton/
+    note: Indiana University's scholarly edition of Newton's alchemical papers, including his Emerald Tablet commentary and his laboratory notebooks.
+  - title: The Turba Philosophorum
+    author: Anonymous (Arabic original c. 900 CE)
+    date: Latin c. 12th century
+    year: 900
+    language: Latin, in translation
+    tradition: [Alchemy]
+    kind: translation
+    translator: A. E. Waite (1896)
+    url: https://sacred-texts.com/alc/index.htm
+    note: An assembly of philosophers debating the Great Work, one of the oldest Latin alchemical texts. Listed in the sacred-texts alchemy index.
+  # --- Magic & grimoires
+  - title: Three Books of Occult Philosophy
+    author: Heinrich Cornelius Agrippa
+    date: 1533
+    year: 1533
+    language: Latin, in translation
+    tradition: [Renaissance magic, Hermetic]
+    kind: translation
+    translator: J. F. (1651), ed. Joseph H. Peterson
+    url: http://www.esotericarchives.com/agrippa/agrippa1.htm
+    note: The great Renaissance summary of natural, celestial and ceremonial magic. Joseph Peterson's Esoteric Archives is one of the most reliable sources for grimoires online.
+  - title: The Key of Solomon (Clavicula Salomonis)
+    author: Anonymous
+    date: 15th–16th century manuscripts
+    year: 1500
+    language: Latin and Italian, in translation
+    tradition: [Renaissance magic, Grimoire]
+    kind: translation
+    translator: S. L. MacGregor Mathers (1889), ed. Joseph H. Peterson
+    url: http://www.esotericarchives.com/solomon/ksol.htm
+    note: The best-known grimoire, here with Peterson's notes comparing manuscripts.
+  - title: Picatrix (Ghāyat al-Ḥakīm)
+    author: Attributed to Maslama al-Majrīṭī
+    date: Arabic c. 1000 CE; Latin 1256
+    year: 1000
+    language: Arabic and Latin
+    tradition: [Islamic esotericism, Astral magic]
+    kind: study
+    url: https://warburg.sas.ac.uk/
+    note: The great manual of astral magic. The Warburg Institute (University of London), which published the critical Latin edition, is the leading centre for the study of these texts.
+  # --- Gnostic & early Christian esotericism
+  - title: The Nag Hammadi Library
+    author: Various Gnostic and early Christian authors
+    date: Coptic codices c. 350 CE; texts 2nd–3rd century
+    year: 350
+    language: Coptic, in translation
+    tradition: [Gnostic]
+    kind: collection
+    url: http://gnosis.org/naghamm/nhl.html
+    note: All 52 tractates of the 1945 discovery, including the Gospel of Thomas, the Apocryphon of John and Thunder, Perfect Mind.
+  - title: The Hymn of the Pearl (from the Acts of Thomas)
+    author: Anonymous (Syriac)
+    date: c. 3rd century CE
+    year: 250
+    language: Syriac, in translation
+    tradition: [Gnostic, Syriac Christianity]
+    kind: translation
+    url: http://gnosis.org/library/hymnpearl.htm
+    note: A prince sent to Egypt to fetch a pearl from a serpent forgets who he is, until a letter wakes him. One of the most beautiful parables of the soul.
+  - title: Pistis Sophia
+    author: Anonymous Gnostic
+    date: Coptic, c. 3rd–4th century CE
+    year: 300
+    language: Coptic, in translation
+    tradition: [Gnostic]
+    kind: translation
+    translator: G. R. S. Mead (1921)
+    url: https://sacred-texts.com/chr/ps/index.htm
+    note: Jesus, after the resurrection, explains the fall and redemption of the aeon Sophia.
+  # --- Kabbalah
+  - title: The Zohar and other Kabbalistic texts (Sefaria)
+    author: Attributed to Shimon bar Yochai; probably Moses de León and circle
+    date: c. 1280–1300
+    year: 1290
+    language: Aramaic and Hebrew
+    tradition: [Kabbalah, Jewish mysticism]
+    kind: collection
+    url: https://www.sefaria.org/texts/Kabbalah
+    note: The Zohar, Sefer Yetzirah, Bahir and later Kabbalah, with English where available.
+  # --- Sufism & Islamic esotericism
+  - title: The Masnavi (Persian text)
+    author: Jalāl al-Dīn Rūmī
+    date: 1258–1273
+    year: 1265
+    language: Persian
+    tradition: [Sufi]
+    kind: primary
+    url: https://ganjoor.net/moulavi/masnavi/
+    note: Ganjoor is the standard free library of classical Persian poetry, with Rumi, Hafez, Attar and others.
+  - title: Sufi texts in public-domain translation (sacred-texts, Islam section)
+    author: Various, including Rumi, Attar, Hafiz and al-Ghazali
+    language: Arabic and Persian, in translation
+    tradition: [Sufi]
+    kind: collection
+    url: https://sacred-texts.com/isl/index.htm
+    note: Nicholson's Rumi, Whinfield's Masnavi, al-Ghazali's Alchemy of Happiness and others.
+  # --- Daoist esotericism
+  - title: The Secret of the Golden Flower (Taiyi jinhua zongzhi 太乙金華宗旨)
+    author: Attributed to Lü Dongbin 呂洞賓 (spirit-writing)
+    date: c. 1668–1692
+    year: 1680
+    language: Classical Chinese
+    tradition: [Daoist, Neidan (Inner Alchemy)]
+    kind: primary
+    url: https://ctext.org/
+    note: A neidan meditation text, famous in the West through Richard Wilhelm and Jung (1929). Search the Chinese Text Project for the Chinese text.
+  # --- Tantra
+  - title: Muktabodha Digital Library
+    author: Muktabodha Indological Research Institute
+    language: Sanskrit
+    tradition: [Tantra, Shaiva, Hindu]
+    kind: collection
+    url: https://www.muktabodha.org/
+    note: E-texts and manuscript scans of Kashmir Shaiva and Tantric works (Abhinavagupta, the Shiva Sutras and many others). One of the best sources for this area.
+  # --- Western esotericism, modern
+  - title: The Secret Doctrine
+    author: Helena P. Blavatsky
+    date: 1888
+    year: 1888
+    language: English
+    tradition: [Theosophy]
+    kind: primary
+    url: https://www.theosociety.org/pasadena/sd/sd-hp.htm
+    note: The founding text of modern Theosophy. Read it as a primary source of nineteenth-century esotericism rather than as history.
+  - title: Heaven and Hell
+    author: Emanuel Swedenborg
+    date: 1758
+    year: 1758
+    language: Latin, in translation
+    tradition: [Swedenborgian, Christian mysticism]
+    kind: translation
+    url: https://sacred-texts.com/swd/index.htm
+    note: A detailed report of the afterlife by the Swedish scientist turned visionary. Kant wrote a whole book attacking him.
+  - title: ESSWE — European Society for the Study of Western Esotericism
+    author: ESSWE
+    language: English
+    tradition: [Reference]
+    kind: study
+    url: https://www.esswe.org/
+    note: The academic society for the field. Its bibliography and the journal Aries are where serious scholarship on these currents is published.
