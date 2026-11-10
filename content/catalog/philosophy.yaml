@@ -230,3 +230,41 @@ works:
     kind: study
     url: https://iep.utm.edu/
     note: A free, peer-reviewed companion to the SEP. Often more introductory.
+  # --- Added: recent translations
+  - title: "Plotinus, The Enneads (complete translation)"
+    author: Plotinus; Lloyd P. Gerson (ed.)
+    date: Written 253–270 CE; translation 2018
+    year: 2018
+    language: Ancient Greek, in translation
+    tradition: [Neoplatonist, Greek]
+    kind: translation
+    translator: A team of translators led by Lloyd P. Gerson (Cambridge University Press, 2018)
+    note: The first complete English translation of the Enneads since Armstrong's Loeb edition, by a team led by Lloyd Gerson.
+  - title: "The Bamboo Texts of Guodian — A Study and Complete Translation"
+    author: Scott Cook
+    date: Slips c. 300 BCE; translation 2012
+    year: 2012
+    language: Classical Chinese and English
+    tradition: [Chinese, Daoist, Confucian]
+    kind: translation
+    translator: Scott Cook (Cornell East Asia Series, 2012)
+    note: Two volumes covering every Guodian text, including the Laozi material and the cosmogony Taiyi sheng shui.
+  - title: "The Huainanzi — A Guide to the Theory and Practice of Government in Early Han China"
+    author: Liu An and scholars of his court
+    date: 139 BCE; translation 2010
+    year: 2010
+    language: Classical Chinese, in translation
+    tradition: [Chinese, Daoist]
+    kind: translation
+    translator: John S. Major, Sarah A. Queen, Andrew Seth Meyer and Harold D. Roth (Columbia University Press, 2010)
+    url: https://www.cambridge.org/core/journals/journal-of-asian-studies/article/the-huainanzi-liu-an-king-of-huainan-a-guide-to-the-theory-and-practice-of-government-in-early-han-china-translated-and-edited-by-majorjohn-s-queensarah-a-meyerandrew-seth-and-rothharold-d-new-york-columbia-university-press-2010-ixxi-988-pp-7500-cloth/9E1600E2961BFBB14A5DFC22DC577A77
+    note: The first complete English translation, the work of fifteen years. The link is Michael Nylan's review in the Journal of Asian Studies.
+  - title: Huainanzi (Chinese text)
+    author: Liu An and scholars of his court
+    date: 139 BCE
+    year: -139
+    language: Classical Chinese
+    tradition: [Chinese, Daoist]
+    kind: primary
+    url: https://ctext.org/huainanzi
+    note: All 21 chapters on the Chinese Text Project, with the scanned base edition.

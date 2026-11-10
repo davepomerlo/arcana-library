@@ -8,9 +8,9 @@ It is a static website: plain Markdown files go in, a fast, searchable site come
 
 | | |
 |---|---|
-| **38 texts** | Full or excerpted originals in 14 languages (Classical Chinese, Japanese, Sanskrit, Pali, Tibetan, Coptic, Hebrew, Greek, Latin, Persian, Akkadian, Old Norse, Middle English and French), each with a new line-by-line translation. Every page says which edition it was checked against: of all 47 pages, 23 are fully checked and 20 partly |
-| **12 case files and guides** | Research articles on the Utsuro-bune (1803), the Nuremberg 1561 sky battle, the SPR Census of Hallucinations, the Green Children of Woolpit, Shiranui and the Hessdalen lights; the Ra Material (Law of One); and research guides to channelled literature, sex magic in history, shamanism, and breath and meditation science |
-| **Library** | 121 reliable editions, translations, archives and university studies, and 49 digital libraries, with a note on what each is good for |
+| **44 texts** | Full or excerpted originals in 18 languages (Classical Chinese, Japanese, Sanskrit, Pali, Tibetan, Avestan, Coptic, Hebrew, Greek, Latin, Persian, Akkadian, Old Norse, Middle English, French, Finnish, Hawaiian and K'iche' Maya), each with a new line-by-line translation. Cosmogonies from China, Japan, India, Iran, Greece, Finland, Hawaiʻi and the Maya, plus Plotinus. Every page says which edition it was checked against: of all 57 pages, 28 are fully checked and 25 partly |
+| **13 case files and guides** | Research articles on the Utsuro-bune (1803), the Nuremberg 1561 sky battle, the SPR Census of Hallucinations, the Green Children of Woolpit, Shiranui and the Hessdalen lights; the Ra Material (Law of One); and research guides to ancient texts recovered since 1945, channelled literature, sex magic in history, shamanism, and breath and meditation science |
+| **Library** | 138 reliable editions, translations, archives and university studies, and 49 digital libraries, with a note on what each is good for |
 | **Channelling tracker** | A weekly GitHub Action records new L/L Research transcripts (links and Wayback Machine snapshots only, since the material is copyright) |
 | **Features** | Side-by-side, translation-only or original-only reading; romanization toggle; full-text search in every language; timeline; tradition pages; light and dark themes |
 

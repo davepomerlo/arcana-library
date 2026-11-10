@@ -338,3 +338,120 @@ works:
     translator: James Darmesteter and L. H. Mills (1880–87)
     url: https://www.avesta.org/
     note: Avesta.org, maintained by Joseph H. Peterson, collects the Avestan and Pahlavi texts in many translations.
+  # --- Added: world cosmogonies and recent recoveries
+  - title: "Popol Vuh — Literal Poetic Version (K'iche' text with word-by-word English)"
+    author: Allen J. Christenson
+    date: K'iche' text c. 1554–1558; this edition 2004
+    year: 2004
+    language: K'iche' Maya and English
+    tradition: [Maya, Mesoamerican, Indigenous American]
+    kind: edition
+    translator: Allen J. Christenson
+    url: https://www.mesoweb.com/publications/Christenson/PV-Literal.pdf
+    note: The full K'iche' text of the Ximénez manuscript in modern spelling, set out line by line with a literal translation. Free PDF from Mesoweb.
+  - title: "The Kumulipo — A Hawaiian Creation Chant (Beckwith–Stampe interlinear text)"
+    author: Martha Warren Beckwith
+    date: Chant c. 1700; Beckwith 1951
+    year: 1951
+    language: Hawaiian and English
+    tradition: [Hawaiian, Polynesian, Indigenous Pacific]
+    kind: edition
+    translator: Martha Warren Beckwith
+    url: https://kaumeke.org/wp-content/uploads/2024/02/kumulipo-text.pdf
+    note: The 1889 Hawaiian text with Beckwith's translation, reproduced by Ka Umeke. Compare Queen Liliʻuokalani's 1897 translation.
+  - title: An Account of the Creation of the World According to Hawaiian Tradition (the Kumulipo)
+    author: Queen Liliʻuokalani (translator)
+    date: "1897"
+    year: 1897
+    language: Hawaiian, in translation
+    tradition: [Hawaiian, Polynesian]
+    kind: translation
+    translator: Liliʻuokalani (1897)
+    url: https://sacred-texts.com/pac/lku/index.htm
+    note: Translated by the last Hawaiian monarch while under house arrest after the overthrow of 1893. Public domain.
+  - title: Kalevala (1849 edition, Finnish text)
+    author: Elias Lönnrot (compiler)
+    date: "1849"
+    year: 1849
+    language: Finnish
+    tradition: [Finnish, Karelian, Baltic-Finnic]
+    kind: primary
+    url: https://www.gutenberg.org/ebooks/7000
+    note: The standard 50-poem Kalevala, compiled from oral runo songs. Public domain, Project Gutenberg.
+  - title: The Kalevala (English translation)
+    author: Elias Lönnrot (compiler)
+    date: "1888"
+    year: 1888
+    language: Finnish, in translation
+    tradition: [Finnish, Karelian]
+    kind: translation
+    translator: John Martin Crawford (1888)
+    url: https://sacred-texts.com/neu/kveng/index.htm
+    note: An old, public-domain verse translation in the Kalevala metre (the metre Longfellow imitated in Hiawatha).
+  - title: "Back to the Cedar Forest — The Beginning and End of Tablet V of the Standard Babylonian Epic of Gilgameš"
+    author: Farouk N. H. Al-Rawi and Andrew R. George
+    date: "2014"
+    year: 2014
+    language: Akkadian and English
+    tradition: [Mesopotamian]
+    kind: study
+    url: https://soas-repository.worktribe.com/OutputFile/451827
+    note: Journal of Cuneiform Studies 66 (2014), 69–90. Edition of the Sulaymaniyah Museum tablet T.1447, which adds about twenty lines to the Cedar Forest episode. Free from the SOAS repository.
+  - title: The Gospel of Judas from Codex Tchacos
+    author: Rodolphe Kasser, Marvin Meyer and Gregor Wurst (eds.)
+    date: Coptic codex 4th century; published 2006
+    year: 2006
+    language: Coptic, in translation
+    tradition: [Gnostic, Early Christian]
+    kind: translation
+    note: First publication of the Gospel of Judas (National Geographic, 2006). A critical edition of the Coptic text followed in 2007. The interpretation of Judas in this text is still debated.
+  - title: Tsinghua University bamboo slips (Qinghua jian 清華簡)
+    author: Tsinghua University Center for Excavated Texts
+    date: Slips c. 305 BCE; volumes published from 2010
+    year: 2010
+    language: Classical Chinese (Chu script)
+    tradition: [Chinese, Confucian]
+    kind: edition
+    url: https://en.wikipedia.org/wiki/Tsinghua_Bamboo_Slips
+    note: About 2,400 Warring States slips donated to Tsinghua in 2008, including lost chapters of the Book of Documents. The link is an overview; the editions are published in Chinese by Zhongxi shuju.
+  - title: The Derveni Papyrus (iMouseion project)
+    author: Center for Hellenic Studies, Harvard University
+    date: Papyrus 4th century BCE; found 1962; editio princeps 2006
+    year: 2006
+    language: Ancient Greek and English
+    tradition: [Orphic, Greek]
+    kind: edition
+    url: https://www-current.chs.harvard.edu/?p=6023
+    note: Online text, translation and images of Europe's oldest surviving book, a commentary on an Orphic theogony.
+  - title: Vesuvius Challenge — reading the Herculaneum scrolls
+    author: Nat Friedman, Daniel Gross, Brent Seales and contestants
+    date: 2023 to the present
+    year: 2024
+    language: Ancient Greek
+    tradition: [Epicurean, Greek]
+    kind: report
+    url: https://scrollprize.org/winners
+    note: The competition that in 2024 recovered more than 2,000 letters from inside a carbonised, still-rolled scroll (PHerc. Paris 4), probably by Philodemus.
+  - title: Taiping yulan 太平御覽, juan 1 (Heaven, Primordial Qi)
+    author: Li Fang 李昉 and others
+    date: 977–983 CE
+    year: 983
+    language: Classical Chinese
+    tradition: [Chinese, Daoist]
+    kind: primary
+    url: https://zh.wikisource.org/wiki/%E5%A4%AA%E5%B9%B3%E5%BE%A1%E8%A6%BD_(%E5%9B%9B%E9%83%A8%E5%8F%A2%E5%88%8A%E6%9C%AC)/%E5%8D%B7%E7%AC%AC%E4%B8%80
+    note: The Song encyclopedia's first chapter gathers early Chinese cosmogonies, including the lost Sanwu liji (chaos "like a hen's egg") and the Huainanzi. Sibu congkan text on Chinese Wikisource.
+  - title: Old Avestan lessons (Yasna 30 and other Gathas, glossed)
+    author: Linguistics Research Center, University of Texas at Austin
+    language: Avestan and English
+    tradition: [Zoroastrian, Iranian]
+    kind: study
+    url: https://lrc.la.utexas.edu/eieol/aveol/40
+    note: Free online lessons that analyse the Gathas word by word, part of Early Indo-European Online.
+  - title: Jean Kellens, course summaries on the Avesta (Collège de France)
+    author: Jean Kellens
+    language: French, with Avestan
+    tradition: [Zoroastrian, Iranian]
+    kind: study
+    url: https://www.college-de-france.fr/sites/default/files/documents/jean-kellens/UPL2331533020618564440_Resume_130111_Re__sume___JK.pdf
+    note: Lecture summaries by the leading French Avestan scholar, with transcriptions of the Gathas and his ritual interpretation of them.

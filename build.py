@@ -30,7 +30,7 @@ LANG_NAMES = {
     "sa": "Sanskrit", "pi": "Pali", "la": "Latin", "grc": "Ancient Greek", "he": "Hebrew",
     "arc": "Aramaic", "fa": "Persian", "ar": "Arabic", "non": "Old Norse", "egy": "Egyptian",
     "akk": "Akkadian", "sux": "Sumerian", "cop": "Coptic", "de": "German", "fr": "French",
-    "en": "English", "enm": "Middle English", "bo": "Tibetan", "ru": "Russian", "it": "Italian", "es": "Spanish",
+    "en": "English", "enm": "Middle English", "bo": "Tibetan", "ru": "Russian", "quc": "K'iche' Maya", "haw": "Hawaiian", "ae": "Avestan", "fi": "Finnish", "it": "Italian", "es": "Spanish",
 }
 RTL = {"he", "arc", "ar", "fa"}
 
@@ -250,7 +250,7 @@ def work_row(w):
     trad = " ".join(esc(x) for x in w["traditions"])
     hay = " ".join(str(w.get(k_, "")) for k_ in ("title", "author", "note", "translator", "language")) + " " + trad
     return f"""<li class="work" data-sec="{esc(w.get('section', ''))}" data-hay="{esc(hay.lower())}">
-  <a href="{esc(w['url'])}" rel="noopener">{esc(w['title'])}</a>
+  {f'<a href="{esc(w["url"])}" rel="noopener">{esc(w["title"])}</a>' if w.get('url') else f'<strong>{esc(w["title"])}</strong>'}
   <span class="w-meta">{meta}</span>{trans}{note}
 </li>"""
 
@@ -323,9 +323,10 @@ def text_page(site, t, sec, works_by_trad):
         related.extend(works_by_trad.get(trad, []))
     seen, rel_items = set(), []
     for w in related:
-        if w["url"] in seen:
+        key = w.get("url") or w["title"]
+        if key in seen:
             continue
-        seen.add(w["url"])
+        seen.add(key)
         rel_items.append(work_row(w))
     rel_html = ""
     if rel_items:
@@ -472,7 +473,8 @@ def build():
             link = f'<a href="texts/{esc(x["slug"])}.html">{esc(x["title"])}</a> <span class="badge">in archive</span>'
             sub = esc(x.get("date", ""))
         else:
-            link = f'<a href="{esc(x["url"])}" rel="noopener">{esc(x["title"])}</a>'
+            link = (f'<a href="{esc(x["url"])}" rel="noopener">{esc(x["title"])}</a>' if x.get("url")
+                    else esc(x["title"]))
             sub = esc(x.get("date", ""))
         trad = ", ".join(esc(z) for z in x["traditions"])
         rows.append(f'<li data-sec="{esc(x.get("section", ""))}"><span class="tl-y">{year_label(y)}</span>'
@@ -491,7 +493,7 @@ def build():
                       "g": " ".join(str(x) for x in t["traditions"] + t["tags"] + [t.get("author") or "", t.get("date") or ""]),
                       "b": strip_tags(t["body_html"])[:6000]})
     for w in works:
-        index.append({"t": w["title"], "o": "", "u": w["url"], "s": w.get("note", ""),
+        index.append({"t": w["title"], "o": "", "u": w.get("url", "library.html"), "s": w.get("note", ""),
                       "x": secs.get(w.get("section"), {}).get("title", ""), "k": "library",
                       "g": " ".join(w["traditions"] + [w.get("author", ""), w.get("translator", ""), w.get("language", "")]),
                       "b": ""})
