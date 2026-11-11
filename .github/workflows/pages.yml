@@ -1,6 +1,7 @@
 # Builds the site and publishes it to GitHub Pages on every push to main.
 # Once a week (and on manual runs) it first checks L/L Research for new channelling
-# transcripts, records them in data/llresearch-index.json (links only) and commits that file.
+# transcripts (data/llresearch-index.json, links only) and OpenAlex for new scholarship
+# (data/new-scholarship.json), and commits those files if they changed.
 # One-time setup: repository Settings → Pages → Source: "GitHub Actions".
 name: Build and publish site
 
@@ -32,17 +33,21 @@ jobs:
       - name: Check L/L Research for new transcripts
         if: github.event_name != 'push'
         continue-on-error: true
+        env:
+          OPENALEX_MAILTO: ${{ secrets.OPENALEX_MAILTO }}
         run: |
-          python tools/track_llresearch.py --wayback
+          python tools/track_llresearch.py --wayback || true
+          python tools/track_scholarship.py || true
           if ! git diff --quiet -- data/; then
             git config user.name "github-actions[bot]"
             git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
             git add data/
-            git commit -m "Update L/L Research channelling index"
+            git commit -m "Weekly update: channelling index and new scholarship"
             git push
           fi
       - run: python tools/check_texts.py
       - run: python build.py
+      - run: python tools/check_internal_links.py
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

@@ -30,6 +30,11 @@ compare:
     url: https://sacred-texts.com/ane/stc/index.htm
   - label: electronic Babylonian Library (LMU Munich) — critical editions of Babylonian literature with manuscripts
     url: https://www.ebl.lmu.de/
+script:
+  - text: "𒂊𒉡𒈠 𒂊𒇺"
+    lang: akk-Xsux
+    label: "e-nu-ma e-liš, \"When on high\": the opening words and title of the poem, in Neo-Assyrian cuneiform signs (E-NU-MA E-LIŠ). Rendered in a modern font, not copied from a tablet"
+    source: as given in the Wikipedia article Enūma Eliš
 ---
 
 ::: note About the text

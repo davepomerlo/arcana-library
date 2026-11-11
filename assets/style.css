@@ -175,3 +175,54 @@ mark { background: color-mix(in srgb, var(--acc2) 35%, transparent); color: inhe
 /* Scripts that need extra room */
 .par-o[lang="bo"] { font-family: "Noto Serif Tibetan", "Jomolhari", "Microsoft Himalaya", "Kailasa", serif; font-size: 1.2em; line-height: 2.1; }
 .par-o[lang="cop"] { font-family: "Noto Sans Coptic", "Antinoou", "New Athena Unicode", serif; }
+
+/* ---- scripts: cuneiform and hieroglyphs (Noto fonts, SIL OFL; see assets/fonts) */
+@font-face { font-family: "Noto Sans Cuneiform"; src: url("fonts/NotoSansCuneiform-Regular.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: "Noto Sans Egyptian Hieroglyphs"; src: url("fonts/NotoSansEgyptianHieroglyphs-Regular.ttf") format("truetype"); font-display: swap; }
+[lang="akk-Xsux"], [lang="sux-Xsux"] { font-family: "Noto Sans Cuneiform", serif; }
+[lang="egy-Egyp"] { font-family: "Noto Sans Egyptian Hieroglyphs", serif; }
+.scripts { margin: 2em 0; }
+.script-sample { margin: 0 0 1em; padding: 16px 18px; background: var(--card); border: 1px solid var(--line); border-radius: var(--r); }
+.script-glyphs { font-size: 2.4em; line-height: 1.4; letter-spacing: .05em; }
+.script-sample figcaption { font: 14px/1.5 var(--sans); color: var(--ink2); margin-top: 6px; }
+
+/* ---- page tools */
+.tools-bar { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 18px; font-family: var(--sans); }
+.tools-bar button, .tools-bar .btn-link, .map-ctl button, #f-clear, #shelf-export, #shelf-clear {
+  font: 15px var(--sans); background: var(--card); border: 1px solid var(--line); color: var(--ink); border-radius: 999px; padding: 5px 14px; cursor: pointer; text-decoration: none; }
+.tools-bar [aria-pressed="true"], .map-ctl [aria-pressed="true"] { background: var(--acc); color: var(--bg); border-color: var(--acc); }
+.speaking { outline: 2px solid var(--acc2); outline-offset: 4px; border-radius: 4px; }
+
+/* ---- search filters */
+details.filters { margin-top: 10px; font-family: var(--sans); }
+details.filters summary { cursor: pointer; color: var(--ink2); }
+.filter-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px 14px; margin-top: 10px; align-items: end; }
+.filter-grid label, .map-ctl label { display: flex; flex-direction: column; font-size: 14px; color: var(--ink2); gap: 3px; }
+.filter-grid select, .map-ctl select { font: 15px var(--sans); padding: 6px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--card); color: var(--ink); }
+
+/* ---- map */
+.map-ctl { display: flex; flex-wrap: wrap; gap: 12px 18px; align-items: end; font-family: var(--sans); margin: 14px 0; }
+.map-ctl .year-lab { min-width: 260px; flex: 1; }
+.map-ctl input[type="range"] { width: 100%; accent-color: var(--acc); }
+.worldmap { margin: 0; }
+.worldmap svg { width: 100%; height: auto; border: 1px solid var(--line); border-radius: var(--r); display: block; }
+.worldmap .sea { fill: var(--bg2); }
+.worldmap .land { fill: var(--card); stroke: var(--line); stroke-width: .6; }
+.worldmap .pin circle { stroke: var(--bg); stroke-width: 1.5; opacity: .9; transition: r .15s; }
+.worldmap .pin:hover circle, .worldmap .pin:focus circle { r: 13; opacity: 1; }
+.worldmap .hide, .map-list .hide { display: none; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font: 14px var(--sans); color: var(--ink2); margin-top: 8px; }
+.dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
+.map-list { list-style: none; padding: 0; font-family: var(--sans); font-size: 15px; }
+.map-list li { padding: 4px 0; border-bottom: 1px dotted var(--line); }
+
+/* ---- shelf, data, contribute */
+.bar { display: block; height: 4px; background: var(--bg2); border-radius: 4px; margin-top: 6px; overflow: hidden; }
+.bar span { display: block; height: 100%; background: var(--acc2); }
+.badge.s-reviewed { background: var(--ok); color: var(--bg); }
+.table-wrap { overflow-x: auto; }
+.lang-table { border-collapse: collapse; font: 15px/1.5 var(--sans); width: 100%; }
+.lang-table th, .lang-table td { border-bottom: 1px solid var(--line); padding: 6px 8px; text-align: left; vertical-align: top; }
+.cite-box { background: var(--card); border: 1px solid var(--line); border-radius: var(--r); padding: 12px 16px; font-family: var(--sans); }
+.theme-list li { margin-bottom: 10px; }
+#net-status { color: var(--warn); }

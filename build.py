@@ -182,6 +182,9 @@ def page(site, *, title, body, depth, description=None, body_class=""):
 <title>{full_title}</title>
 <meta name="description" content="{esc(description or site['description'])}">
 <link rel="stylesheet" href="{r}assets/style.css">
+<link rel="manifest" href="{r}manifest.webmanifest">
+<meta name="theme-color" content="#f5efe3">
+<link rel="apple-touch-icon" href="{r}assets/icons/icon-192.png">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☉</text></svg>">
 <script>try{{var t=localStorage.getItem('arc-theme');if(t)document.documentElement.dataset.theme=t;}}catch(e){{}}</script>
 </head>
@@ -195,7 +198,10 @@ def page(site, *, title, body, depth, description=None, body_class=""):
       {nav_secs}
       <a href="{r}library.html">Library</a>
       <a href="{r}timeline.html">Timeline</a>
+      <a href="{r}map.html">Map</a>
+      <a href="{r}themes/index.html">Themes</a>
       <a href="{r}search.html">Search</a>
+      <a href="{r}shelf.html">My shelf</a>
       <a href="{r}about.html">About</a>
       <button class="theme-btn" type="button" aria-label="Switch light or dark theme">☾</button>
     </nav>
@@ -207,12 +213,26 @@ def page(site, *, title, body, depth, description=None, body_class=""):
 <footer class="site-f">
   <div class="wrap">
     <p>{esc(site['name'])} · an open archive. Texts are public domain or newly translated for this site; each page states its sources.</p>
-    <p><a href="{r}about.html">Sources &amp; translation policy</a> · <a href="{esc(site.get('repo_url', '#'))}">Source on GitHub</a> · Built {date.today().isoformat()}</p>
+    <p><a href="{r}about.html">Sources &amp; translation policy</a> · <a href="{r}contribute.html">Help check the texts</a> · <a href="{r}data.html">Download the data</a> · <a href="{r}research-feed.html">New research</a> · <a href="{esc(site.get('repo_url', '#'))}">Source on GitHub</a> · Built {date.today().isoformat()}</p>
+    <p class="muted" id="net-status" hidden></p>
   </div>
 </footer>
 <script src="{r}assets/app.js"></script>
 </body>
 </html>"""
+
+
+THEMES = {}
+GEO = {}
+
+
+def issue_url(site, template, title, t=None):
+    from urllib.parse import urlencode
+    q = {"template": template, "title": title}
+    if t is not None:
+        q["page"] = f"texts/{t['slug']}.html"
+        q["file"] = t["src_path"]
+    return f"{site.get('repo_url', '')}/issues/new?" + urlencode(q)
 
 
 def badges(site, t):
@@ -224,7 +244,7 @@ def badges(site, t):
     st = t.get("status")
     if st:
         out.append(f'<span class="badge s-{esc(st)}" title="{esc(site["status_labels"].get(st, st))}">'
-                   f'{ {"checked": "✓ checked", "partly-checked": "≈ partly checked", "unchecked": "○ unchecked"}.get(st, st) }</span>')
+                   f'{ {"reviewed": "★ expert reviewed", "checked": "✓ checked", "partly-checked": "≈ partly checked", "unchecked": "○ unchecked"}.get(st, st) }</span>')
     return "".join(out)
 
 
@@ -273,6 +293,12 @@ def text_page(site, t, sec, works_by_trad):
             if label == "Tradition":
                 v = ", ".join(f'<a href="{r}traditions/{slugify(x)}.html">{esc(x)}</a>' for x in t["traditions"])
             rows.append(f"<dt>{label}</dt><dd>{v}</dd>")
+    if t.get("themes"):
+        rows.append("<dt>Themes</dt><dd>" + ", ".join(
+            f'<a href="{r}themes/{esc(th)}.html">{esc(THEMES.get(th, {}).get("title", th))}</a>' for th in t["themes"]) + "</dd>")
+    rv = t.get("reviewed_by")
+    if rv:
+        rows.append(f'<dt>Reviewed by</dt><dd>{esc(rv.get("name", ""))}{", " + esc(rv["affiliation"]) if rv.get("affiliation") else ""}{" (" + esc(rv["date"]) + ")" if rv.get("date") else ""}</dd>')
 
     src = t.get("original_source") or {}
     src_html = ""
@@ -302,6 +328,29 @@ def text_page(site, t, sec, works_by_trad):
   <button type="button" data-view="trans">Translation</button>
   <button type="button" data-view="orig">Original</button>{rb}
 </div>"""
+
+    tools = (f'<div class="tools-bar" role="group" aria-label="Page tools">'
+             f'<button type="button" data-save data-slug="{esc(t["slug"])}" data-title="{esc(t["title"])}" aria-pressed="false">☆ Save to shelf</button>'
+             f'<button type="button" data-read aria-pressed="false">▶ Read aloud</button>'
+             f'<a class="btn-link" href="#listen">♪ Listen</a></div>' if t.get("audio") else
+             f'<div class="tools-bar" role="group" aria-label="Page tools">'
+             f'<button type="button" data-save data-slug="{esc(t["slug"])}" data-title="{esc(t["title"])}" aria-pressed="false">☆ Save to shelf</button>'
+             f'<button type="button" data-read aria-pressed="false">▶ Read aloud</button></div>')
+    script_html = ""
+    if t.get("script"):
+        items = "".join(
+            f'<figure class="script-sample"><div class="script-glyphs" lang="{esc(x.get("lang", ""))}">{esc(x["text"])}</div>'
+            f'<figcaption>{esc(x.get("label", ""))}{(" — " + esc(x["source"])) if x.get("source") else ""}</figcaption></figure>'
+            for x in t["script"])
+        script_html = f'<section class="scripts"><h2>In the original script</h2>{items}</section>'
+    audio_html = ""
+    if t.get("audio"):
+        items = "".join(
+            f'<li><a href="{esc(a["url"])}" rel="noopener">{esc(a["label"])}</a>{(" — " + esc(a["note"])) if a.get("note") else ""}</li>'
+            for a in t["audio"])
+        audio_html = (f'<section class="srcs" id="listen"><h2>Listen</h2><ul>{items}</ul>'
+                      f'<p class="muted">Recordings are hosted by the institutions named and are not copied here. '
+                      f'The “Read aloud” button uses your device\'s own text-to-speech voice.</p></section>')
 
     toc_html = ""
     flat = []
@@ -336,10 +385,12 @@ def text_page(site, t, sec, works_by_trad):
     cite = (f'<section class="srcs"><h2>Cite this page</h2><p class="muted">“{esc(t["title"])}”, '
             f'{esc(site["name"])}, {esc(tr.get("by", ""))} {esc(tr.get("year", ""))}. '
             f'Translation type: {esc(tr_info.get("label", ""))}.</p>'
-            f'<p class="muted">Spotted an error? <a href="{esc(site.get("repo_url", "#"))}/blob/main/{esc(t["src_path"])}">Edit this page on GitHub</a>.</p></section>')
+            f'<p class="muted">Spotted an error, or know a better edition? '
+            f'<a href="{esc(issue_url(site, "correction.yml", "Correction: " + t["title"], t))}" rel="noopener">Suggest a correction or source</a> '
+            f'(opens a form on GitHub) or <a href="{esc(site.get("repo_url", "#"))}/blob/main/{esc(t["src_path"])}">edit this page directly</a>.</p></section>')
 
     body = f"""<nav class="crumbs"><a href="{r}index.html">Home</a> › <a href="{r}sections/{sec['slug']}.html">{esc(sec['title'])}</a></nav>
-<article class="text">
+<article class="text" data-slug="{esc(t['slug'])}" data-title="{esc(t['title'])}">
 <header class="text-h">
   <h1>{esc(t['title'])}</h1>
   {f'<p class="orig-title" lang="{esc(t["lang"])}">{esc(t["original_title"])}</p>' if t.get('original_title') else ''}
@@ -349,10 +400,13 @@ def text_page(site, t, sec, works_by_trad):
 {prov}
 {t.get('intro_html', '')}
 {controls}
+{tools}
 {toc_html}
 <div class="text-body">
 {t['body_html']}
 </div>
+{script_html}
+{audio_html}
 {sources}
 {rel_html}
 {cite}
@@ -368,12 +422,21 @@ def build():
     works, libraries = load_catalog()
     secs = {s["slug"]: s for s in site["sections"]}
 
+    THEMES.clear(); THEMES.update(yaml.safe_load((ROOT / "data" / "themes.yaml").read_text(encoding="utf-8")) or {})
+    GEO.clear(); GEO.update(yaml.safe_load((ROOT / "data" / "geo.yaml").read_text(encoding="utf-8")) or {})
+    for t in texts:
+        g = GEO.get(t["slug"]) or {}
+        t["themes"] = [x for x in as_list(g.get("themes")) if x in THEMES]
+        t["geo"] = g
+        t["area"] = g.get("area", "")
+        if not g:
+            print(f"  ! {t['slug']}: no entry in data/geo.yaml (map and filters will skip it)", file=sys.stderr)
+
     if OUT.exists():
         shutil.rmtree(OUT)
-    for d in ("texts", "sections", "traditions", "assets"):
+    for d in ("texts", "sections", "traditions"):
         (OUT / d).mkdir(parents=True, exist_ok=True)
-    for f in (ROOT / "assets").iterdir():
-        shutil.copy(f, OUT / "assets" / f.name)
+    shutil.copytree(ROOT / "assets", OUT / "assets")
     (OUT / ".nojekyll").write_text("")
 
     works_by_trad: dict[str, list] = {}
@@ -491,15 +554,33 @@ def build():
         index.append({"t": t["title"], "o": t.get("original_title", ""), "u": f"texts/{t['slug']}.html",
                       "s": t.get("summary", ""), "x": secs[t["section"]]["title"], "k": "archive",
                       "g": " ".join(str(x) for x in t["traditions"] + t["tags"] + [t.get("author") or "", t.get("date") or ""]),
-                      "b": strip_tags(t["body_html"])[:6000]})
+                      "b": strip_tags(t["body_html"])[:6000],
+                      "l": LANG_NAMES.get(t["lang"], t["lang"]), "y": t.get("year"), "a": t.get("area", ""),
+                      "st": t.get("status", ""), "th": t.get("themes", []), "sc": t["section"]})
     for w in works:
         index.append({"t": w["title"], "o": "", "u": w.get("url", "library.html"), "s": w.get("note", ""),
                       "x": secs.get(w.get("section"), {}).get("title", ""), "k": "library",
                       "g": " ".join(w["traditions"] + [w.get("author", ""), w.get("translator", ""), w.get("language", "")]),
-                      "b": ""})
+                      "b": "", "l": "", "y": w.get("year"), "a": "", "st": "", "th": [], "sc": w.get("section") or ""})
     (OUT / "search-index.json").write_text(json.dumps(index, ensure_ascii=False), encoding="utf-8")
-    body = """<h1>Search</h1>
+    langs_used = sorted({LANG_NAMES.get(t["lang"], t["lang"]) for t in texts})
+    areas_used = sorted({t.get("area") for t in texts if t.get("area")})
+    opt = lambda vals: "".join(f'<option value="{esc(v)}">{esc(v)}</option>' for v in vals)
+    sec_opts = "".join(f'<option value="{esc(sl)}">{esc(sx["title"])}</option>' for sl, sx in secs.items())
+    theme_opts = "".join(f'<option value="{esc(k)}">{esc(v["title"])}</option>' for k, v in THEMES.items())
+    body = f"""<h1>Search</h1>
 <div class="filter"><input type="search" id="q" placeholder="Search titles, traditions, words in the texts (any language)…" aria-label="Search" autofocus>
+<details class="filters" id="filters"><summary>Filters</summary>
+<div class="filter-grid">
+<label>Section <select id="f-sec"><option value="">All</option>{sec_opts}</select></label>
+<label>Language <select id="f-lang"><option value="">All</option>{opt(langs_used)}</select></label>
+<label>Region <select id="f-area"><option value="">All</option>{opt(areas_used)}</select></label>
+<label>Era <select id="f-era"><option value="">All</option><option value="-99999:-1000">Before 1000 BCE</option><option value="-1000:-1">1000–1 BCE</option><option value="0:999">1–999 CE</option><option value="1000:1799">1000–1799</option><option value="1800:99999">1800 to now</option></select></label>
+<label>Theme <select id="f-theme"><option value="">All</option>{theme_opts}</select></label>
+<label>Checking <select id="f-st"><option value="">Any</option><option value="reviewed">Expert reviewed</option><option value="checked">Checked</option><option value="partly-checked">Partly checked</option><option value="unchecked">Unchecked</option></select></label>
+<label>Show <select id="f-kind"><option value="">Archive and Library</option><option value="archive">Archive texts only</option><option value="library">Library works only</option></select></label>
+<button type="button" id="f-clear">Clear filters</button>
+</div></details>
 <p class="muted" id="q-count"></p></div>
 <ol class="results" id="results"></ol>"""
     (OUT / "search.html").write_text(page(site, title="Search", body=body, depth=0, body_class="search"), encoding="utf-8")
@@ -566,6 +647,9 @@ def build():
 
     nf = '<h1>Page not found</h1><p>Try the <a href="search.html">search</a> or go back to the <a href="index.html">home page</a>.</p>'
     (OUT / "404.html").write_text(page(site, title="Not found", body=nf, depth=0), encoding="utf-8")
+
+    import extras
+    extras.run(sys.modules[__name__], site, texts, works, libraries, secs)
 
     print(f"Built {len(texts)} texts, {len(works)} library works, {len(libraries)} libraries, "
           f"{len(all_trads)} traditions → {OUT}")

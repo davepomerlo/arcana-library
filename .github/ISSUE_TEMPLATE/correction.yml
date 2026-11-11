@@ -1,0 +1,33 @@
+name: Correction to a text
+description: Report an error in an original text, a translation, a date or a source.
+title: "Correction: "
+labels: [correction]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: Filled in automatically when you use the link on the page.
+      placeholder: texts/example.html
+  - type: input
+    id: file
+    attributes:
+      label: Source file
+      placeholder: content/texts/section/example.md
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: Quote the passage, say what it should be, and why.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Your source
+      description: The edition, article or manuscript that supports the correction (with a link if possible).
+  - type: dropdown
+    id: expertise
+    attributes:
+      label: Do you read this language?
+      options: ["Yes, professionally", "Yes, as a student or amateur", "No, but I checked a published source", "No"]

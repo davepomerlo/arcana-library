@@ -1,0 +1,27 @@
+name: Volunteer as a language reviewer
+description: Offer to check original texts and translations in a language you read.
+title: "Reviewer: "
+labels: [reviewer]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name to be shown on reviewed pages
+    validations:
+      required: true
+  - type: input
+    id: languages
+    attributes:
+      label: Languages you can review
+      placeholder: Classical Chinese, Japanese (kanbun)
+    validations:
+      required: true
+  - type: textarea
+    id: background
+    attributes:
+      label: Background
+      description: Degree, position or experience with the language (a link to a profile helps).
+  - type: textarea
+    id: pages
+    attributes:
+      label: Pages you would like to review first

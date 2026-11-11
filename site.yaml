@@ -47,6 +47,19 @@ translation_labels:
 
 # How far the original-language text has been checked against a published edition.
 status_labels:
+  reviewed: Original and translation reviewed by a named expert in the language
   checked: Original checked against the cited edition
   partly-checked: Original partly checked. See the notes on this page
   unchecked: Original not yet checked against an edition. Help wanted
+
+# Public address of the site (used in the data export and citations).
+site_url: https://davepomerlo.github.io/arcana-library
+short_name: Arcana
+# Optional permanent identifier, once the repository is archived on Zenodo (see README).
+doi: ""
+data_licence: "Site text and new translations: CC BY-SA 4.0. Public-domain texts remain public domain. Third-party material is linked, not copied."
+data_licence_note: >
+  The new translations, notes and research guides written for this archive, and the dataset, are released under
+  the Creative Commons Attribution-ShareAlike 4.0 licence (CC BY-SA 4.0): you may reuse and adapt them with credit, under the same licence. Original texts that are
+  in the public domain remain so. Copyrighted editions and recordings are only linked, never copied; check the
+  licence named on each source before reusing it.

@@ -40,6 +40,11 @@ sources:
     url: https://thesaurus-linguae-aegyptiae.de/text/A2PTGDCYB5E4XK6OORW6V4QHOE
   - label: James P. Allen, Genesis in Egypt — The Philosophy of Ancient Egyptian Creation Accounts (Yale Egyptological Seminar, 1988)
   - label: James P. Allen, The Ancient Egyptian Pyramid Texts (Society of Biblical Literature, 2005; 2nd ed. 2015)
+script:
+  - text: "𓆓𓌃"
+    lang: egy-Egyp
+    label: "ḏd-mdw, \"words to be spoken\": the standard hieroglyphic spelling of the recitation formula that opens Pyramid Text 527 (the cobra sign for ḏ and the staff sign for mdw). The full utterance is not yet given in hieroglyphs"
+    source: Thesaurus Linguae Aegyptiae, lemma 186050
 ---
 
 ::: note Notice: what is original here and what is not

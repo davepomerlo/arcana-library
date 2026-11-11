@@ -1,0 +1,59 @@
+# Themes that cut across traditions. Each text lists its themes in data/geo.yaml.
+# A theme page gathers every text that shares the motif, so readers can compare.
+primordial-waters:
+  title: The primordial waters
+  intro: Before anything, there was water — dark, endless, motionless. Land, gods or light rise out of it.
+cosmic-egg:
+  title: The cosmic egg
+  intro: The world begins as an egg, or as chaos "like a hen's egg", which breaks or separates into sky and earth.
+sky-earth-separation:
+  title: Sky and earth pulled apart
+  intro: Sky and earth were once joined; a god, a hero or a natural process pushes them apart and makes room for life.
+clear-and-heavy:
+  title: The clear rises, the heavy sinks
+  intro: The first substance divides by itself into light and heavy parts, which become heaven and earth.
+self-created-creator:
+  title: The self-created One
+  intro: A first being comes into existence by itself, alone, and produces everything else from its own body, breath or thought.
+creation-by-word:
+  title: Creation by word and name
+  intro: The world comes into being by speech — a command, a name, a sacred sound or the planting of words.
+dismemberment:
+  title: The world from a body
+  intro: A primordial being is sacrificed or divided, and the parts of its body become the parts of the world.
+non-being:
+  title: Being and non-being
+  intro: The texts that ask what came before existence itself — nothingness, emptiness, the Way or the One.
+emergence:
+  title: Emergence and dawning
+  intro: People and gods emerge — from reeds, the earth, a cave, the night — rather than being made.
+duality:
+  title: Twins and the two principles
+  intro: Creation unfolds through a pair — twins, yin and yang, two spirits, male and female.
+descent-from-heaven:
+  title: Descent from heaven
+  intro: A heavenly being comes down to earth to found a people, a kingdom or a line of rulers.
+origin-of-death:
+  title: The origin of death
+  intro: Why people die — a message delivered wrongly, a broken taboo, a choice.
+ascent-of-the-soul:
+  title: Death and the journey of the soul
+  intro: What happens after death, and how the soul passes through the realms beyond.
+union-with-the-one:
+  title: Union with the One
+  intro: Contemplative texts on returning to the source, the One, emptiness or God.
+breath:
+  title: Breath and vital energy
+  intro: Prana, qi, pneuma — breath as the bridge between body and spirit, and the practices built on it.
+preserving-the-word:
+  title: Writing down the ancestors
+  intro: Texts in which their writers explain why they are recording old traditions before they are lost.
+anomalies:
+  title: Strange phenomena
+  intro: Lights, apparitions and unexplained events, examined through the original records.
+spirit-contact:
+  title: Spirits and channelling
+  intro: Accounts of communication with spirits, the dead or non-human intelligences.
+recovered-texts:
+  title: Lost and recovered texts
+  intro: Writings that disappeared for centuries and were found, unrolled or deciphered in modern times.

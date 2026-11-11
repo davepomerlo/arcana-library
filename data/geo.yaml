@@ -1,0 +1,69 @@
+# Place and themes for each text page (slug = file name without .md).
+# lat/lon: approximate place of composition or recording, for the map. Not exact findspots.
+# area: broad region used by the search filters.
+african-creation-traditions-guide: {lat: 2.0, lon: 20.0, area: Africa, themes: [emergence, origin-of-death, self-created-creator]}
+anapanasati-breath: {lat: 25.6, lon: 85.1, area: South Asia, themes: [breath, union-with-the-one]}
+atum-heliopolis-creation: {lat: 30.13, lon: 31.3, area: Africa, themes: [primordial-waters, self-created-creator, sky-earth-separation, creation-by-word]}
+bardo-root-verses: {lat: 29.65, lon: 91.1, area: East Asia, themes: [ascent-of-the-soul]}
+bhagavad-gita-2-selections: {lat: 29.97, lon: 76.85, area: South Asia, themes: [union-with-the-one, ascent-of-the-soul]}
+dangun-myth: {lat: 35.84, lon: 129.21, area: East Asia, themes: [descent-from-heaven, emergence]}
+daodejing: {lat: 34.6, lon: 112.4, area: East Asia, themes: [non-being, duality, union-with-the-one]}
+dhammapada-1: {lat: 7.9, lon: 80.7, area: South Asia, themes: [union-with-the-one]}
+enuma-elish-opening: {lat: 32.54, lon: 44.42, area: West Asia, themes: [primordial-waters, dismemberment, duality]}
+genesis-1: {lat: 31.78, lon: 35.22, area: West Asia, themes: [primordial-waters, creation-by-word, sky-earth-separation]}
+havamal-runatal: {lat: 64.1, lon: -21.9, area: Europe, themes: [ascent-of-the-soul, creation-by-word]}
+heart-sutra: {lat: 34.27, lon: 108.95, area: East Asia, themes: [non-being, union-with-the-one]}
+hesiod-theogony-chaos: {lat: 38.36, lon: 23.1, area: Europe, themes: [non-being, sky-earth-separation, duality]}
+huainanzi-heavenly-patterns: {lat: 32.6, lon: 117.0, area: East Asia, themes: [clear-and-heavy, non-being, duality]}
+huarochiri-manuscript: {lat: -12.13, lon: -76.23, area: Americas, themes: [preserving-the-word, emergence]}
+isha-upanishad: {lat: 26.8, lon: 81.0, area: South Asia, themes: [union-with-the-one]}
+kalevala-creation: {lat: 64.5, lon: 30.5, area: Europe, themes: [cosmic-egg, primordial-waters]}
+kojiki-opening: {lat: 34.69, lon: 135.8, area: East Asia, themes: [emergence, self-created-creator]}
+kumulipo-opening: {lat: 19.6, lon: -155.5, area: Oceania, themes: [emergence, duality, primordial-waters]}
+lost-and-found-recovered-texts: {lat: 26.0, lon: 32.3, area: Worldwide, themes: [recovered-texts]}
+nasadiya-sukta: {lat: 30.9, lon: 75.8, area: South Asia, themes: [non-being, primordial-waters]}
+nihon-shoki-opening: {lat: 34.68, lon: 135.83, area: East Asia, themes: [cosmic-egg, clear-and-heavy, emergence]}
+popol-vuh-opening: {lat: 15.03, lon: -91.15, area: Americas, themes: [primordial-waters, creation-by-word, preserving-the-word]}
+purusha-sukta: {lat: 29.5, lon: 77.0, area: South Asia, themes: [dismemberment]}
+rangi-and-papa: {lat: -38.14, lon: 176.25, area: Oceania, themes: [sky-earth-separation, duality]}
+sumerian-in-those-days: {lat: 32.13, lon: 45.23, area: West Asia, themes: [sky-earth-separation]}
+voluspa-opening: {lat: 64.9, lon: -18.5, area: Europe, themes: [non-being, dismemberment]}
+yasna-30-twin-spirits: {lat: 36.0, lon: 62.0, area: West Asia, themes: [duality]}
+zulu-unkulunkulu: {lat: -29.6, lon: 30.4, area: Africa, themes: [emergence, origin-of-death]}
+dai-viet-hong-bang: {lat: 21.03, lon: 105.85, area: Southeast Asia, themes: [cosmic-egg, duality, descent-from-heaven]}
+world-creation-sources-guide: {lat: 45.0, lon: -75.0, area: Worldwide, themes: [emergence, primordial-waters, sky-earth-separation]}
+channelled-literature-guide: {lat: 51.5, lon: -0.12, area: Europe, themes: [spirit-contact]}
+emerald-tablet: {lat: 36.2, lon: 37.15, area: West Asia, themes: [union-with-the-one]}
+gospel-of-thomas-selections: {lat: 26.17, lon: 32.73, area: Africa, themes: [union-with-the-one, recovered-texts]}
+hatha-pradipika-pranayama: {lat: 21.0, lon: 75.0, area: South Asia, themes: [breath]}
+kardec-spirits-book-on-god: {lat: 48.86, lon: 2.35, area: Europe, themes: [spirit-contact]}
+neiye-inward-training: {lat: 36.8, lon: 118.3, area: East Asia, themes: [breath, union-with-the-one]}
+orphic-gold-tablet-petelia: {lat: 39.27, lon: 16.98, area: Europe, themes: [ascent-of-the-soul]}
+poimandres-opening: {lat: 31.2, lon: 29.92, area: Africa, themes: [creation-by-word, ascent-of-the-soul]}
+qingjing-jing: {lat: 34.27, lon: 108.95, area: East Asia, themes: [union-with-the-one, breath]}
+ra-material-law-of-one: {lat: 38.25, lon: -85.76, area: Americas, themes: [spirit-contact]}
+regius-poem-opening: {lat: 52.5, lon: -1.9, area: Europe, themes: [preserving-the-word]}
+rumi-song-of-the-reed: {lat: 37.87, lon: 32.48, area: West Asia, themes: [union-with-the-one]}
+sefer-yetzirah-1: {lat: 32.8, lon: 35.5, area: West Asia, themes: [creation-by-word]}
+sex-magic-scholarship: {lat: 40.7, lon: -74.0, area: Worldwide, themes: [breath]}
+shamanism-scholarship: {lat: 62.0, lon: 105.0, area: Worldwide, themes: [ascent-of-the-soul, spirit-contact]}
+census-of-hallucinations-1894: {lat: 51.5, lon: -0.12, area: Europe, themes: [anomalies, spirit-contact]}
+green-children-of-woolpit: {lat: 52.22, lon: 0.89, area: Europe, themes: [anomalies]}
+hessdalen-lights: {lat: 62.8, lon: 11.2, area: Europe, themes: [anomalies]}
+nuremberg-1561-basel-1566: {lat: 49.45, lon: 11.08, area: Europe, themes: [anomalies]}
+pliny-haunted-house: {lat: 37.98, lon: 23.73, area: Europe, themes: [anomalies, spirit-contact]}
+shiranui-unknown-fires: {lat: 32.5, lon: 130.5, area: East Asia, themes: [anomalies]}
+tono-monogatari-preface: {lat: 39.33, lon: 141.53, area: East Asia, themes: [preserving-the-word, anomalies]}
+utsuro-bune-1803: {lat: 36.3, lon: 140.6, area: East Asia, themes: [anomalies]}
+breath-meditation-research: {lat: 42.37, lon: -71.1, area: Worldwide, themes: [breath]}
+heraclitus-fragments: {lat: 37.94, lon: 27.34, area: Europe, themes: [duality, creation-by-word]}
+hojoki-opening: {lat: 34.94, lon: 135.81, area: East Asia, themes: [union-with-the-one]}
+mandukya-upanishad: {lat: 25.3, lon: 83.0, area: South Asia, themes: [creation-by-word, union-with-the-one]}
+nagarjuna-mulamadhyamakakarika: {lat: 16.5, lon: 80.3, area: South Asia, themes: [non-being]}
+parmenides-way-of-truth: {lat: 40.16, lon: 15.15, area: Europe, themes: [non-being]}
+plotinus-on-beauty: {lat: 41.9, lon: 12.5, area: Europe, themes: [union-with-the-one, ascent-of-the-soul]}
+taijitu-shuo: {lat: 28.2, lon: 113.0, area: East Asia, themes: [non-being, duality]}
+taiyi-sheng-shui: {lat: 31.03, lon: 112.2, area: East Asia, themes: [primordial-waters, duality, non-being]}
+xinxin-ming: {lat: 30.5, lon: 116.5, area: East Asia, themes: [union-with-the-one, non-being]}
+yoga-sutras-selections: {lat: 26.0, lon: 80.0, area: South Asia, themes: [breath, union-with-the-one]}
+zhuangzi-passages: {lat: 33.9, lon: 116.3, area: East Asia, themes: [non-being, union-with-the-one]}

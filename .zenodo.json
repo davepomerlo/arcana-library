@@ -1,0 +1,8 @@
+{
+  "title": "Arcana Library: ancient texts, philosophy, esoterica and the anomalous, in the original and in translation",
+  "upload_type": "dataset",
+  "description": "An open archive of sacred and ancient texts from around the world, philosophy, the esoteric traditions and historical accounts of the paranormal, shown in the original language beside new translations, with sources and checking status for every page. Includes the static website and a JSON/CSV dataset.",
+  "creators": [{"name": "Arcana Library contributors"}],
+  "license": "cc-by-sa-4.0",
+  "keywords": ["sacred texts", "mythology", "creation myths", "translation", "esotericism", "digital humanities"]
+}

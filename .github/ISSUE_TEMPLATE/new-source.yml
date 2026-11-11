@@ -1,0 +1,27 @@
+name: Suggest a text or edition
+description: Suggest a text, a better edition, a translation or an archive for the Library.
+title: "Source suggestion: "
+labels: [source-suggestion]
+body:
+  - type: input
+    id: work
+    attributes:
+      label: Title and author
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: Where the original text or edition can be read (library catalogue, archive, publisher).
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it belongs here
+      description: Language, date, tradition, and whether it is in the public domain or openly licensed.
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Rights
+      options:
+        - label: The text is public domain or openly licensed, or I am only suggesting a link.

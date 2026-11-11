@@ -15,7 +15,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 REQUIRED = ["title", "lang", "tradition", "summary", "translation"]
-STATUSES = {"checked", "partly-checked", "unchecked"}
+STATUSES = {"reviewed", "checked", "partly-checked", "unchecked"}
 TYPES = {"ai-assisted", "public-domain", "open-licence", "original-research"}
 SECTIONS = {"ancient-sacred", "philosophy", "esoteric", "paranormal"}
 
@@ -46,6 +46,8 @@ for p in sorted((ROOT / "content" / "texts").rglob("*.md")):
         warn(p, f"folder '{p.parent.name}' is not a section")
     if meta.get("status") and meta["status"] not in STATUSES:
         warn(p, f"status must be one of {sorted(STATUSES)}")
+    if meta.get("status") == "reviewed" and not (meta.get("reviewed_by") or {}).get("name"):
+        warn(p, "status 'reviewed' needs reviewed_by: {name: ..., languages/affiliation/date}")
     tr = meta.get("translation") or {}
     if tr.get("type") not in TYPES:
         warn(p, f"translation.type must be one of {sorted(TYPES)}")

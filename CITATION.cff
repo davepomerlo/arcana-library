@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use texts, translations or data from the Arcana Library, please cite it as below."
+title: "Arcana Library: ancient texts, philosophy, esoterica and the anomalous, in the original and in translation"
+type: dataset
+authors:
+  - name: "Arcana Library contributors"
+repository-code: "https://github.com/davepomerlo/arcana-library"
+url: "https://davepomerlo.github.io/arcana-library"
+license: CC-BY-SA-4.0
+keywords:
+  - sacred texts
+  - mythology
+  - creation myths
+  - translation
+  - esotericism
+  - history of religions
+  - digital humanities

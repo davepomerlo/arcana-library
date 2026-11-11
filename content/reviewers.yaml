@@ -1,0 +1,10 @@
+# Named reviewers who check original texts and translations.
+# A text page becomes "reviewed" when its front matter has:
+#   status: reviewed
+#   reviewed_by: {name: "Full Name", affiliation: "University or role", date: "2026-11"}
+# Add yourself here when you volunteer (see contribute.html or the reviewer issue form).
+reviewers: []
+#  - name: Example Person
+#    affiliation: Department of Classics, Example University
+#    languages: [Ancient Greek, Latin]
+#    contact: https://example.org

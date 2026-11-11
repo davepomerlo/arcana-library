@@ -31,6 +31,12 @@ compare:
     url: https://lrc.la.utexas.edu/
 sources:
   - label: Stephanie W. Jamison and Joel P. Brereton, The Rigveda — The Earliest Religious Poetry of India (Oxford University Press, 2014), the standard modern translation.
+audio:
+  - label: UNESCO, "Tradition of Vedic Chanting" (video, Intangible Cultural Heritage)
+    url: https://www.unesco.org/archives/multimedia/document-4671
+    note: Vedic chanting was proclaimed a Masterpiece of the Oral and Intangible Heritage of Humanity in 2003
+  - label: Indira Gandhi National Centre for the Arts, Vedic chanting documentation (video)
+    url: https://ignca.gov.in/divisionss/kalakosa/video-clip-vedic-chanting/
 ---
 
 ::: parallel 1

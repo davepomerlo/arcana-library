@@ -1,0 +1,35 @@
+# Checks every external link once a week and keeps one GitHub issue up to date with the broken ones.
+name: Check links
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "41 18 * * 3"   # Wednesdays 18:41 UTC
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python tools/check_links.py
+      - name: Open or update the "Broken links" issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          n=$(python -c "import json;print(len(json.load(open('data/link-report.json'))['broken']))")
+          num=$(gh issue list --label broken-links --state open --json number -q '.[0].number')
+          if [ "$n" -gt 0 ]; then
+            gh label create broken-links --color B60205 --force >/dev/null 2>&1 || true
+            if [ -n "$num" ]; then gh issue edit "$num" --body-file data/link-report.md;
+            else gh issue create --title "Broken links" --label broken-links --body-file data/link-report.md; fi
+          elif [ -n "$num" ]; then
+            gh issue close "$num" --comment "All links are working again."
+          fi
