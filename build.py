@@ -514,7 +514,7 @@ def build():
         f'<p class="w-note">{esc(l.get("note", ""))}</p></li>' for l in libraries)
     sec_btns = "".join(f'<button type="button" data-filter="{s["slug"]}">{esc(s["title"])}</button>' for s in site["sections"])
     body = f"""<h1>Library</h1>
-<p class="lede">Reliable editions and translations held elsewhere: university projects, national libraries and long-running scholarly archives. Everything here is free to read online.</p>
+<p class="lede">Reliable editions and translations held elsewhere: university projects, national libraries and long-running scholarly archives. Everything here is free to read online. See also <a href="sacred-texts.html">the sacred-texts.com collection, classified</a>.</p>
 <div class="filter">
   <input type="search" id="lib-q" placeholder="Filter by title, author, tradition, language…" aria-label="Filter the library">
   <div class="filter-b" role="group" aria-label="Section"><button type="button" data-filter="" aria-pressed="true">All</button>{sec_btns}</div>

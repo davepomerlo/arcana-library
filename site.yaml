@@ -7,7 +7,7 @@ description: >
   shown in the original language beside the translation, with clear sourcing.
 repo_url: https://github.com/davepomerlo/arcana-library
 
-# The four main sections. "slug" is used in URLs; keep it short and lowercase.
+# The main sections. "slug" is used in URLs; keep it short and lowercase.
 sections:
   - slug: ancient-sacred
     title: Ancient & Sacred Texts
@@ -29,6 +29,11 @@ sections:
     short: Paranormal
     blurb: Ghosts, apparitions, strange lights in the sky and early psychical research, from the primary accounts.
     glyph: "◉"
+  - slug: extraterrestrial
+    title: Extraterrestrial Life & UAP
+    short: Other Worlds
+    blurb: The plurality of worlds from Epicurus to Bruno, what the official UFO and UAP investigations actually found, the scientific search for life, and the contact claims, each judged on its evidence.
+    glyph: "✦"
 
 # How each kind of translation is labelled on the site.
 translation_labels:

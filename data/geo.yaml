@@ -67,3 +67,9 @@ taiyi-sheng-shui: {lat: 31.03, lon: 112.2, area: East Asia, themes: [primordial-
 xinxin-ming: {lat: 30.5, lon: 116.5, area: East Asia, themes: [union-with-the-one, non-being]}
 yoga-sutras-selections: {lat: 26.0, lon: 80.0, area: South Asia, themes: [breath, union-with-the-one]}
 zhuangzi-passages: {lat: 33.9, lon: 116.3, area: East Asia, themes: [non-being, union-with-the-one]}
+epicurus-infinite-worlds: {lat: 37.98, lon: 23.73, area: Europe, themes: [plurality-of-worlds, non-being]}
+lucretius-other-worlds: {lat: 41.9, lon: 12.5, area: Europe, themes: [plurality-of-worlds]}
+bruno-infinite-worlds-1584: {lat: 51.51, lon: -0.13, area: Europe, themes: [plurality-of-worlds]}
+official-uap-investigations-guide: {lat: 38.9, lon: -77.04, area: Worldwide, themes: [official-investigation, anomalies]}
+search-for-life-guide: {lat: 38.43, lon: -79.84, area: Worldwide, themes: [plurality-of-worlds]}
+contact-claims-guide: {lat: 46.2, lon: 6.15, area: Worldwide, themes: [contact-claims, spirit-contact]}

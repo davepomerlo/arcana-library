@@ -1,6 +1,6 @@
 # Arcana Library
 
-An open archive of **ancient and sacred texts, philosophy and metaphysics, the esoteric traditions and the paranormal**. Texts are shown **in the original language beside the translation**, and every page states its sources and how far it has been checked.
+An open archive of **ancient and sacred texts, philosophy and metaphysics, the esoteric traditions, the paranormal, and extraterrestrial life and UAP**. Texts are shown **in the original language beside the translation**, and every page states its sources and how far it has been checked.
 
 It is a static website: plain Markdown files go in, a fast, searchable site comes out. It is hosted free on GitHub Pages and works on phones and desktops.
 
@@ -8,12 +8,12 @@ It is a static website: plain Markdown files go in, a fast, searchable site come
 
 | | |
 |---|---|
-| **51 texts** | Full or excerpted originals in 23 languages (Classical Chinese, Japanese, Sanskrit, Pali, Tibetan, Avestan, Coptic, Hebrew, Greek, Latin, Persian, Akkadian, Sumerian, Egyptian, Old Norse, Middle English, French, Finnish, Hawaiian, Māori, K'iche' Maya, Quechua and Zulu), each with a new line-by-line translation. Cosmogonies from Egypt, Sumer, China, Japan, Korea, Vietnam, India, Iran, Greece, Finland, southern Africa, the Andes, the Maya, Hawaiʻi and Aotearoa, plus Plotinus. Every page says which edition it was checked against: of all 66 pages, 31 are fully checked and 31 partly |
-| **15 case files and guides** | Research articles on the Utsuro-bune (1803), the Nuremberg 1561 sky battle, the SPR Census of Hallucinations, the Green Children of Woolpit, Shiranui and the Hessdalen lights; the Ra Material (Law of One); and research guides to African creation traditions, creation sources from more regions (Haudenosaunee, Aztec, Ainu, Siberia, Southeast Asia, Aboriginal Australia), ancient texts recovered since 1945, channelled literature, sex magic in history, shamanism, and breath and meditation science |
-| **Library** | 155 reliable editions, translations, archives and university studies, and 49 digital libraries, with a note on what each is good for |
+| **54 texts** | Full or excerpted originals in 23 languages (Classical Chinese, Japanese, Sanskrit, Pali, Tibetan, Avestan, Coptic, Hebrew, Greek, Latin, Persian, Akkadian, Sumerian, Egyptian, Old Norse, Middle English, French, Finnish, Hawaiian, Māori, K'iche' Maya, Quechua and Zulu), each with a new line-by-line translation. Cosmogonies from Egypt, Sumer, China, Japan, Korea, Vietnam, India, Iran, Greece, Finland, southern Africa, the Andes, the Maya, Hawaiʻi and Aotearoa, plus Plotinus, and the 'many worlds' of Epicurus, Lucretius and Bruno. Every page says which edition it was checked against: of all 72 pages, 36 are fully checked and 32 partly |
+| **18 case files and guides** | Research articles on the Utsuro-bune (1803), the Nuremberg 1561 sky battle, the SPR Census of Hallucinations, the Green Children of Woolpit, Shiranui and the Hessdalen lights; the Ra Material (Law of One); and research guides to African creation traditions, creation sources from more regions (Haudenosaunee, Aztec, Ainu, Siberia, Southeast Asia, Aboriginal Australia), ancient texts recovered since 1945, channelled literature, sex magic in history, shamanism, breath and meditation science, the official UFO/UAP investigations (Blue Book to AARO and NASA), the scientific search for life (SETI to K2-18 b and 3I/ATLAS), and contact claims |
+| **Library** | 178 reliable editions, translations, archives and university studies, and 49 digital libraries, with a note on what each is good for. A separate page sorts all 1,696 titles of [sacred-texts.com](https://sacred-texts.com) into 52 subjects and links to them (`tools/sacred_texts.py`, `data/sacred-texts-titles.txt`) |
 | **Channelling tracker** | A weekly GitHub Action records new L/L Research transcripts (links and Wayback Machine snapshots only, since the material is copyright) |
 | **Reading** | Side-by-side, translation-only or original-only reading; romanization toggle; read-aloud with the device's own voice; save texts to “My shelf” and resume where you stopped; cuneiform and hieroglyph samples in bundled Noto fonts |
-| **Finding** | Full-text search in every language with filters by section, language, region, era, theme and checking status; 19 cross-cultural theme pages (cosmic egg, sky and earth pulled apart, world from a body…); world map with a time slider; timeline; tradition pages |
+| **Finding** | Full-text search in every language with filters by section, language, region, era, theme and checking status; 22 cross-cultural theme pages (cosmic egg, sky and earth pulled apart, world from a body…); world map with a time slider; timeline; tradition pages |
 | **App** | Installable on phones and computers and readable offline after the first visit (web app manifest and service worker) |
 | **Open data** | `data/texts.json` and `.csv` (every text, its metadata and each original/translation passage), Library JSON/CSV, `CITATION.cff` and Zenodo metadata for a DOI |
 | **Quality** | “Suggest a correction or source” form on every page (GitHub issue forms), named language reviewers and an “expert reviewed” level, weekly broken-link check that opens an issue, internal link check on every build |
@@ -43,7 +43,7 @@ The weekly scholarship tracker works without it, but OpenAlex prefers an address
 
 ## Add a text
 
-1. Copy `content/TEMPLATE.md` into the right folder: `content/texts/ancient-sacred/`, `philosophy/`, `esoteric/` or `paranormal/`. Or run `python tools/new_text.py esoteric "Title of the text"`.
+1. Copy `content/TEMPLATE.md` into the right folder: `content/texts/ancient-sacred/`, `philosophy/`, `esoteric/`, `paranormal/` or `extraterrestrial/`. Or run `python tools/new_text.py esoteric "Title of the text"`.
 2. Fill in the details at the top (title, original title, date, language, sources, translation type, checking status).
 3. Add a line for it to `data/geo.yaml` (map position, region and themes). The build warns if you forget.
 4. Write the text in **parallel blocks**: the original, a line with `---`, then the translation.

@@ -17,7 +17,8 @@ ROOT = Path(__file__).resolve().parent.parent
 REQUIRED = ["title", "lang", "tradition", "summary", "translation"]
 STATUSES = {"reviewed", "checked", "partly-checked", "unchecked"}
 TYPES = {"ai-assisted", "public-domain", "open-licence", "original-research"}
-SECTIONS = {"ancient-sacred", "philosophy", "esoteric", "paranormal"}
+import yaml as _y
+SECTIONS = {s["slug"] for s in _y.safe_load(open(Path(__file__).resolve().parent.parent / "site.yaml", encoding="utf-8"))["sections"]}
 
 problems = 0
 

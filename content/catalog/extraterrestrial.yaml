@@ -1,0 +1,211 @@
+section: extraterrestrial
+works:
+  # --- The plurality of worlds
+  - title: Letter to Herodotus
+    author: Epicurus
+    date: c. 300 BCE
+    year: -300
+    language: Greek, in translation
+    tradition: [Greek, Plurality of worlds]
+    kind: translation
+    translator: R. D. Hicks (1925)
+    url: https://lexundria.com/epic_ep_hdt/0-49/hks
+    note: "Epicurus' summary of atomist physics, including the argument for infinitely many worlds (§45). Greek and new translation of §45 in this archive."
+  - title: On the Nature of Things (De rerum natura)
+    author: Lucretius
+    date: c. 55 BCE
+    year: -55
+    language: Latin, in translation
+    tradition: [Roman, Plurality of worlds]
+    kind: translation
+    translator: William Ellery Leonard (1916)
+    url: https://fgh.perseids.org/read/latinLit/phi0550/phi001/perseus-eng1/2.294-2.1144
+    note: Book 2 ends with the argument that there are other worlds, other earths and other races of living things.
+  - title: A True Story (Alēthē diēgēmata)
+    author: Lucian of Samosata
+    date: 2nd century CE
+    year: 170
+    language: Greek, with parallel English
+    tradition: [Greek, Satire, Science fiction]
+    kind: translation
+    url: https://duckduckgo.com/?q=site%3Asacred-texts.com+%22A+True+Story%22+Lucian
+    note: A parody of travellers' tales in which a ship is carried to the Moon and its crew is caught up in a war between the kings of the Moon and the Sun. Often called the earliest surviving work of science fiction. The Greek with an English translation is at sacred-texts.com.
+  - title: De l'infinito, universo e mondi
+    author: Giordano Bruno
+    date: "1584"
+    year: 1584
+    language: Italian
+    tradition: [Italian Renaissance, Plurality of worlds]
+    kind: primary
+    url: https://linux.studenti.polito.it/static_resources/liberliber/biblioteca/b/bruno/de_l_infinito_universo_e_mondi/pdf/de_l_i_p.pdf
+    note: "Bruno's dialogues on the infinite universe and innumerable worlds, ed. Giovanni Aquilecchia (Liber Liber). Passages with translation in this archive."
+  - title: Earths in the Universe
+    author: Emanuel Swedenborg
+    date: "1758"
+    year: 1758
+    language: Latin, in translation
+    tradition: [Swedenborgianism, Contact claims]
+    kind: translation
+    translator: John Whitehead (1892)
+    url: https://sacred-texts.com/swd/eiu/eiu00.htm
+    note: Swedenborg's account of conversations with spirits from Mercury, Jupiter, Mars, Saturn, Venus, the Moon and five earths beyond the solar system.
+  - title: From the Closed World to the Infinite Universe
+    author: Alexandre Koyré
+    date: "1957"
+    year: 1957
+    language: English
+    tradition: [History of science, Plurality of worlds]
+    kind: study
+    url: https://duckduckgo.com/?q=site%3Asacred-texts.com+%22From+the+Closed+World+to+the+Infinite+Universe%22
+    note: The classic history of how the idea of an infinite universe replaced the closed cosmos, from Nicholas of Cusa and Bruno to Newton. Available at sacred-texts.com.
+  # --- Contact claims and the saucer era
+  - title: From India to the Planet Mars
+    author: Théodore Flournoy
+    date: 1899 (English 1900)
+    year: 1900
+    language: French, in translation
+    tradition: [Psychical research, Contact claims]
+    kind: study
+    translator: Daniel B. Vermilye (1900)
+    url: https://www.sacred-texts.com/ufo/ipm/index.htm
+    note: A Geneva psychologist's sympathetic but sceptical study of the medium Hélène Smith and her "Martian" language. A founding text of the psychology of mediumship.
+  - title: The Flying Saucers Are Real
+    author: Donald E. Keyhoe
+    date: "1950"
+    year: 1950
+    language: English
+    tradition: [UFOs and UAP]
+    kind: primary
+    url: https://sacred-texts.com/ufo/fsar/fsar00.htm
+    note: The bestseller that argued the saucers were interplanetary and the Air Force was hiding it. Public domain in the US because its copyright was not renewed.
+  - title: The Report on Unidentified Flying Objects
+    author: Edward J. Ruppelt
+    date: "1956"
+    year: 1956
+    language: English
+    tradition: [UFOs and UAP, Government investigations]
+    kind: primary
+    url: https://neonvagabond.xyz/mirrors/sacred-texts/ufo/rufo/rufo00.htm
+    note: An insider's history by a former head of the Air Force investigation. Mirror of the sacred-texts.com edition.
+  - title: The UFO collection at sacred-texts.com
+    author: Internet Sacred Text Archive
+    language: English
+    tradition: [UFOs and UAP, Contact claims]
+    kind: collection
+    url: https://sacred-texts.com/ufo/index.htm
+    note: Flournoy, Charles Fort, Keyhoe, Ruppelt, the contactees Angelucci and Williamson, early books on Mars, and archived UFO bulletin-board files.
+  # --- Official investigations
+  - title: Project Blue Book records
+    author: U.S. Air Force (National Archives)
+    date: 1947–1969
+    year: 1969
+    language: English
+    tradition: [UFOs and UAP, Government investigations]
+    kind: archive
+    url: https://www.archives.gov/news/articles/do-records-show-proof-of-ufos
+    note: The declassified files of 12,618 sightings, 701 left unidentified, held by the U.S. National Archives.
+  - title: Report of the Scientific Panel on Unidentified Flying Objects (Robertson Panel)
+    author: CIA Office of Scientific Intelligence
+    date: January 1953
+    year: 1953
+    language: English
+    tradition: [UFOs and UAP, Government investigations]
+    kind: report
+    url: https://www.cia.gov/readingroom/print/415807
+    note: Found no direct threat to national security; its recommendation of public "education" later fuelled suspicion of a cover-up.
+  - title: Scientific Study of Unidentified Flying Objects (the Condon Report)
+    author: University of Colorado, Edward U. Condon (scientific director)
+    date: "1968"
+    year: 1968
+    language: English
+    tradition: [UFOs and UAP, Government investigations]
+    kind: report
+    url: https://files.ncas.org/condon/
+    note: The Air Force-funded university study whose negative conclusion led to the end of Blue Book. Electronic edition by the National Capital Area Skeptics.
+  - title: Review of the University of Colorado Report on Unidentified Flying Objects
+    author: Panel of the National Academy of Sciences
+    date: "1969"
+    year: 1969
+    language: English
+    tradition: [UFOs and UAP, Government investigations]
+    kind: report
+    url: https://apps.dtic.mil/sti/pdfs/AD0688541.pdf
+    note: The Academy's endorsement of the Condon Report's method and conclusions.
+  - title: UFO files from the Ministry of Defence
+    author: The National Archives (UK)
+    date: 2008–2013 releases
+    year: 2013
+    language: English
+    tradition: [UFOs and UAP, Government investigations]
+    kind: archive
+    url: https://cdn.nationalarchives.gov.uk/documents/final-tranche-of-UFO-files-released.pdf
+    note: "Ten releases of the MoD's UFO desk files; the last (June 2013) has 25 files and about 4,400 pages. Press release with links to the files."
+  - title: GEIPAN case archive
+    author: CNES (French space agency)
+    date: 1977 – today
+    year: 2007
+    language: French
+    tradition: [UFOs and UAP, Government investigations]
+    kind: archive
+    url: https://geipan.fr/en/node/58792
+    note: France's permanent civilian UAP office, with its anonymised case files and classifications online since 2007.
+  - title: "Preliminary Assessment: Unidentified Aerial Phenomena"
+    author: Office of the Director of National Intelligence
+    date: 25 June 2021
+    year: 2021
+    language: English
+    tradition: [UFOs and UAP, Government investigations]
+    kind: report
+    url: https://www.dni.gov/files/ODNI/documents/assessments/Prelimary-Assessment-UAP-20210625.pdf
+    note: 144 military reports from 2004–2021; one explained, the rest unresolved for lack of data.
+  - title: Report on the Historical Record of U.S. Government Involvement with Unidentified Anomalous Phenomena, Volume I
+    author: All-domain Anomaly Resolution Office (AARO)
+    date: February 2024 (released 8 March 2024)
+    year: 2024
+    language: English
+    tradition: [UFOs and UAP, Government investigations]
+    kind: report
+    url: https://www.aaro.mil/Portals/136/PDFs/AARO_Historical_Record_Report_Volume_1_2024.pdf
+    note: Found no verifiable evidence of extraterrestrial activity or of recovered extraterrestrial technology in the government record since 1945.
+  - title: UAP Independent Study Team Report
+    author: NASA (chair David Spergel)
+    date: 14 September 2023
+    year: 2023
+    language: English
+    tradition: [UFOs and UAP, Government investigations]
+    kind: report
+    url: https://science.nasa.gov/wp-content/uploads/2023/09/uap-independent-study-team-final-report.pdf
+    note: Sixteen outside experts on how NASA can study UAP with open data; found no evidence of an extraterrestrial origin.
+  # --- Science
+  - title: Searching for Interstellar Communications
+    author: Giuseppe Cocconi and Philip Morrison
+    date: 19 September 1959
+    year: 1959
+    language: English
+    tradition: [SETI, Astronomy]
+    kind: primary
+    url: https://lindahall.org/about/news/scientist-of-the-day/giuseppe-cocconi
+    note: "Nature 184, 844–846: the two-page paper that proposed listening for signals at 1420 MHz. Linked here through the Linda Hall Library's account, which reproduces two of its paragraphs."
+  - title: Discovery and Preliminary Characterization of a Third Interstellar Object, 3I/ATLAS
+    author: Darryl Z. Seligman and 46 others
+    date: July 2025
+    year: 2025
+    language: English
+    tradition: [Astronomy, Interstellar objects]
+    kind: primary
+    url: https://arxiv.org/abs/2507.02757
+    note: The discovery paper for the third object known to have entered the Solar System from another star.
+  - title: The Search for Extraterrestrial Intelligence (SETI)
+    author: CUNY Astrobiology open textbook, ch. 24
+    language: English
+    tradition: [SETI, Astrobiology]
+    kind: study
+    url: https://pressbooks.cuny.edu/astrobiology/chapter/seti-searches/
+    note: A free university textbook chapter on the history and methods of SETI, from Tesla to optical searches.
+  - title: Chariots of the Gods? — an archaeologist's analysis
+    author: Expedition magazine, Penn Museum
+    language: English
+    tradition: [Ancient astronauts, Archaeology]
+    kind: study
+    url: https://penn.museum/sites/expedition/?p=14613
+    note: How the ancient-astronaut argument works and why archaeologists reject it, with the Palenque sarcophagus lid as a test case.

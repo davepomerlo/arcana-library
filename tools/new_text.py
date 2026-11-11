@@ -12,7 +12,9 @@ import unicodedata
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-SECTIONS = ["ancient-sacred", "philosophy", "esoteric", "paranormal"]
+import yaml as _y
+from pathlib import Path as _P
+SECTIONS = [s["slug"] for s in _y.safe_load(open(_P(__file__).resolve().parent.parent / "site.yaml", encoding="utf-8"))["sections"]]
 
 
 def slugify(s: str) -> str:

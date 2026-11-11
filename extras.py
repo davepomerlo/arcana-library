@@ -179,6 +179,48 @@ def run(b, site, texts, works, libraries, secs):
 </ul>"""
     (OUT / "contribute.html").write_text(page(site, title="Help check the texts", body=body, depth=0), encoding="utf-8")
 
+    # ------------------------------------------------------------------ sacred-texts.com catalogue
+    import sys as _sys
+    _sys.path.insert(0, str(ROOT / "tools"))
+    import sacred_texts as _st
+    st_rows = _st.load()
+    by_subj: dict[str, list] = {}
+    for r_ in st_rows:
+        by_subj.setdefault(r_["subject"], []).append(r_)
+    order = [k for k in _st.SUBJECTS if k in by_subj]
+    chips = " · ".join(f'<a href="#st-{b.slugify(k)}">{esc(k)} <span class="muted">{len(by_subj[k])}</span></a>' for k in order)
+    groups = []
+    for k in order:
+        sec_slug, blurb, home = _st.SUBJECTS[k]
+        sec_name = secs[sec_slug]["title"] if sec_slug in secs else "General"
+        home_link = f' · <a href="{esc(home)}" rel="noopener">this subject at sacred-texts.com</a>' if home else ""
+        lis = "".join(
+            f'<li class="work" data-sec="{esc(sec_slug or "general")}"><a href="{esc(x["url"])}" rel="noopener">{esc(x["title"])}</a></li>'
+            for x in by_subj[k])
+        groups.append(f'<section class="lib-sec" id="st-{b.slugify(k)}"><h2 class="band">{esc(k)} <span class="muted">({len(by_subj[k])})</span></h2>'
+                      f'<p class="muted">{esc(blurb)} Arcana section: {esc(sec_name)}{home_link}</p><ul class="works st-list">{lis}</ul></section>')
+    sec_btns = "".join(f'<button type="button" data-filter="{s["slug"]}">{esc(s["title"])}</button>' for s in site["sections"])
+    body = f"""<p class="kicker">Library · Partner collection</p>
+<h1>The sacred-texts.com collection, classified</h1>
+<p class="lede">The Internet Sacred Text Archive, founded by John Bruno Hare, holds more than 1,700 public-domain books on religion, myth, folklore and the esoteric. This page sorts the {len(st_rows):,} titles in its index into {len(order)} subjects and the matching sections of this archive, so you can find them alongside our own texts.</p>
+<div class="note"><p><strong>Linked, not copied.</strong> The books stay at sacred-texts.com. Each title opens a web search limited to that site, because its page addresses cannot be predicted from the title. The archive's texts are believed to be in the US public domain; its own etexts may be copied for non-commercial use only with their attribution notice intact and a link back, so we link rather than mirror them. The title list comes from the archive's <a href="https://sacred-texts.com/cdshop/dvd90/titl90.htm" rel="noopener">alphabetical index</a>; to support it, buy the archive on <a href="https://sacred-texts.com/cdshop/index.htm" rel="noopener">DVD or USB</a>. The subjects are assigned by keyword rules (<code>tools/sacred_texts.py</code>) and may misplace a few titles: corrections are welcome.</p></div>
+<div class="filter">
+  <input type="search" id="lib-q" placeholder="Filter titles…" aria-label="Filter the titles">
+  <div class="filter-b" role="group" aria-label="Section"><button type="button" data-filter="" aria-pressed="true">All</button>{sec_btns}<button type="button" data-filter="general">General</button></div>
+  <p class="muted" id="lib-count"></p>
+</div>
+<p class="st-chips">{chips}</p>
+{''.join(groups)}"""
+    (OUT / "sacred-texts.html").write_text(page(site, title="The sacred-texts.com collection, classified", body=body, depth=0, body_class="lib"), encoding="utf-8")
+    # add to the search index
+    si = OUT / "search-index.json"
+    idx = json.loads(si.read_text("utf-8"))
+    for x in st_rows:
+        idx.append({"t": x["title"], "o": "", "u": x["url"], "s": f"sacred-texts.com · {x['subject']}",
+                    "x": secs.get(x["section"], {}).get("title", ""), "k": "library", "g": x["subject"] + " sacred-texts",
+                    "b": "", "l": "", "y": None, "a": "", "st": "", "th": [], "sc": x["section"]})
+    si.write_text(json.dumps(idx, ensure_ascii=False), encoding="utf-8")
+
     # ------------------------------------------------------------------ data exports
     ddir = OUT / "data"
     ddir.mkdir(exist_ok=True)
@@ -225,6 +267,8 @@ def run(b, site, texts, works, libraries, secs):
         w.writerow(["; ".join(x[c]) if isinstance(x.get(c), list) else ("" if x.get(c) is None else x.get(c)) for c in lcols])
     (ddir / "library.csv").write_text(buf.getvalue(), encoding="utf-8")
     (ddir / "themes.json").write_text(json.dumps(THEMES, ensure_ascii=False, indent=1), encoding="utf-8")
+    (ddir / "sacred-texts.json").write_text(json.dumps({"meta": meta | {"count": len(st_rows), "source": "https://sacred-texts.com/cdshop/dvd90/titl90.htm"},
+                                                        "titles": st_rows}, ensure_ascii=False, indent=1), encoding="utf-8")
     sizes = {f.name: f.stat().st_size for f in ddir.iterdir()}
     kb = lambda n: f"{n / 1024:.0f} KB"
     doi = site.get("doi")
@@ -237,6 +281,7 @@ def run(b, site, texts, works, libraries, secs):
 <li class="work"><a href="data/texts.csv" download>texts.csv</a><span class="w-meta">{kb(sizes['texts.csv'])} · one row per text (metadata only), for spreadsheets</span></li>
 <li class="work"><a href="data/library.json" download>library.json</a><span class="w-meta">{kb(sizes['library.json'])} · {len(works)} Library works and {len(libraries)} digital libraries</span></li>
 <li class="work"><a href="data/library.csv" download>library.csv</a><span class="w-meta">{kb(sizes['library.csv'])} · the Library as a table</span></li>
+<li class="work"><a href="data/sacred-texts.json" download>sacred-texts.json</a><span class="w-meta">{kb(sizes['sacred-texts.json'])} · {len(st_rows)} sacred-texts.com titles with subject and section</span></li>
 <li class="work"><a href="data/themes.json" download>themes.json</a><span class="w-meta">{kb(sizes['themes.json'])} · the cross-cultural themes</span></li>
 </ul>
 <h2>Licence and reuse</h2>
