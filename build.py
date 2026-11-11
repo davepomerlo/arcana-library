@@ -30,7 +30,7 @@ LANG_NAMES = {
     "sa": "Sanskrit", "pi": "Pali", "la": "Latin", "grc": "Ancient Greek", "he": "Hebrew",
     "arc": "Aramaic", "fa": "Persian", "ar": "Arabic", "non": "Old Norse", "egy": "Egyptian",
     "akk": "Akkadian", "sux": "Sumerian", "cop": "Coptic", "de": "German", "fr": "French",
-    "en": "English", "enm": "Middle English", "bo": "Tibetan", "ru": "Russian", "quc": "K'iche' Maya", "haw": "Hawaiian", "ae": "Avestan", "fi": "Finnish", "it": "Italian", "es": "Spanish",
+    "en": "English", "enm": "Middle English", "bo": "Tibetan", "ru": "Russian", "quc": "K'iche' Maya", "haw": "Hawaiian", "ae": "Avestan", "fi": "Finnish", "it": "Italian", "es": "Spanish", "zu": "Zulu", "qu": "Quechua", "mi": "Māori", "ko": "Korean",
 }
 RTL = {"he", "arc", "ar", "fa"}
 

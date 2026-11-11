@@ -455,3 +455,119 @@ works:
     kind: study
     url: https://www.college-de-france.fr/sites/default/files/documents/jean-kellens/UPL2331533020618564440_Resume_130111_Re__sume___JK.pdf
     note: Lecture summaries by the leading French Avestan scholar, with transcriptions of the Gathas and his ritual interpretation of them.
+  # --- Added: Egypt, Sumer, Africa, Korea, Andes, Aotearoa
+  - title: Electronic Text Corpus of Sumerian Literature (ETCSL)
+    author: Jeremy Black, Graham Cunningham, Eleanor Robson, Gábor Zólyomi and others (University of Oxford)
+    date: 1998–2006
+    year: 2006
+    language: Sumerian and English
+    tradition: [Sumerian, Mesopotamian]
+    kind: edition
+    url: https://etcsl.orinst.ox.ac.uk/section1/c1814.htm
+    note: About 400 Sumerian literary compositions in transliteration and English. The link opens "Gilgamesh, Enkidu and the Netherworld", whose prologue is the archive's Sumerian creation text.
+  - title: Thesaurus Linguae Aegyptiae
+    author: Berlin-Brandenburg Academy of Sciences and Saxon Academy of Sciences
+    language: Egyptian (all periods), with German translations
+    tradition: [Egyptian]
+    kind: edition
+    url: https://thesaurus-linguae-aegyptiae.de/text/NHY7Q7ERPNEWTK5BWG7KELURNU/sentences
+    note: The main scholarly corpus of Egyptian texts, sentence by sentence with transliteration and translation. The link opens Pyramid Text 600 (Atum-Khepri and the benben). Some pages ask for a browser check.
+  - title: The Pyramid Texts (English translation)
+    author: Anonymous
+    date: c. 2350–2180 BCE
+    year: -2300
+    language: Old Egyptian, in translation
+    tradition: [Egyptian]
+    kind: translation
+    translator: Samuel A. B. Mercer (1952)
+    url: https://sacred-texts.com/egy/pyt/pyt28.htm
+    note: Utterances 523–533, including Utterance 527 on Atum at Heliopolis. Mercer is dated; James P. Allen's 2005 translation is the modern standard.
+  - title: Legends of the Gods (with the Bremner-Rhind creation text)
+    author: E. A. Wallis Budge
+    date: "1912"
+    year: 1912
+    language: Egyptian and English
+    tradition: [Egyptian]
+    kind: translation
+    translator: E. A. Wallis Budge (1912)
+    url: https://www.gutenberg.org/ebooks/9411
+    note: Hieroglyphic text and translation of the "Book of Knowing the Evolutions of Ra" (Papyrus BM EA 10188). Budge's translations are outdated; compare Faulkner (1938) and Allen (1988).
+  - title: The Religious System of the Amazulu
+    author: Henry Callaway
+    date: 1868–1870
+    year: 1868
+    language: Zulu and English
+    tradition: [Zulu, African]
+    kind: primary
+    translator: Henry Callaway
+    url: https://sacred-texts.com/afr/rsa/index.htm
+    note: Zulu narrators' own accounts of Unkulunkulu, the ancestors and divination, with facing English. The sacred-texts edition gives the English and notes; scanned copies with the Zulu are at the Internet Archive and the University of Pretoria.
+  - title: The Digital Bleek and Lloyd
+    author: University of Cape Town
+    language: /Xam, !Kung and English
+    tradition: [San, African]
+    kind: archive
+    url: https://digitalbleeklloyd.uct.ac.za/metadata/reports/bleek-lloyd-specimens/2/index.html
+    note: The notebooks (1870–1884) and Specimens of Bushman Folklore (1911), recording /Xam narratives with facing English. On UNESCO's Memory of the World register.
+  - title: "Dieu d'eau — Entretiens avec Ogotemmêli"
+    author: Marcel Griaule
+    date: "1948"
+    year: 1948
+    language: French
+    tradition: [Dogon, African]
+    kind: study
+    url: http://classiques.uqac.ca/classiques/griaule_marcel/ogotemmeli_dieudeau/ogotemmeli_dieudeau.html
+    note: The famous account of Dogon cosmology as told by Ogotemmêli. Read with van Beek's 1991 restudy, which could not confirm much of it.
+  - title: "Dogon Restudied — A Field Evaluation of the Work of Marcel Griaule"
+    author: W. E. A. van Beek
+    date: "1991"
+    year: 1991
+    language: English
+    tradition: [Dogon, African]
+    kind: study
+    url: https://hdl.handle.net/1887/9039
+    note: Current Anthropology 32 (1991), with replies from other anthropologists. The central critique of Griaule's Dogon work.
+  - title: Notes ethnographiques sur les peuples communément appelés Bakuba … les Bushongo
+    author: E. Torday and T. A. Joyce
+    date: "1910"
+    year: 1910
+    language: French
+    tradition: [Kuba, African]
+    kind: study
+    url: https://iiif.wellcomecollection.org/pdf/b3136603x
+    note: The monograph that recorded the Kuba creation by Bumba. Public domain scan from the Wellcome Collection.
+  - title: Ifa divination system (UNESCO)
+    author: UNESCO Intangible Cultural Heritage
+    language: English
+    tradition: [Yoruba, African]
+    kind: report
+    url: https://ich.unesco.org/en/RL/ifa-divination-system-00146
+    note: Overview of the Ifá corpus of 256 odù and its verses, the main source of Yoruba creation narratives.
+  - title: Samguk yusa 三國遺事 (Memorabilia of the Three Kingdoms)
+    author: Iryeon 一然
+    date: c. 1281–1289
+    year: 1281
+    language: Classical Chinese
+    tradition: [Korean, Buddhist]
+    kind: primary
+    url: https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E9%81%BA%E4%BA%8B
+    note: The source of the Dangun myth and many Korean founding legends. Page images of the 1512 reprint are on Korean Wikisource.
+  - title: Huarochirí Manuscript (Quechua manuscript, digitised)
+    author: Anonymous Andean authors
+    date: c. 1598–1608
+    year: 1608
+    language: Quechua
+    tradition: [Andean, Quechua, Indigenous American]
+    kind: primary
+    url: https://bdh-rd.bne.es/viewer.vm?id=0000087346&page=1
+    note: The only surviving collection of Andean myths in an Andean language, in the Biblioteca Nacional de España. English edition by Salomon and Urioste (1991); Spanish by Taylor (1987) and Arguedas (1966).
+  - title: Polynesian Mythology (Māori traditions in English)
+    author: George Grey (ed.), largely from manuscripts by Wiremu Maihi Te Rangikāheke
+    date: "1855"
+    year: 1855
+    language: Māori, in translation
+    tradition: [Māori, Polynesian]
+    kind: translation
+    translator: George Grey (1855)
+    url: https://standardebooks.org/ebooks/george-grey/polynesian-mythology
+    note: The English version of Ko nga Mahinga a nga Tupuna Maori (1854). Grey did not credit Te Rangikāheke and altered the texts; read alongside Te Ara.
