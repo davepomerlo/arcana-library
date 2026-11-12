@@ -47,8 +47,10 @@ jobs:
             git push
           fi
       - name: Mirror queued books from sacred-texts.com
-        if: github.event_name != 'push'
+        # Runs on every build but only downloads books not yet in content/mirror/,
+        # so it is quick unless something new was added to data/sacred-texts-mirror.yaml.
         continue-on-error: true
+        timeout-minutes: 150
         run: |
           python tools/mirror_sacred_texts.py || true
           if [ -n "$(git status --porcelain -- content/mirror/)" ]; then
