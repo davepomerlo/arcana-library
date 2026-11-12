@@ -1,7 +1,8 @@
 # Builds the site and publishes it to GitHub Pages on every push to main.
 # Once a week (and on manual runs) it first checks L/L Research for new channelling
 # transcripts (data/llresearch-index.json, links only) and OpenAlex for new scholarship
-# (data/new-scholarship.json), and commits those files if they changed.
+# (data/new-scholarship.json), and commits those files if they changed. It also downloads any
+# books queued in data/sacred-texts-mirror.yaml from sacred-texts.com (tools/mirror_sacred_texts.py).
 # One-time setup: repository Settings → Pages → Source: "GitHub Actions".
 name: Build and publish site
 
@@ -44,6 +45,18 @@ jobs:
             git add data/
             git commit -m "Weekly update: channelling index and new scholarship"
             git push
+          fi
+      - name: Mirror queued books from sacred-texts.com
+        if: github.event_name != 'push'
+        continue-on-error: true
+        run: |
+          python tools/mirror_sacred_texts.py || true
+          if [ -n "$(git status --porcelain -- content/mirror/)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+            git add content/mirror/
+            git commit -m "Mirror books from sacred-texts.com (attribution kept)"
+            git pull --rebase && git push
           fi
       - run: python tools/check_texts.py
       - run: python build.py

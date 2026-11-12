@@ -1,0 +1,70 @@
+# Books from the Internet Sacred Text Archive (sacred-texts.com) to keep a full local copy of.
+#
+# tools/mirror_sacred_texts.py downloads each book once (politely: it obeys robots.txt and waits
+# between requests), keeps sacred-texts.com's attribution line on every page, and saves the pages
+# in content/mirror/<id>/. The build turns them into reading pages under mirror/.
+#
+# Why this is allowed: the archive's terms say its etexts "may be copied electronically for any
+# non-commercial purpose, provided the notice of attribution is left intact in the text, and a link
+# or reference back to sacred-texts.com is provided" (https://sacred-texts.com/tos.htm). So:
+#   - only add books the archive itself presents as public domain in the US;
+#   - the mirrored pages are NOT covered by this site's CC BY-SA licence, and may not be used commercially.
+#
+# Fields:
+#   id      short folder name (letters, digits, hyphens)
+#   title   as it appears in data/sacred-texts-titles.txt, so the catalogue can link to the copy
+#   author, year   shown on the reading pages
+#   start   one or more addresses to try, in order: the book's contents page, or its first page
+#           (the downloader then follows the "Next" links)
+#   section the Arcana section the book belongs to
+#   basis   why the book is in the public domain, as stated by sacred-texts.com or by its date
+books:
+  - id: india-to-planet-mars
+    title: From India to the Planet Mars
+    author: Théodore Flournoy, tr. Daniel B. Vermilye
+    year: 1900
+    start: [https://sacred-texts.com/ufo/ipm/index.htm]
+    section: extraterrestrial
+    basis: Published 1900; public domain by age.
+  - id: earths-in-the-universe
+    title: Earths in the Universe
+    author: Emanuel Swedenborg, tr. John Whitehead
+    year: 1892
+    start: [https://sacred-texts.com/swd/eiu/index.htm, https://sacred-texts.com/swd/eiu/eiu00.htm]
+    section: extraterrestrial
+    basis: Written 1758, translation published 1892; public domain by age.
+  - id: lucian-true-story
+    title: "True Story: Parallel English/Greek, A"
+    author: Lucian of Samosata
+    year: 170
+    start: [https://sacred-texts.com/cla/luc/true/index.htm, https://sacred-texts.com/cla/luc/true/tru00.htm, https://sacred-texts.com/cla/luc/true/tru01.htm]
+    section: extraterrestrial
+    basis: Greek text of the 2nd century CE; the downloader records the translator and date from the archive's attribution line. Check that the translation was published before 1931 before making the copy public.
+  - id: flying-saucers-are-real
+    title: Flying Saucers Are Real, The
+    author: Donald E. Keyhoe
+    year: 1950
+    start: [https://sacred-texts.com/ufo/fsar/index.htm, https://sacred-texts.com/ufo/fsar/fsar00.htm]
+    section: extraterrestrial
+    basis: sacred-texts.com states it is in the US public domain because its copyright was not renewed.
+  - id: report-on-ufos
+    title: Report on Unidentified Flying Objects, The
+    author: Edward J. Ruppelt
+    year: 1956
+    start: [https://sacred-texts.com/ufo/rufo/index.htm, https://sacred-texts.com/ufo/rufo/rufo00.htm]
+    section: extraterrestrial
+    basis: sacred-texts.com states it is in the US public domain because its copyright was not renewed.
+  - id: secret-of-the-saucers
+    title: Secret of the Saucers, The
+    author: Orfeo Angelucci
+    year: 1955
+    start: [https://sacred-texts.com/ufo/sos/index.htm, https://sacred-texts.com/ufo/sos/sos00.htm]
+    section: extraterrestrial
+    basis: Hosted by sacred-texts.com as a US public-domain text (copyright not renewed); the downloader records the archive's own statement.
+  - id: other-tongues-other-flesh
+    title: Other Tongues--Other Flesh
+    author: George Hunt Williamson
+    year: 1957
+    start: [https://sacred-texts.com/ufo/otof/index.htm, https://sacred-texts.com/ufo/otof/otof00.htm]
+    section: extraterrestrial
+    basis: Hosted by sacred-texts.com as a US public-domain text (copyright not renewed); the downloader records the archive's own statement.

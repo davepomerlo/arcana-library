@@ -184,6 +184,9 @@ def run(b, site, texts, works, libraries, secs):
     _sys.path.insert(0, str(ROOT / "tools"))
     import sacred_texts as _st
     st_rows = _st.load()
+    import mirror_pages as _mp
+    mirrored = _mp.run(b, site, secs)
+    local_copy = {m["title"]: f'mirror/{m["id"]}/index.html' for m in mirrored}
     by_subj: dict[str, list] = {}
     for r_ in st_rows:
         by_subj.setdefault(r_["subject"], []).append(r_)
@@ -195,7 +198,8 @@ def run(b, site, texts, works, libraries, secs):
         sec_name = secs[sec_slug]["title"] if sec_slug in secs else "General"
         home_link = f' · <a href="{esc(home)}" rel="noopener">this subject at sacred-texts.com</a>' if home else ""
         lis = "".join(
-            f'<li class="work" data-sec="{esc(sec_slug or "general")}"><a href="{esc(x["url"])}" rel="noopener">{esc(x["title"])}</a></li>'
+            f'<li class="work" data-sec="{esc(sec_slug or "general")}"><a href="{esc(x["url"])}" rel="noopener">{esc(x["title"])}</a>'
+            + (f' · <a class="st-local" href="{esc(local_copy[x["title"]])}">read here</a>' if x["title"] in local_copy else "") + '</li>'
             for x in by_subj[k])
         groups.append(f'<section class="lib-sec" id="st-{b.slugify(k)}"><h2 class="band">{esc(k)} <span class="muted">({len(by_subj[k])})</span></h2>'
                       f'<p class="muted">{esc(blurb)} Arcana section: {esc(sec_name)}{home_link}</p><ul class="works st-list">{lis}</ul></section>')
@@ -203,7 +207,7 @@ def run(b, site, texts, works, libraries, secs):
     body = f"""<p class="kicker">Library · Partner collection</p>
 <h1>The sacred-texts.com collection, classified</h1>
 <p class="lede">The Internet Sacred Text Archive, founded by John Bruno Hare, holds more than 1,700 public-domain books on religion, myth, folklore and the esoteric. This page sorts the {len(st_rows):,} titles in its index into {len(order)} subjects and the matching sections of this archive, so you can find them alongside our own texts.</p>
-<div class="note"><p><strong>Linked, not copied.</strong> The books stay at sacred-texts.com. Each title opens a web search limited to that site, because its page addresses cannot be predicted from the title. The archive's texts are believed to be in the US public domain; its own etexts may be copied for non-commercial use only with their attribution notice intact and a link back, so we link rather than mirror them. The title list comes from the archive's <a href="https://sacred-texts.com/cdshop/dvd90/titl90.htm" rel="noopener">alphabetical index</a>; to support it, buy the archive on <a href="https://sacred-texts.com/cdshop/index.htm" rel="noopener">DVD or USB</a>. The subjects are assigned by keyword rules (<code>tools/sacred_texts.py</code>) and may misplace a few titles: corrections are welcome.</p></div>
+<div class="note"><p><strong>Mostly linked, a few copied.</strong> Each title opens a web search limited to sacred-texts.com, because its page addresses cannot be predicted from the title. The archive's texts are believed to be in the US public domain, and its etexts may be copied for non-commercial use with their attribution notice intact and a link back. A small, growing selection is therefore <a href="mirror/index.html">mirrored here in full</a> ({len(mirrored)} so far, marked “read here”), with every page keeping its attribution and linking to its original; those copies are not covered by this site's CC BY-SA licence. The title list comes from the archive's <a href="https://sacred-texts.com/cdshop/dvd90/titl90.htm" rel="noopener">alphabetical index</a>; to support it, buy the archive on <a href="https://sacred-texts.com/cdshop/index.htm" rel="noopener">DVD or USB</a>. The subjects are assigned by keyword rules (<code>tools/sacred_texts.py</code>) and may misplace a few titles: corrections are welcome.</p></div>
 <div class="filter">
   <input type="search" id="lib-q" placeholder="Filter titles…" aria-label="Filter the titles">
   <div class="filter-b" role="group" aria-label="Section"><button type="button" data-filter="" aria-pressed="true">All</button>{sec_btns}<button type="button" data-filter="general">General</button></div>
@@ -219,6 +223,10 @@ def run(b, site, texts, works, libraries, secs):
         idx.append({"t": x["title"], "o": "", "u": x["url"], "s": f"sacred-texts.com · {x['subject']}",
                     "x": secs.get(x["section"], {}).get("title", ""), "k": "library", "g": x["subject"] + " sacred-texts",
                     "b": "", "l": "", "y": None, "a": "", "st": "", "th": [], "sc": x["section"]})
+    for m in mirrored:
+        idx.append({"t": m["title"], "o": "", "u": f'mirror/{m["id"]}/index.html', "s": f"Full text mirrored from sacred-texts.com · {m.get('author') or ''}",
+                    "x": secs.get(m.get("section"), {}).get("title", ""), "k": "archive", "g": "sacred-texts mirror " + (m.get("author") or ""),
+                    "b": "", "l": "English", "y": m.get("year"), "a": "", "st": "", "th": [], "sc": m.get("section") or ""})
     si.write_text(json.dumps(idx, ensure_ascii=False), encoding="utf-8")
 
     # ------------------------------------------------------------------ data exports
@@ -354,7 +362,8 @@ def run(b, site, texts, works, libraries, secs):
     }
     (OUT / "manifest.webmanifest").write_text(json.dumps(manifest, ensure_ascii=False, indent=1), encoding="utf-8")
     files = sorted(p.relative_to(OUT).as_posix() for p in OUT.rglob("*")
-                   if p.is_file() and p.name not in (".nojekyll", "sw.js") and not p.name.endswith(".csv"))
+                   if p.is_file() and p.name not in (".nojekyll", "sw.js") and not p.name.endswith(".csv")
+                   and not p.relative_to(OUT).as_posix().startswith("mirror/"))   # mirrored books are cached as they are read
     h = hashlib.sha256()
     for f in files:
         h.update(f.encode())
